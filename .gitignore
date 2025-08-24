@@ -1,0 +1,88 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Uploads and temporary files
+uploads/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Static files and development assets
+static/
+uploads/
+temp/
+*.mp3
+*.mp4
+*.pdf
+*.pptx
+*.xlsx
+
+# Test files
+test-results/
+tests/
+*.spec.js
+
+# Development files
+*.bat
+*.ps1
+*.md
+!README.md
+!DEPLOYMENT_GUIDE.md
+
+# Large files
+*.exe
+ngrok.exe
+
+# IDE and development
+.vscode/
+.idea/
+*.swp
+*.swo
