@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Interactive Quiz</title>
+    <link rel="stylesheet" href="quiz-mobile.css">
+    <style>
+        body { background: #eaf6fb; }
+        .welcome-container { max-width: 600px; margin: 3em auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #0001; padding: 2em; text-align: center; }
+        .welcome-title { color: #4a90e2; font-size: 2em; margin-bottom: 0.5em; }
+        .section-title { font-size: 1.2em; margin: 1.5em 0 0.5em 0; color: #357ab8; }
+        .quiz-list { text-align: left; margin: 1em auto; max-width: 400px; }
+        .quiz-list label { display: block; margin: 0.5em 0; font-size: 1.1em; }
+        .welcome-btn { display: inline-block; margin: 1em 0.5em; padding: 0.8em 2em; font-size: 1.1em; border: none; border-radius: 8px; background: #4a90e2; color: #fff; cursor: pointer; transition: background 0.2s; }
+        .welcome-btn:hover { background: #357ab8; }
+        .add-delete-wrap { margin: 1.5em 0; }
+        .file-input { opacity: 0; position: absolute; left: -9999px; }
+        .file-label { background: #27ae60; color: #fff; border-radius: 8px; padding: 0.7em 1.5em; cursor: pointer; margin: 0.5em; display: inline-block; }
+        .file-label:hover { background: #219150; }
+        .delete-btn { background: #e74c3c; color: #fff; }
+        .delete-btn:hover { background: #b93a2b; }
+    </style>
+</head>
+<body>
+    <button id="help-btn" style="position:fixed;top:18px;right:24px;z-index:1001;background:#4a90e2;color:#fff;border:none;border-radius:8px;padding:0.7em 1.5em;font-size:1.1em;cursor:pointer;">Help</button>
+    <div id="help-modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.4);z-index:2000;align-items:center;justify-content:center;">
+      <div style="background:#fff;padding:2em 2em 1.5em 2em;border-radius:12px;max-width:600px;max-height:80vh;overflow-y:auto;text-align:left;box-shadow:0 2px 16px #0002;">
+        <div style="font-size:1.3em;font-weight:bold;margin-bottom:0.7em;">Quiz App Help</div>
+        <div id="help-content" style="font-size:1.05em;line-height:1.6;"></div>
+        <button id="close-help-btn" class="welcome-btn" style="margin-top:1.5em;">Close</button>
+      </div>
+    </div>
+    <div id="resume-modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.4);z-index:1000;align-items:center;justify-content:center;">
+      <div style="background:#fff;padding:2em 2em 1.5em 2em;border-radius:12px;max-width:350px;text-align:center;box-shadow:0 2px 16px #0002;">
+        <div style="font-size:1.2em;margin-bottom:1em;">You have an incomplete quiz.<br>Would you like to resume or start a new quiz?</div>
+        <button id="resume-quiz-btn" class="welcome-btn" style="background:#27ae60;">Resume</button>
+        <button id="new-quiz-btn" class="welcome-btn delete-btn" style="margin-left:1em;">Start New Quiz</button>
+      </div>
+    </div>
+    <div class="welcome-container" style="display:flex;flex-direction:column;position:relative;">
+        <button id="close-welcome-btn" style="position:absolute;top:12px;right:12px;background:transparent;border:none;font-size:1.7em;color:red;cursor:pointer;z-index:10;" title="Close">&times;</button>
+        <div class="welcome-title">Welcome to Interactive Quiz</div>
+        <div class="section-title" style="display:flex;align-items:center;justify-content:space-between;">
+          <span>Available Quizzes</span>
+          <span style="display:flex;align-items:center;gap:0.5em;">
+            <label for="question-count" style="font-size:0.98em;">Number of Questions</label>
+            <input type="number" id="question-count" min="0" value="10" style="width:60px;font-size:1em;padding:0.2em 0.4em;border-radius:6px;border:1px solid #ccc;">
+          </span>
+        </div>
+        <form id="quiz-list-form" class="quiz-list" style="flex:1;overflow-y:auto;min-height:220px;max-height:420px;"></form>
+        <div id="bottom-btns" style="position:sticky;bottom:0;background:#fff;padding-top:1em;z-index:2;">
+          <button class="welcome-btn" id="start-selected-btn" style="width:95%;max-width:500px;display:block;margin:1.2em auto 0.5em auto;font-size:1.15em;">Start Quiz</button>
+          <div class="section-title" style="margin-bottom:0.2em;margin-top:1.2em;">Manage Quizzes</div>
+          <div class="add-delete-wrap" style="margin:0;display:flex;gap:0.7em;justify-content:center;">
+              <label class="file-label">
+                  Add Quiz File(s)
+                  <input type="file" id="add-quiz-file" class="file-input" accept=".json" multiple>
+              </label>
+              <label class="file-label">
+                  Add Quiz Folder
+                  <input type="file" id="add-quiz-folder" class="file-input" accept=".json" webkitdirectory directory multiple>
+              </label>
+              <button class="welcome-btn delete-btn" id="delete-selected-btn" type="button">Delete Selected</button>
+          </div>
+          <div id="status-msg" style="margin-top:1em;color:#888;"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>
+    document.getElementById('close-welcome-btn').addEventListener('click', () => {
+        window.location.href = '/';
+    });
+
+    // Helper to fetch and display quiz list
+    async function loadQuizList() {
+        const form = document.getElementById('quiz-list-form');
+        form.innerHTML = '<div style="color:#888;">Loading quizzes...</div>';
+        let quizzes = [];
+        let quizIndexObj = {};
+        try {
+            quizIndexObj = JSON.parse(localStorage.getItem('quiz_index.json') || '{}');
+        } catch { quizIndexObj = {}; }
+        quizzes = Array.isArray(quizIndexObj.quizzes) ? quizIndexObj.quizzes : [];
+        quizzes = quizzes.filter(q => q && (q.title || q.file));
+        console.log('Loaded quizzes:', quizzes);
+        if (!Array.isArray(quizzes) || quizzes.length === 0) {
+            form.innerHTML = '<div style="color:#888;">No quizzes found.</div>';
+            return;
+        }
+        // Sort quizzes alphanumerically by title or file
+        quizzes.sort((a, b) => (a.title || a.file).localeCompare(b.title || b.file, undefined, {numeric:true,sensitivity:'base'}));
+        form.innerHTML = quizzes.map(q =>
+            `<label><input type="checkbox" name="quiz" value="${q.file}"> <b>${q.title || q.file}</b> <span style='color:gray'>(${q.file})</span></label>`
+        ).join('');
+        // Add a note if localStorage is being used
+        if (localStorage.getItem('quiz_index.json')) {
+            form.innerHTML = '<div style="color:#27ae60;font-size:0.98em;margin-bottom:0.5em;">(Quizzes managed in your browser for this demo)</div>' + form.innerHTML;
+        }
+    }
+    loadQuizList();
+
+    // Start selected quizzes in sequence
+    document.getElementById('start-selected-btn').onclick = async function() {
+        const selected = Array.from(document.querySelectorAll('input[name="quiz"]:checked')).map(cb => cb.value);
+        let qCount = parseInt(document.getElementById('question-count').value, 10);
+        if (isNaN(qCount) || qCount < 0) qCount = 0;
+        sessionStorage.setItem('question_count', qCount);
+        if (selected.length === 0) {
+            alert('Please select at least one quiz.');
+            return;
+        }
+        stopWelcomeAudio();
+        // Load quiz_index.json to get music info
+        let musicFile = '';
+        try {
+            let quizIndex = JSON.parse(localStorage.getItem('quiz_index.json'));
+            let defaultMusic = quizIndex && quizIndex.default_music ? quizIndex.default_music : '';
+            let quizzes = Array.isArray(quizIndex) ? quizIndex : (quizIndex.quizzes || []);
+            if (!Array.isArray(quizzes)) quizzes = [];
+            let quiz = quizzes.find(q => q.file === selected[0]);
+            if (quiz && quiz.music) {
+                musicFile = quiz.music;
+            } else if (defaultMusic) {
+                musicFile = defaultMusic;
+            }
+        } catch {}
+        let url = 'QuizFolder/quiz.html?file=' + encodeURIComponent(selected[0]);
+        if (musicFile) url += '&music=' + encodeURIComponent(musicFile);
+        if (selected.length === 1) {
+            window.location.href = url;
+        } else {
+            sessionStorage.setItem('quiz_sequence', JSON.stringify(selected));
+            window.location.href = 'QuizFolder/quiz.html?sequence=1';
+        }
+    };
+
+    // Add quiz files (single or multiple)
+    document.getElementById('add-quiz-file').onchange = async function(e) {
+        await handleQuizFiles(e.target.files);
+    };
+    document.getElementById('add-quiz-folder').onchange = async function(e) {
+        await handleQuizFiles(e.target.files);
+    };
+    async function handleQuizFiles(fileList) {
+        const status = document.getElementById('status-msg');
+        if (!fileList.length) return;
+        let added = 0, failed = 0, failedFiles = [];
+        let quizzes = [];
+        let quizIndexObj = {};
+        try {
+            quizIndexObj = JSON.parse(localStorage.getItem('quiz_index.json') || '{}');
+        } catch { quizIndexObj = {}; }
+        quizzes = Array.isArray(quizIndexObj.quizzes) ? quizIndexObj.quizzes : [];
+        let addedFiles = [];
+        for (const file of fileList) {
+            if (!file.name.endsWith('.json')) continue;
+            // Read file content
+            const text = await file.text();
+            let valid = false;
+            try { JSON.parse(text); valid = true; } catch {}
+            if (valid) {
+                localStorage.setItem(file.name, text);
+                if (!quizzes.find(q => q.file === file.name)) {
+                    quizzes.push({ file: file.name, title: file.name.replace('_quiz.json', '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) });
+                }
+                added++;
+                addedFiles.push(file.name);
+            } else {
+                failed++;
+                failedFiles.push(file.name);
+            }
+        }
+        // Save updated index to localStorage
+        let quizIndex = localStorage.getItem('quiz_index.json');
+        let indexObj = {};
+        try { indexObj = JSON.parse(quizIndex || '{}'); } catch { indexObj = {}; }
+        indexObj.quizzes = quizzes;
+        localStorage.setItem('quiz_index.json', JSON.stringify(indexObj));
+        let msg = '';
+        if (added) msg += `Added ${added} quiz file(s): ${addedFiles.join(', ')}. `;
+        if (failed) msg += `Failed to add ${failed} file(s): ${failedFiles.join(', ')}. Ensure they are valid JSON.`;
+        if (!added && !failed) msg = 'No valid quiz files selected.';
+        status.textContent = msg;
+        await loadQuizList();
+        // Debug: log quiz list after adding
+        let quizIndexAfter = {};
+        try { quizIndexAfter = JSON.parse(localStorage.getItem('quiz_index.json') || '{}'); } catch { quizIndexAfter = {}; }
+        let quizList = Array.isArray(quizIndexAfter.quizzes) ? quizIndexAfter.quizzes : [];
+        console.log('Quiz list after adding:', quizList);
+        // Show warning if added file is not in the list
+        if (addedFiles.length) {
+            let missing = addedFiles.filter(f => !quizList.find(q => q.file === f));
+            if (missing.length) {
+                status.textContent += ` Warning: The following file(s) were not found in the quiz list: ${missing.join(', ')}. Try refreshing the page or using a different file name.`;
+            }
+        }
+    }
+
+    // Delete selected quizzes
+    document.getElementById('delete-selected-btn').onclick = async function() {
+        const selected = Array.from(document.querySelectorAll('input[name="quiz"]:checked')).map(cb => cb.value);
+        if (selected.length === 0) {
+            alert('Please select at least one quiz to delete.');
+            return;
+        }
+        let quizzes = [];
+        let quizIndexObj = {};
+        try {
+            quizIndexObj = JSON.parse(localStorage.getItem('quiz_index.json') || '{}');
+        } catch { quizIndexObj = {}; }
+        quizzes = Array.isArray(quizIndexObj.quizzes) ? quizIndexObj.quizzes : [];
+        // Merge with localStorage quizzes
+        try {
+            const localQuizzes = JSON.parse(localStorage.getItem('quiz_index.json') || '[]');
+            let localArr = Array.isArray(localQuizzes) ? localQuizzes : (localQuizzes.quizzes || []);
+            for (const q of localArr) {
+                if (!quizzes.find(x => x.file === q.file)) quizzes.push(q);
+            }
+        } catch {}
+        // Remove selected quizzes from quizzes array and localStorage
+        quizzes = quizzes.filter(q => !selected.includes(q.file));
+        // Also remove quiz content from localStorage
+        for (const file of selected) {
+            localStorage.removeItem(file);
+        }
+        // Save updated index to localStorage
+        let quizIndex = localStorage.getItem('quiz_index.json');
+        let indexObj = {};
+        try { indexObj = JSON.parse(quizIndex || '{}'); } catch { indexObj = {}; }
+        indexObj.quizzes = quizzes;
+        localStorage.setItem('quiz_index.json', JSON.stringify(indexObj));
+        document.getElementById('status-msg').textContent = 'Deleted selected quizzes.';
+        await loadQuizList(); // Immediately update the quiz list in the UI
+    };
+
+    window.onload = function() {
+      let quizState = null;
+      try {
+        quizState = JSON.parse(localStorage.getItem('quizState'));
+      } catch {}
+      if (quizState && !quizState.finished) {
+        document.getElementById('resume-modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        document.getElementById('resume-quiz-btn').onclick = function() {
+          if (quizState.file) {
+            stopWelcomeAudio();
+            window.location.href = 'QuizFolder/quiz.html?file=' + encodeURIComponent(quizState.file) + '&resume=1';
+          } else {
+            stopWelcomeAudio();
+            window.location.href = 'index.html';
+          }
+        };
+        document.getElementById('new-quiz-btn').onclick = function() {
+          localStorage.removeItem('quizState');
+          document.getElementById('resume-modal').style.display = 'none';
+          document.body.style.overflow = '';
+          stopWelcomeAudio();
+        };
+      }
+    };
+
+    // Help modal logic
+    document.getElementById('help-btn').onclick = function() {
+      fetch('README.md').then(r => r.text()).then(txt => {
+        document.getElementById('help-content').textContent = txt;
+        document.getElementById('help-modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      });
+    };
+    document.getElementById('close-help-btn').onclick = function() {
+      document.getElementById('help-modal').style.display = 'none';
+      document.body.style.overflow = '';
+    };
+
+    function stopWelcomeAudio() {
+      var audio = document.getElementById('welcome-audio');
+      if (audio && !audio.paused) {
+        audio.pause();
+        audio.currentTime = 0;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // ... existing music logic ...
+      // Start the quiz automatically after DOM is ready
+      if (window.QuizModule && typeof window.QuizModule.initQuiz === 'function') {
+        window.QuizModule.initQuiz();
+      }
+      // Add export button for quiz_index.json
+      const exportBtn = document.createElement('button');
+      exportBtn.textContent = 'Export Quiz Index';
+      exportBtn.className = 'welcome-btn';
+      exportBtn.style.marginTop = '1em';
+      exportBtn.onclick = function() {
+          const data = localStorage.getItem('quiz_index.json') || '{}';
+          const blob = new Blob([data], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'quiz_index.json';
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+      };
+      const btnWrap = document.querySelector('.add-delete-wrap');
+      if (btnWrap && !document.getElementById('export-quiz-index-btn')) {
+          exportBtn.id = 'export-quiz-index-btn';
+          btnWrap.appendChild(exportBtn);
+      }
+    });
+    </script>
+</body>
+</html> 

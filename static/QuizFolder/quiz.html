@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --success-color: #2ecc71;
+            --error-color: #e74c3c;
+            --text-color: #333;
+            --bg-color: #f5f6fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        .timer {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .question-header {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .difficulty-badge, .category-badge, .points-badge {
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .difficulty-badge.easy {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .difficulty-badge.medium {
+            background-color: #fff3e0;
+            color: #ef6c00;
+        }
+
+        .difficulty-badge.hard {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .category-badge {
+            background-color: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .points-badge {
+            background-color: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .answers-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .answer-option {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .answer-option:hover {
+            border-color: var(--primary-color);
+            background-color: #f8f9fa;
+        }
+
+        .answer-option input[type="radio"] {
+            margin-right: 1rem;
+        }
+
+        .fill-answer {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .fill-answer:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .feedback {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .feedback.correct {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .feedback.incorrect {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .final-score {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .final-score.passed {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .final-score.failed {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .category-scores, .difficulty-scores {
+            margin-bottom: 2rem;
+        }
+
+        .score-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .question-review {
+            margin-top: 2rem;
+        }
+
+        .review-item {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+
+        .review-item.correct {
+            background-color: #e8f5e9;
+        }
+
+        .review-item.incorrect {
+            background-color: #ffebee;
+        }
+
+        .restart-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-top: 2rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .restart-btn:hover {
+            background-color: #357abd;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        #start-screen {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .start-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 2rem;
+        }
+
+        .start-btn:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <button id="close-quiz-btn" style="position:fixed;top:18px;right:24px;z-index:1001;background:#e74c3c;color:#fff;border:none;border-radius:8px;padding:0.7em 1.5em;font-size:1.3em;cursor:pointer;">&times;</button>
+    <div class="container">
+        <div id="quiz-screen" style="display: none;">
+            <div class="quiz-header">
+                <h2>Question <span id="question-number">1</span> of <span id="total-questions">10</span></h2>
+                <div class="timer" id="timer">10:00</div>
+            </div>
+            <div id="progress-bar-container" style="margin-bottom:1em;">
+                <div id="progress-bar" style="height: 16px; background: #eee; border-radius: 8px; overflow: hidden;">
+                    <div id="progress-bar-fill" style="height: 100%; width: 0; background: var(--primary-color); transition: width 0.3s;"></div>
+                </div>
+            </div>
+            <div id="question-container"></div>
+            <div id="feedback-container"></div>
+            <div id="quiz-nav-buttons" style="display:flex; flex-wrap:wrap; gap:1em; margin-top:1.5em; flex-direction:column; align-items:stretch;">
+              <div class="nav-row nav-row-1" style="display:flex; gap:1em; justify-content:space-between; margin-bottom:0.7em;">
+                <button id="prev-btn" class="start-btn" style="background:#aaa; flex:1;">&#9664; Previous</button>
+                <button id="next-btn" class="start-btn" style="background:#4a90e2; flex:1;">Next &#9654;</button>
+              </div>
+              <div class="nav-row nav-row-2" style="display:flex; gap:1em; justify-content:space-between;">
+                <button class="start-btn" id="save-quit-btn" style="background:#e74c3c; flex:1;">Save & Quit</button>
+                <button id="pause-btn" class="start-btn" style="background:#f1c40f; flex:1;">&#10073;&#10073; Pause</button>
+                <button id="stop-btn" class="start-btn" style="background:#e74c3c; flex:1;">&#9632; Stop</button>
+              </div>
+            </div>
+        </div>
+
+        <div id="results-container" style="display: none;">
+            <div id="analytics-section" style="width:100%; max-width:600px; margin:1em auto; display:none;">
+                <h3>Performance Analytics</h3>
+                <canvas id="analytics-chart" width="600" height="300"></canvas>
+            </div>
+            <div id="feedback-section" style="width:100%; max-width:700px; margin:1em auto; display:none;">
+                <h3>Question Feedback</h3>
+                <div id="feedback-list"></div>
+                <button id="submit-feedback-btn" class="start-btn" style="background:#27ae60; color:#fff; margin-top:1em;">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="welcome-audio" src="/static/lagjagale.mp3"></audio>
+    <script src="quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    // Play quiz-specific music if specified
+    function getUrlParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+    function stopQuizMusic() {
+      var audio = document.getElementById('quiz-music-audio');
+      if (audio && !audio.paused) {
+        audio.pause();
+        audio.currentTime = 0;
+      }
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      var musicFile = getUrlParam('music');
+      if (musicFile) {
+        // Remove any existing audio
+        var oldAudio = document.getElementById('quiz-music-audio');
+        if (oldAudio) oldAudio.remove();
+        var audio = document.createElement('audio');
+        audio.id = 'quiz-music-audio';
+        audio.src = '/static/' + musicFile;
+        audio.volume = 0.7;
+        audio.autoplay = true;
+        audio.onerror = function() { audio.remove(); };
+        document.body.appendChild(audio);
+      }
+      // Stop music on close
+      document.getElementById('close-quiz-btn').onclick = function() {
+        stopQuizMusic();
+        window.location.href = '../index.html';
+      };
+      // Start the quiz automatically after DOM is ready and music setup
+      if (window.QuizModule && typeof window.QuizModule.initQuiz === 'function') {
+        window.QuizModule.initQuiz();
+      }
+    });
+    </script>
+</body>
+</html> 

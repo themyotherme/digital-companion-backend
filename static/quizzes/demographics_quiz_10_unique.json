@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What is the approximate population of India as per the 2011 Census?",
+    "options": [
+      "1.1 billion",
+      "1.2 billion",
+      "1.3 billion",
+      "1.4 billion"
+    ],
+    "correct_answer": "1.1 billion",
+    "explanation": "According to the 2011 Census, India's population was about 1.21 billion.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which state is the most populous in India?",
+    "options": [
+      "Maharashtra",
+      "Bihar",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "correct_answer": "Maharashtra",
+    "explanation": "Uttar Pradesh is the most populous state in India.",
+    "category": "Demographics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Union Territory has the highest population density in India?",
+    "options": [
+      "Delhi",
+      "Puducherry",
+      "Chandigarh",
+      "Lakshadweep"
+    ],
+    "correct_answer": "Delhi",
+    "explanation": "Delhi has the highest population density among Union Territories.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the literacy rate in India according to the 2011 Census?",
+    "options": [
+      "64%",
+      "70%",
+      "74%",
+      "80%"
+    ],
+    "correct_answer": "64%",
+    "explanation": "The literacy rate in India as per the 2011 Census was around 74%.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state has the highest literacy rate?",
+    "options": [
+      "Goa",
+      "Kerala",
+      "Mizoram",
+      "Tamil Nadu"
+    ],
+    "correct_answer": "Goa",
+    "explanation": "Kerala consistently ranks highest in literacy rate among Indian states.",
+    "category": "Demographics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state has the lowest population?",
+    "options": [
+      "Sikkim",
+      "Goa",
+      "Mizoram",
+      "Arunachal Pradesh"
+    ],
+    "correct_answer": "Sikkim",
+    "explanation": "Sikkim has the lowest population among Indian states.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which city is the most populated in India?",
+    "options": [
+      "Delhi",
+      "Bengaluru",
+      "Mumbai",
+      "Kolkata"
+    ],
+    "correct_answer": "Delhi",
+    "explanation": "Mumbai is the most populated city in India.",
+    "category": "Demographics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which age group forms the largest percentage of India's population?",
+    "options": [
+      "0–14 years",
+      "15–24 years",
+      "25–54 years",
+      "55+ years"
+    ],
+    "correct_answer": "0–14 years",
+    "explanation": "The 25–54 age group makes up the largest portion of India's population.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which religious community is the second largest in India?",
+    "options": [
+      "Christian",
+      "Sikh",
+      "Muslim",
+      "Buddhist"
+    ],
+    "correct_answer": "Christian",
+    "explanation": "Muslims are the second largest religious community in India.",
+    "category": "Demographics",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the sex ratio in India as per Census 2011 (females per 1000 males)?",
+    "options": [
+      "940",
+      "950",
+      "960",
+      "970"
+    ],
+    "correct_answer": "940",
+    "explanation": "According to the 2011 Census, India had a sex ratio of 940 females per 1000 males.",
+    "category": "Demographics",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

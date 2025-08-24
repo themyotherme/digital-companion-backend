@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Who was the first Prime Minister of independent India?",
+    "options": [
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Jawaharlal Nehru",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru was India's first Prime Minister, serving from 1947 to 1964."
+  },
+  {
+    "question": "Which Indian President was also a renowned scientist and known as the 'Missile Man of India'?",
+    "options": [
+      "APJ Abdul Kalam",
+      "Rajendra Prasad",
+      "Zakir Hussain",
+      "R. Venkataraman"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "APJ Abdul Kalam was an aerospace scientist and served as India's 11th President."
+  },
+  {
+    "question": "Who was the first woman Prime Minister of India?",
+    "options": [
+      "Indira Gandhi",
+      "Sarojini Naidu",
+      "Pratibha Patil",
+      "Sushma Swaraj"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Indira Gandhi served as the first and only female Prime Minister of India."
+  },
+  {
+    "question": "Which leader is known as the 'Iron Man of India'?",
+    "options": [
+      "Subhas Chandra Bose",
+      "B.R. Ambedkar",
+      "Sardar Vallabhbhai Patel",
+      "Lal Bahadur Shastri"
+    ],
+    "correct": 2,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Sardar Patel earned the title for his role in unifying India's princely states."
+  },
+  {
+    "question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Atal Bihari Vajpayee",
+      "Lal Bahadur Shastri",
+      "Narendra Modi"
+    ],
+    "correct": 2,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lal Bahadur Shastri coined the slogan emphasizing farmers and soldiers."
+  },
+  {
+    "question": "Which Indian leader was responsible for the Green Revolution?",
+    "options": [
+      "V.P. Singh",
+      "M.S. Swaminathan",
+      "Indira Gandhi",
+      "Rajiv Gandhi"
+    ],
+    "correct": 1,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "M.S. Swaminathan was a key figure in introducing high-yield crops in India."
+  },
+  {
+    "question": "Who was the first Dalit President of India?",
+    "options": [
+      "K.R. Narayanan",
+      "Ram Nath Kovind",
+      "Zakir Hussain",
+      "Pranab Mukherjee"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "K.R. Narayanan served as the 10th President of India and was the first Dalit to hold the post."
+  },
+  {
+    "question": "Which Indian Prime Minister was assassinated by her own bodyguards?",
+    "options": [
+      "Indira Gandhi",
+      "Sonia Gandhi",
+      "Pratibha Patil",
+      "Mayawati"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Indira Gandhi was assassinated in 1984 by her Sikh bodyguards."
+  },
+  {
+    "question": "Who became the youngest Prime Minister of India?",
+    "options": [
+      "Rajiv Gandhi",
+      "Narendra Modi",
+      "Atal Bihari Vajpayee",
+      "Charan Singh"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajiv Gandhi became PM at the age of 40 after the assassination of Indira Gandhi."
+  },
+  {
+    "question": "Who was India's first President?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Dr. Rajendra Prasad",
+      "Zakir Hussain",
+      "B.R. Ambedkar"
+    ],
+    "correct": 1,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Dr. Rajendra Prasad was the first President of India, serving from 1950 to 1962."
+  },
+  {
+    "question": "Which leader is credited with drafting the Indian Constitution?",
+    "options": [
+      "B.R. Ambedkar",
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Dr. B.R. Ambedkar was the chairman of the Constitution drafting committee."
+  },
+  {
+    "question": "Which Prime Minister led India during the Kargil War?",
+    "options": [
+      "Indira Gandhi",
+      "Rajiv Gandhi",
+      "Atal Bihari Vajpayee",
+      "Narendra Modi"
+    ],
+    "correct": 2,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Atal Bihari Vajpayee was the PM during the 1999 Kargil conflict."
+  },
+  {
+    "question": "Who was the first woman President of India?",
+    "options": [
+      "Sushma Swaraj",
+      "Sarojini Naidu",
+      "Pratibha Patil",
+      "Meira Kumar"
+    ],
+    "correct": 2,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Pratibha Patil became India’s first female President in 2007."
+  },
+  {
+    "question": "Who is the current (as of 2024) Prime Minister of India?",
+    "options": [
+      "Rahul Gandhi",
+      "Narendra Modi",
+      "Amit Shah",
+      "Yogi Adityanath"
+    ],
+    "correct": 1,
+    "category": "Political Leaders",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Narendra Modi has served as the Prime Minister of India since 2014."
+  },
+  {
+    "question": "Who served as both Vice President and President of India?",
+    "options": [
+      "Dr. S. Radhakrishnan",
+      "A.P.J. Abdul Kalam",
+      "V.V. Giri",
+      "Lal Bahadur Shastri"
+    ],
+    "correct": 0,
+    "category": "Political Leaders",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Dr. S. Radhakrishnan served as Vice President (1952–1962) and President (1962–1967)."
+  }
+]

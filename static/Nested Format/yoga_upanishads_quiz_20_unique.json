@@ -1,0 +1,282 @@
+[
+  {
+    "question": "Which ancient text is considered the foundational scripture of Yoga philosophy?",
+    "options": [
+      "Bhagavad Gita",
+      "Yoga Vasistha",
+      "Patanjali Yoga Sutras",
+      "Upanishads"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Patanjali's Yoga Sutras form the core philosophy of classical yoga."
+  },
+  {
+    "question": "How many Yoga Sutras are attributed to Patanjali?",
+    "options": [
+      "108",
+      "195",
+      "72",
+      "300"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "There are 195 sutras compiled by Patanjali in the Yoga Sutras."
+  },
+  {
+    "question": "What does the Sanskrit word 'Yoga' mean?",
+    "options": [
+      "Meditation",
+      "Posture",
+      "Union",
+      "Breathing"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Yoga means 'union', particularly the union of body, mind, and spirit."
+  },
+  {
+    "question": "Which Upanishad elaborates on the concept of Om and meditation?",
+    "options": [
+      "Chandogya Upanishad",
+      "Isha Upanishad",
+      "Taittiriya Upanishad",
+      "Kena Upanishad"
+    ],
+    "correct": 0,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The Chandogya Upanishad explains the significance of Om in meditation."
+  },
+  {
+    "question": "Who is considered the father of modern yoga?",
+    "options": [
+      "Swami Vivekananda",
+      "B.K.S. Iyengar",
+      "Krishnamacharya",
+      "Patanjali"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "T. Krishnamacharya is regarded as the father of modern yoga."
+  },
+  {
+    "question": "Which branch of yoga emphasizes physical postures and breath control?",
+    "options": [
+      "Raja Yoga",
+      "Bhakti Yoga",
+      "Jnana Yoga",
+      "Hatha Yoga"
+    ],
+    "correct": 3,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Hatha Yoga focuses on asanas (postures) and pranayama (breath control)."
+  },
+  {
+    "question": "Which Upanishad discusses the five koshas (sheaths of human existence)?",
+    "options": [
+      "Mandukya Upanishad",
+      "Taittiriya Upanishad",
+      "Prashna Upanishad",
+      "Katha Upanishad"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "The Taittiriya Upanishad details the concept of pancha kosha."
+  },
+  {
+    "question": "What is the first step in the eight limbs of yoga (Ashtanga Yoga)?",
+    "options": [
+      "Asana",
+      "Dhyana",
+      "Yama",
+      "Pranayama"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Yama, or ethical restraints, is the first limb in Ashtanga Yoga."
+  },
+  {
+    "question": "Which Upanishad contains the famous dialogue between Nachiketa and Yama?",
+    "options": [
+      "Isha",
+      "Katha",
+      "Brihadaranyaka",
+      "Mandukya"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The Katha Upanishad explores death, self, and liberation through their dialogue."
+  },
+  {
+    "question": "What is 'Pratyahara' in the yogic system?",
+    "options": [
+      "Breath control",
+      "Concentration",
+      "Withdrawal of senses",
+      "Meditation"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Pratyahara refers to withdrawing the senses from external objects."
+  },
+  {
+    "question": "Which Upanishad is entirely dedicated to the syllable 'Om'?",
+    "options": [
+      "Mandukya Upanishad",
+      "Kena Upanishad",
+      "Taittiriya Upanishad",
+      "Aitareya Upanishad"
+    ],
+    "correct": 0,
+    "category": "Yoga and Upanishads",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "Mandukya Upanishad is solely focused on Om and its metaphysical meaning."
+  },
+  {
+    "question": "Which yogic practice aims at controlling the breath?",
+    "options": [
+      "Dharana",
+      "Pranayama",
+      "Asana",
+      "Samadhi"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Pranayama is the practice of regulating breath to control life energy."
+  },
+  {
+    "question": "Who popularized Ashtanga Vinyasa Yoga in the West?",
+    "options": [
+      "Pattabhi Jois",
+      "B.K.S. Iyengar",
+      "Swami Sivananda",
+      "Ramdev"
+    ],
+    "correct": 0,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Sri K. Pattabhi Jois introduced Ashtanga Vinyasa Yoga to the world."
+  },
+  {
+    "question": "What is the ultimate goal of yoga?",
+    "options": [
+      "Fitness",
+      "Stress relief",
+      "Spiritual liberation",
+      "Better sleep"
+    ],
+    "correct": 2,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The ultimate goal of yoga is spiritual liberation or Moksha."
+  },
+  {
+    "question": "Which yoga focuses on devotion to a personal god?",
+    "options": [
+      "Karma Yoga",
+      "Bhakti Yoga",
+      "Jnana Yoga",
+      "Raja Yoga"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Bhakti Yoga emphasizes devotion and love for God."
+  },
+  {
+    "question": "Which yogic term refers to deep meditation or absorption?",
+    "options": [
+      "Dhyana",
+      "Samadhi",
+      "Dharana",
+      "Pratyahara"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Samadhi is the state of deep meditative absorption and bliss."
+  },
+  {
+    "question": "Which Upanishad is known for the quote 'Tat Tvam Asi' (That Thou Art)?",
+    "options": [
+      "Chandogya",
+      "Mundaka",
+      "Kena",
+      "Aitareya"
+    ],
+    "correct": 0,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Tat Tvam Asi' is a Mahavakya from the Chandogya Upanishad signifying unity of Atman and Brahman."
+  },
+  {
+    "question": "Which limb of yoga comes after Pratyahara?",
+    "options": [
+      "Dhyana",
+      "Dharana",
+      "Samadhi",
+      "Asana"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Dharana (concentration) follows Pratyahara in the eight limbs of yoga."
+  },
+  {
+    "question": "What does the term 'Jnana Yoga' emphasize?",
+    "options": [
+      "Rituals",
+      "Wisdom and Knowledge",
+      "Devotion",
+      "Breathing"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Jnana Yoga is the path of knowledge and insight into the Self."
+  },
+  {
+    "question": "What is 'Kundalini' in yogic tradition?",
+    "options": [
+      "A type of yoga mat",
+      "Divine feminine energy",
+      "A yoga guru",
+      "A breath technique"
+    ],
+    "correct": 1,
+    "category": "Yoga and Upanishads",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Kundalini refers to dormant energy at the base of the spine that can be awakened through yoga."
+  }
+]

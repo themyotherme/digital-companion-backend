@@ -1,0 +1,606 @@
+{
+    "Social and Cultural Life": [
+        {
+            "question": "According to the Kamasutra, what is considered the first stage of a man's life?",
+            "options": [
+                "A) Student (Brahmacharya)",
+                "B) Householder (Grihastha)",
+                "C) Forest Dweller (Vanaprastha)",
+                "D) Renunciate (Sannyasa)"
+            ],
+            "answer": "A) Student (Brahmacharya)",
+            "explanation": "The Kamasutra describes the four stages of life, with Brahmacharya (student life) being the first stage."
+        },
+        {
+            "question": "What is the term used in Kamasutra for a man who is skilled in the arts of love?",
+            "options": [
+                "A) Nayaka",
+                "B) Nagaraka",
+                "C) Vatsyayana",
+                "D) Kama"
+            ],
+            "answer": "B) Nagaraka",
+            "explanation": "Nagaraka refers to a sophisticated man of the city who is well-versed in the arts of love and social graces."
+        },
+        {
+            "question": "According to the Kamasutra, what is the ideal age for a man to marry?",
+            "options": [
+                "A) 16-20 years",
+                "B) 21-25 years",
+                "C) 26-30 years",
+                "D) 31-35 years"
+            ],
+            "answer": "B) 21-25 years",
+            "explanation": "The Kamasutra suggests that a man should marry when he is between 21-25 years old, when he is mature enough to handle responsibilities."
+        },
+        {
+            "question": "What is the term for the four types of women described in the Kamasutra?",
+            "options": [
+                "A) Nayikas",
+                "B) Nagarikas",
+                "C) Kaminis",
+                "D) Devadasis"
+            ],
+            "answer": "A) Nayikas",
+            "explanation": "Nayikas are the four types of women described in the Kamasutra, each with distinct characteristics and behaviors."
+        },
+        {
+            "question": "According to the Kamasutra, what is the primary purpose of social gatherings?",
+            "options": [
+                "A) Business networking",
+                "B) Cultural exchange",
+                "C) Finding suitable partners",
+                "D) Political discussions"
+            ],
+            "answer": "C) Finding suitable partners",
+            "explanation": "Social gatherings were considered important venues for meeting potential partners in a socially acceptable manner."
+        },
+        {
+            "question": "What is the term for a woman who is skilled in the arts of love according to the Kamasutra?",
+            "options": [
+                "A) Nayika",
+                "B) Nagarika",
+                "C) Kamin",
+                "D) Devadasi"
+            ],
+            "answer": "A) Nayika",
+            "explanation": "Nayika refers to a woman who is skilled in the arts of love and social graces."
+        },
+        {
+            "question": "According to the Kamasutra, what is the ideal age for a woman to marry?",
+            "options": [
+                "A) 16-20 years",
+                "B) 21-25 years",
+                "C) 26-30 years",
+                "D) 31-35 years"
+            ],
+            "answer": "A) 16-20 years",
+            "explanation": "The Kamasutra suggests that a woman should marry when she is between 16-20 years old."
+        },
+        {
+            "question": "What is the term for the four types of men described in the Kamasutra?",
+            "options": [
+                "A) Nayakas",
+                "B) Nagarakas",
+                "C) Kamins",
+                "D) Devadasis"
+            ],
+            "answer": "A) Nayakas",
+            "explanation": "Nayakas are the four types of men described in the Kamasutra, each with distinct characteristics and behaviors."
+        }
+    ],
+    "Marriage and Family Life": [
+        {
+            "question": "What is the term for the eight types of marriages described in the Kamasutra?",
+            "options": [
+                "A) Ashta Vivaha",
+                "B) Ashta Kama",
+                "C) Ashta Dharma",
+                "D) Ashta Artha"
+            ],
+            "answer": "A) Ashta Vivaha",
+            "explanation": "Ashta Vivaha refers to the eight types of marriages described in ancient Indian texts, including the Kamasutra."
+        },
+        {
+            "question": "According to the Kamasutra, what is the primary duty of a husband?",
+            "options": [
+                "A) Providing financial support",
+                "B) Maintaining family harmony",
+                "C) Raising children",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra emphasizes that a husband's duties include providing for the family, maintaining harmony, and raising children."
+        },
+        {
+            "question": "What is the term for the four types of husbands described in the Kamasutra?",
+            "options": [
+                "A) Pativratas",
+                "B) Grihinis",
+                "C) Kaminis",
+                "D) Nayikas"
+            ],
+            "answer": "A) Pativratas",
+            "explanation": "Pativratas refers to the four types of husbands, each with different characteristics and roles in the household."
+        }
+    ],
+    "Arts and Sciences": [
+        {
+            "question": "How many arts are described in the Kamasutra?",
+            "options": [
+                "A) 32",
+                "B) 64",
+                "C) 108",
+                "D) 1000"
+            ],
+            "answer": "B) 64",
+            "explanation": "The Kamasutra describes 64 arts that a person should know, including music, dance, painting, and other skills."
+        },
+        {
+            "question": "Which of these is NOT one of the 64 arts mentioned in the Kamasutra?",
+            "options": [
+                "A) Music",
+                "B) Dance",
+                "C) Computer Programming",
+                "D) Flower Arrangement"
+            ],
+            "answer": "C) Computer Programming",
+            "explanation": "Computer Programming is a modern skill and not part of the 64 arts described in the ancient text."
+        },
+        {
+            "question": "What is the term for the four types of arts described in the Kamasutra?",
+            "options": [
+                "A) Shastra, Kala, Vidya, Kaushala",
+                "B) Rati, Preeti, Sneha, Anuraga",
+                "C) Shringara, Hasya, Karuna, Raudra",
+                "D) Brahmacharya, Grihastha, Vanaprastha, Sannyasa"
+            ],
+            "answer": "A) Shastra, Kala, Vidya, Kaushala",
+            "explanation": "These four types represent different categories of arts and skills described in the Kamasutra."
+        }
+    ],
+    "Love and Relationships": [
+        {
+            "question": "What is the term for the four stages of love described in the Kamasutra?",
+            "options": [
+                "A) Kama, Artha, Dharma, Moksha",
+                "B) Rati, Preeti, Sneha, Anuraga",
+                "C) Shringara, Hasya, Karuna, Raudra",
+                "D) Brahmacharya, Grihastha, Vanaprastha, Sannyasa"
+            ],
+            "answer": "B) Rati, Preeti, Sneha, Anuraga",
+            "explanation": "These four stages represent the progression of love from physical attraction to deep emotional connection."
+        },
+        {
+            "question": "According to the Kamasutra, what is the primary purpose of courtship?",
+            "options": [
+                "A) Finding a suitable partner",
+                "B) Social status",
+                "C) Financial gain",
+                "D) Political alliance"
+            ],
+            "answer": "A) Finding a suitable partner",
+            "explanation": "Courtship is described as a process of finding a compatible partner for marriage and life."
+        },
+        {
+            "question": "What is the term for the four types of relationships described in the Kamasutra?",
+            "options": [
+                "A) Shastra, Kala, Vidya, Kaushala",
+                "B) Rati, Preeti, Sneha, Anuraga",
+                "C) Shringara, Hasya, Karuna, Raudra",
+                "D) Brahmacharya, Grihastha, Vanaprastha, Sannyasa"
+            ],
+            "answer": "B) Rati, Preeti, Sneha, Anuraga",
+            "explanation": "These four types represent different stages and types of relationships described in the Kamasutra."
+        }
+    ],
+    "Sexual Behavior": [
+        {
+            "question": "What is the term for the three types of men described in the Kamasutra?",
+            "options": [
+                "A) Shasha, Vrishabha, Ashwa",
+                "B) Deva, Manushya, Pashu",
+                "C) Raja, Tama, Sattva",
+                "D) Brahma, Vishnu, Shiva"
+            ],
+            "answer": "A) Shasha, Vrishabha, Ashwa",
+            "explanation": "These terms refer to the three types of men based on their physical and emotional characteristics."
+        },
+        {
+            "question": "According to the Kamasutra, what is the primary purpose of sexual behavior?",
+            "options": [
+                "A) Procreation",
+                "B) Pleasure",
+                "C) Emotional connection",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra describes sexual behavior as serving multiple purposes, including procreation, pleasure, and emotional connection."
+        },
+        {
+            "question": "What is the term for the four types of women described in the Kamasutra?",
+            "options": [
+                "A) Shastra, Kala, Vidya, Kaushala",
+                "B) Rati, Preeti, Sneha, Anuraga",
+                "C) Shringara, Hasya, Karuna, Raudra",
+                "D) Brahmacharya, Grihastha, Vanaprastha, Sannyasa"
+            ],
+            "answer": "B) Rati, Preeti, Sneha, Anuraga",
+            "explanation": "These four types represent different characteristics and behaviors of women described in the Kamasutra."
+        }
+    ],
+    "Sexual Behavior: Various aspects of physical intimacy": [
+        {
+            "question": "According to the Kamasutra, how many primary types of kisses are described?",
+            "options": [
+                "A) 2",
+                "B) 4",
+                "C) 8",
+                "D) 10"
+            ],
+            "answer": "C) 8",
+            "explanation": "The Kamasutra describes eight primary types of kisses, each with its own significance and technique."
+        },
+        {
+            "question": "True or False: The Kamasutra considers foreplay an essential part of physical intimacy.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Foreplay is emphasized in the Kamasutra as an important aspect of building intimacy and pleasure."
+        },
+        {
+            "question": "Which of the following is NOT a type of embrace described in the Kamasutra?",
+            "options": [
+                "A) Touching embrace",
+                "B) Twining embrace",
+                "C) Sitting embrace",
+                "D) Flying embrace"
+            ],
+            "answer": "D) Flying embrace",
+            "explanation": "The Kamasutra describes several types of embraces, but 'Flying embrace' is not one of them."
+        },
+        {
+            "question": "According to the Kamasutra, what is the purpose of varying positions during physical intimacy?",
+            "options": [
+                "A) To increase pleasure",
+                "B) To express creativity",
+                "C) To suit individual preferences",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra encourages varying positions to enhance pleasure, express creativity, and accommodate preferences."
+        },
+        {
+            "question": "True or False: The Kamasutra only describes physical intimacy between married couples.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "The Kamasutra discusses intimacy in various types of relationships, not just within marriage."
+        },
+        {
+            "question": "Which of the following is a recommended way to communicate desires according to the Kamasutra?",
+            "options": [
+                "A) Through words",
+                "B) Through gestures",
+                "C) Through touch",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra recommends communicating desires through words, gestures, and touch."
+        },
+        {
+            "question": "What is the significance of mutual consent in physical intimacy as per the Kamasutra?",
+            "options": [
+                "A) It is not important",
+                "B) It is essential",
+                "C) It is optional",
+                "D) It is discouraged"
+            ],
+            "answer": "B) It is essential",
+            "explanation": "Mutual consent is a key principle in the Kamasutra for enjoyable and respectful intimacy."
+        },
+        {
+            "question": "True or False: The Kamasutra provides guidance on aftercare and emotional connection following physical intimacy.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The Kamasutra emphasizes the importance of emotional connection and aftercare post intimacy."
+        },
+        {
+            "question": "Which of the following is NOT a benefit of physical intimacy mentioned in the Kamasutra?",
+            "options": [
+                "A) Strengthening emotional bonds",
+                "B) Improving physical health",
+                "C) Achieving spiritual enlightenment",
+                "D) Enhancing communication"
+            ],
+            "answer": "C) Achieving spiritual enlightenment",
+            "explanation": "While the Kamasutra discusses many benefits of intimacy, spiritual enlightenment is not a direct focus."
+        },
+        {
+            "question": "According to the Kamasutra, what role does setting and environment play in physical intimacy?",
+            "options": [
+                "A) No role",
+                "B) Minor role",
+                "C) Significant role",
+                "D) Only for special occasions"
+            ],
+            "answer": "C) Significant role",
+            "explanation": "The Kamasutra highlights the importance of a pleasant and comfortable environment for enhancing intimacy."
+        },
+        {
+            "question": "How many primary sexual positions are described in the Kamasutra?",
+            "options": [
+                "A) 8",
+                "B) 16",
+                "C) 64",
+                "D) 108"
+            ],
+            "answer": "B) 16",
+            "explanation": "The Kamasutra describes 16 primary sexual positions, with many variations."
+        },
+        {
+            "question": "True or False: The Kamasutra encourages experimentation with new positions for mutual satisfaction.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Experimentation and mutual consent are key themes in the Kamasutra for enhancing pleasure."
+        },
+        {
+            "question": "Which of the following is NOT a sexual position described in the Kamasutra?",
+            "options": [
+                "A) The Lotus",
+                "B) The Cowherd",
+                "C) The Wheelbarrow",
+                "D) The Elephant"
+            ],
+            "answer": "C) The Wheelbarrow",
+            "explanation": "'The Wheelbarrow' is a modern term and not found in the original Kamasutra."
+        },
+        {
+            "question": "According to the Kamasutra, what is the purpose of varying sexual positions?",
+            "options": [
+                "A) To avoid boredom",
+                "B) To increase pleasure",
+                "C) To suit physical differences",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "Varying positions is recommended to enhance pleasure, adapt to partners, and keep intimacy exciting."
+        },
+        {
+            "question": "True or False: The Kamasutra suggests that both partners should seek satisfaction during intimacy.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Mutual satisfaction is a central theme in the Kamasutra's teachings on intimacy."
+        },
+        {
+            "question": "Which of these is a position described in the Kamasutra?",
+            "options": [
+                "A) The Yawning Position",
+                "B) The Splitting of a Bamboo",
+                "C) The Eagle",
+                "D) The Bridge"
+            ],
+            "answer": "B) The Splitting of a Bamboo",
+            "explanation": "'The Splitting of a Bamboo' is one of the classic positions described in the Kamasutra."
+        },
+        {
+            "question": "What is 'Kaam' as described in the Kamasutra?",
+            "options": [
+                "A) Duty",
+                "B) Wealth",
+                "C) Desire/Pleasure",
+                "D) Salvation"
+            ],
+            "answer": "C) Desire/Pleasure",
+            "explanation": "'Kaam' refers to desire, pleasure, and the pursuit of sensual enjoyment."
+        },
+        {
+            "question": "True or False: The Kamasutra only focuses on physical techniques and ignores emotional connection.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "The Kamasutra emphasizes both physical and emotional aspects of intimacy."
+        },
+        {
+            "question": "Which of the following is a sign of satisfaction according to the Kamasutra?",
+            "options": [
+                "A) Relaxed body",
+                "B) Smiling",
+                "C) Expressing affection",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "Satisfaction is reflected in physical relaxation, positive emotions, and affectionate behavior."
+        },
+        {
+            "question": "What is the role of 'prelude' or 'purva-ranga' in the Kamasutra?",
+            "options": [
+                "A) To prepare the mind and body",
+                "B) To increase anticipation",
+                "C) To enhance pleasure",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "'Purva-ranga' refers to the prelude to lovemaking, which is essential for pleasure and connection."
+        },
+        {
+            "question": "True or False: The Kamasutra recommends the same positions for all couples.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "The Kamasutra encourages couples to choose positions that suit their unique preferences and abilities."
+        },
+        {
+            "question": "Which of these is a technique for increasing pleasure mentioned in the Kamasutra?",
+            "options": [
+                "A) Biting",
+                "B) Scratching",
+                "C) Moaning",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra describes various techniques, including biting and scratching, to enhance pleasure."
+        },
+        {
+            "question": "What is the importance of rhythm and movement in the Kamasutra?",
+            "options": [
+                "A) To synchronize partners",
+                "B) To increase pleasure",
+                "C) To express emotion",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "Rhythm and movement are important for harmony, pleasure, and emotional expression."
+        },
+        {
+            "question": "True or False: The Kamasutra suggests that sexual pleasure is only for men.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "The Kamasutra advocates for the pleasure and satisfaction of both partners."
+        },
+        {
+            "question": "Which of the following is NOT a method of increasing satisfaction according to the Kamasutra?",
+            "options": [
+                "A) Communication",
+                "B) Force",
+                "C) Experimentation",
+                "D) Playfulness"
+            ],
+            "answer": "B) Force",
+            "explanation": "The Kamasutra emphasizes consent, communication, and playfulness, not force."
+        },
+        {
+            "question": "What is the significance of 'afterplay' in the Kamasutra?",
+            "options": [
+                "A) It is unnecessary",
+                "B) It is for women only",
+                "C) It strengthens emotional bonds",
+                "D) It is discouraged"
+            ],
+            "answer": "C) It strengthens emotional bonds",
+            "explanation": "Afterplay is important for emotional connection and satisfaction."
+        },
+        {
+            "question": "True or False: The Kamasutra provides guidance for couples of all ages and backgrounds.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The Kamasutra offers advice for a wide range of couples and situations."
+        },
+        {
+            "question": "Which of these is a recommended way to enhance sexual pleasure in the Kamasutra?",
+            "options": [
+                "A) Scented oils",
+                "B) Music",
+                "C) Soft lighting",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "The Kamasutra suggests using scents, music, and lighting to create a pleasurable atmosphere."
+        },
+        {
+            "question": "What is the Kamasutra's view on communication during intimacy?",
+            "options": [
+                "A) It is unnecessary",
+                "B) It is essential",
+                "C) It is optional",
+                "D) It is discouraged"
+            ],
+            "answer": "B) It is essential",
+            "explanation": "Open communication is vital for mutual satisfaction and understanding."
+        },
+        {
+            "question": "True or False: The Kamasutra encourages partners to learn about each other's preferences.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Learning about each other's likes and dislikes is encouraged for a fulfilling relationship."
+        },
+        {
+            "question": "Which of the following is a benefit of sexual satisfaction according to the Kamasutra?",
+            "options": [
+                "A) Improved health",
+                "B) Greater happiness",
+                "C) Stronger relationships",
+                "D) All of the above"
+            ],
+            "answer": "D) All of the above",
+            "explanation": "Sexual satisfaction is linked to health, happiness, and relationship strength in the Kamasutra."
+        },
+        {
+            "question": "What is the Kamasutra's advice for overcoming dissatisfaction?",
+            "options": [
+                "A) Ignore it",
+                "B) Communicate openly",
+                "C) Seek new experiences",
+                "D) Both B and C"
+            ],
+            "answer": "D) Both B and C",
+            "explanation": "Open communication and trying new things are recommended for overcoming dissatisfaction."
+        },
+        {
+            "question": "True or False: The Kamasutra suggests that sexual pleasure is a natural and important part of life.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The pursuit of pleasure is one of the main themes of the Kamasutra."
+        },
+        {
+            "question": "Which of these is a position described in the Kamasutra for deep emotional connection?",
+            "options": [
+                "A) The Lotus",
+                "B) The Plough",
+                "C) The Crab",
+                "D) The Bridge"
+            ],
+            "answer": "A) The Lotus",
+            "explanation": "The Lotus position is known for fostering intimacy and emotional connection."
+        },
+        {
+            "question": "What is the Kamasutra's perspective on the use of humor and playfulness in intimacy?",
+            "options": [
+                "A) It is discouraged",
+                "B) It is essential",
+                "C) It is optional",
+                "D) It is forbidden"
+            ],
+            "answer": "B) It is essential",
+            "explanation": "Playfulness and humor are encouraged to keep intimacy enjoyable and relaxed."
+        },
+        {
+            "question": "True or False: The Kamasutra provides illustrations for every position described.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Not all positions in the Kamasutra are illustrated; many are described in text only."
+        }
+    ]
+}

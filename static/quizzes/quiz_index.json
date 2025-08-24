@@ -1,0 +1,110 @@
+{
+  "default_music": "lagjagale.mp3",
+  "quizzes": [
+    {
+      "file": "ancient_books_quiz_15_unique.json",
+      "title": "Ancient Books Quiz 15 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "bollywood_quiz_72_unique.json",
+      "title": "Bollywood Quiz 72 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "cricket_quiz_15_unique.json",
+      "title": "Cricket Quiz 15 Unique",
+      "music": "ZindagiKeSafarMein.mp3"
+    },
+    {
+      "file": "culture_quiz_10_unique.json",
+      "title": "Culture Quiz 10 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "demographics_quiz_10_unique.json",
+      "title": "Demographics Quiz 10 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "economy_quiz_10_unique.json",
+      "title": "Economy Quiz 10 Unique",
+      "music": "PalPalDilKePaas.mp3"
+    },
+    {
+      "file": "festivals_quiz_10_unique.json",
+      "title": "Festivals Quiz 10 Unique",
+      "music": "MiltiHaiZindagiMeinMohabbat.mp3"
+    },
+    {
+      "file": "geography_quiz_15_unique.json",
+      "title": "Geography Quiz 15 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "gita_quiz.json",
+      "title": "Gita Quiz",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "hollywood_quiz.json",
+      "title": "Hollywood Quiz",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "india_quiz_100_questions.json",
+      "title": "India Quiz 100 Questions",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "kamasutra_quiz.json",
+      "title": "Kamasutra Quiz",
+      "music": "MereMehboobQayamatHogi.mp3"
+    },
+    {
+      "file": "languages_quiz_10_unique.json",
+      "title": "Languages Quiz 10 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "literature_quiz_10_unique.json",
+      "title": "Literature Quiz 10 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "music_dance_quiz_15_unique.json",
+      "title": "Music Dance Quiz 15 Unique",
+      "music": "MereMehboobQayamatHogi.mp3"
+    },
+    {
+      "file": "other_sports_quiz_10_unique.json",
+      "title": "Other Sports Quiz 10 Unique",
+      "music": "MehboobMere.mp3"
+    },
+    {
+      "file": "political_leaders_quiz_15_unique.json",
+      "title": "Political Leaders Quiz 15 Unique",
+      "music": "AapKiNazroNeSamjha.mp3"
+    },
+    {
+      "file": "questions.json",
+      "title": "Questions",
+      "music": "DekhaEkKhwabSong.mp3"
+    },
+    {
+      "file": "test_quiz.json",
+      "title": "Test Quiz",
+      "music": "MereMehboobQayamatHogi.mp3"
+    },
+    {
+      "file": "yogasutra_quiz.json",
+      "title": "Yogasutra Quiz",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    },
+    {
+      "file": "yoga_upanishads_quiz_20_unique.json",
+      "title": "Yoga Upanishads Quiz 20 Unique",
+      "music": "KabhiKabhieMereDilMein.mp3"
+    }
+  ]
+}

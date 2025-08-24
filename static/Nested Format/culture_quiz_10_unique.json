@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which Indian city is known as the cultural capital of India?",
+    "options": [
+      "Mumbai",
+      "Delhi",
+      "Kolkata",
+      "Varanasi"
+    ],
+    "correct": 2,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Kolkata is often referred to as the cultural capital of India due to its rich artistic heritage."
+  },
+  {
+    "question": "Which traditional Indian art form involves storytelling through dance and is native to Andhra Pradesh?",
+    "options": [
+      "Kathakali",
+      "Kuchipudi",
+      "Odissi",
+      "Bharatanatyam"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Kuchipudi is a classical Indian dance-drama originating from Andhra Pradesh."
+  },
+  {
+    "question": "Rangoli is a traditional decorative art practiced during festivals in which part of India?",
+    "options": [
+      "North India",
+      "South India",
+      "East India",
+      "Northeast India"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rangoli is a colorful decorative art form mostly practiced in South India."
+  },
+  {
+    "question": "Which Indian festival is associated with kite flying in Gujarat?",
+    "options": [
+      "Diwali",
+      "Makar Sankranti",
+      "Bihu",
+      "Navratri"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Makar Sankranti is celebrated with kite flying, especially in Gujarat."
+  },
+  {
+    "question": "Which traditional Indian theater form comes from Kerala?",
+    "options": [
+      "Yakshagana",
+      "Kathakali",
+      "Bharatanatyam",
+      "Koodiyattam"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Kathakali is a classical Indian dance-theatre form from Kerala."
+  },
+  {
+    "question": "Which Indian garment is traditionally worn by men and is known for its pleats and drape?",
+    "options": [
+      "Kurta",
+      "Lungi",
+      "Sherwani",
+      "Dhoti"
+    ],
+    "correct": 3,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Dhoti is a traditional garment worn by Indian men, known for its unique drape."
+  },
+  {
+    "question": "What is the cultural significance of touching the feet of elders in India?",
+    "options": [
+      "Seeking forgiveness",
+      "Greeting with respect",
+      "Avoiding bad luck",
+      "Celebrating achievements"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Touching feet is a traditional gesture of respect toward elders in Indian culture."
+  },
+  {
+    "question": "What is the name of the decorative hand art used during Indian weddings and festivals?",
+    "options": [
+      "Tattoo",
+      "Rangoli",
+      "Henna",
+      "Chikankari"
+    ],
+    "correct": 2,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Henna or Mehndi is a popular form of body art in Indian weddings and festivals."
+  },
+  {
+    "question": "Which state is known for the Hornbill Festival, showcasing its tribal culture?",
+    "options": [
+      "Meghalaya",
+      "Nagaland",
+      "Mizoram",
+      "Arunachal Pradesh"
+    ],
+    "correct": 1,
+    "category": "Culture",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Nagaland hosts the Hornbill Festival, celebrating its rich tribal heritage."
+  },
+  {
+    "question": "The Indian concept of 'Atithi Devo Bhava' translates to what in English?",
+    "options": [
+      "The guest is a god",
+      "Respect the elders",
+      "Unity in diversity",
+      "Non-violence is the way"
+    ],
+    "correct": 0,
+    "category": "Culture",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "'Atithi Devo Bhava' means 'The guest is equivalent to God' in Indian tradition."
+  }
+]

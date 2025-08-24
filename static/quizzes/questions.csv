@@ -1,0 +1,5 @@
+﻿id,type,question,option1,option2,option3,option4,correct,feedback_correct,feedback_incorrect,difficulty,category,points,partial,feedback_partial,feedback_detailed
+1,mcq,What is the capital of France?,Paris,London,Berlin,Rome,1,Correct! Paris is the capital.,Incorrect. Paris is the capital.,easy,geography,1,1,1Paris is the capital.,2 Correct! Paris is the capital.
+2,tf,The sky is green.,,,,,FALSE,Correct! The sky is not green.,Incorrect. The sky is not green.,easy,science,1,1,1The sky is not green.,2The sky is not green.
+3,fill,Who wrote Hamlet?,,,,,Shakespeare,Correct! Shakespeare wrote Hamlet.,Incorrect. The answer is Shakespeare.,medium,literature,1,1,1Shakespeare wrote Hamlet.,2Shakespeare wrote Hamlet.
+4,mcq,Which planet is known as the Red Planet?,Earth,Mars,Venus,Jupiter,2,Correct! Mars is the Red Planet.,Incorrect. Mars is the Red Planet.,easy,astronomy,1,1,1Mars is the Red Planet.,2Mars is the Red Planet.

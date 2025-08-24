@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Who won the first Olympic gold medal for India as an individual athlete?",
+    "options": [
+      "Leander Paes",
+      "Abhinav Bindra",
+      "Karnam Malleswari",
+      "Rajyavardhan Rathore"
+    ],
+    "correct_answer": "Leander Paes",
+    "explanation": "Abhinav Bindra won the first individual Olympic gold medal for India in shooting (2008).",
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian badminton player won the World Championship in 2019?",
+    "options": [
+      "Saina Nehwal",
+      "PV Sindhu",
+      "Jwala Gutta",
+      "Ashwini Ponnappa"
+    ],
+    "correct_answer": "Saina Nehwal",
+    "explanation": "PV Sindhu won the BWF World Championships in 2019, becoming the first Indian to do so.",
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian athlete is known as the 'Flying Sikh'?",
+    "options": [
+      "Milkha Singh",
+      "P.T. Usha",
+      "Neeraj Chopra",
+      "Anju Bobby George"
+    ],
+    "correct_answer": "Milkha Singh",
+    "explanation": "Milkha Singh earned the nickname 'Flying Sikh' for his achievements in track and field.",
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which sport did Mary Kom win a bronze medal in the 2012 London Olympics?",
+    "options": [
+      "Wrestling",
+      "Weightlifting",
+      "Boxing",
+      "Judo"
+    ],
+    "correct_answer": "Wrestling",
+    "explanation": "Mary Kom won a bronze medal in women's boxing at the 2012 London Olympics.",
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Neeraj Chopra won an Olympic gold medal in which event?",
+    "options": [
+      "Shot Put",
+      "Discus Throw",
+      "Long Jump",
+      "Javelin Throw"
+    ],
+    "correct_answer": "Shot Put",
+    "explanation": "Neeraj Chopra won the gold medal in javelin throw at the Tokyo 2020 Olympics.",
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state is famous for producing hockey players?",
+    "options": [
+      "Punjab",
+      "Kerala",
+      "Tamil Nadu",
+      "Rajasthan"
+    ],
+    "correct_answer": "Punjab",
+    "explanation": "Punjab has been a major contributor to India's national hockey teams.",
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian wrestler won bronze at the 2020 Tokyo Olympics?",
+    "options": [
+      "Bajrang Punia",
+      "Yogeshwar Dutt",
+      "Sushil Kumar",
+      "Ravi Kumar Dahiya"
+    ],
+    "correct_answer": "Bajrang Punia",
+    "explanation": "Bajrang Punia won the bronze medal in wrestling at the Tokyo 2020 Olympics.",
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who was the first Indian woman to win a medal at the Olympics?",
+    "options": [
+      "Karnam Malleswari",
+      "Mary Kom",
+      "P.T. Usha",
+      "Saina Nehwal"
+    ],
+    "correct_answer": "Karnam Malleswari",
+    "explanation": "Karnam Malleswari won a bronze in weightlifting at the 2000 Sydney Olympics.",
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian Grandmaster became the World Chess Champion in 2007?",
+    "options": [
+      "Pentala Harikrishna",
+      "Viswanathan Anand",
+      "Koneru Humpy",
+      "R Praggnanandhaa"
+    ],
+    "correct_answer": "Pentala Harikrishna",
+    "explanation": "Viswanathan Anand won the World Chess Championship title in 2007.",
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian athlete won a silver medal in high jump at the Tokyo Paralympics?",
+    "options": [
+      "Mariyappan Thangavelu",
+      "Devendra Jhajharia",
+      "Sumit Antil",
+      "Bhavina Patel"
+    ],
+    "correct_answer": "Mariyappan Thangavelu",
+    "explanation": "Mariyappan Thangavelu won a silver medal in high jump at the 2020 Tokyo Paralympics.",
+    "category": "Other Sports",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

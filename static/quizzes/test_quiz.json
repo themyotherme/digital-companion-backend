@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "Berlin",
+      "London",
+      "Paris",
+      "Madrid"
+    ],
+    "correct_answer": "Paris",
+    "explanation": "Paris is the capital of France.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "correct_answer": "Mars",
+    "explanation": "Mars is known as the Red Planet due to its reddish appearance.",
+    "category": "Science",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The chemical symbol for water is H2O.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "explanation": "H2O is the chemical formula for water.",
+    "category": "Science",
+    "difficulty": "easy",
+    "type": "tf"
+  },
+  {
+    "question": "The Great Wall of China is visible from the Moon.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "explanation": "This is a myth; the Great Wall is not visible from the Moon with the naked eye.",
+    "category": "History",
+    "difficulty": "medium",
+    "type": "tf"
+  }
+]

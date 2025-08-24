@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Who is the author of the Ramayana?",
+    "options": [
+      "Ved Vyasa",
+      "Valmiki",
+      "Tulsidas",
+      "Kalidasa"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Valmiki is traditionally credited with composing the Ramayana."
+  },
+  {
+    "question": "What is the name of Lord Rama’s wife in the Ramayana?",
+    "options": [
+      "Radha",
+      "Sita",
+      "Draupadi",
+      "Kunti"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Sita is the consort of Lord Rama in the epic Ramayana."
+  },
+  {
+    "question": "In the Mahabharata, who is the narrator of the Bhagavad Gita?",
+    "options": [
+      "Krishna",
+      "Arjuna",
+      "Vyasa",
+      "Bhishma"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lord Krishna delivers the Bhagavad Gita to Arjuna on the battlefield."
+  },
+  {
+    "question": "Who composed the Mahabharata?",
+    "options": [
+      "Valmiki",
+      "Tulsidas",
+      "Kalidasa",
+      "Ved Vyasa"
+    ],
+    "correct": 3,
+    "category": "Ancient Books",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Ved Vyasa is traditionally credited with composing the Mahabharata."
+  },
+  {
+    "question": "Which demon king abducted Sita in the Ramayana?",
+    "options": [
+      "Ravana",
+      "Kumbhakarna",
+      "Duryodhana",
+      "Bali"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Ravana, the king of Lanka, abducted Sita."
+  },
+  {
+    "question": "Who was the eldest Pandava in the Mahabharata?",
+    "options": [
+      "Bhima",
+      "Yudhishthira",
+      "Arjuna",
+      "Nakula"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Yudhishthira was the eldest of the Pandavas."
+  },
+  {
+    "question": "What was the name of Arjuna’s bow?",
+    "options": [
+      "Pinaka",
+      "Vijaya",
+      "Gandiva",
+      "Sharanga"
+    ],
+    "correct": 2,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Arjuna's bow was called Gandiva, gifted by the gods."
+  },
+  {
+    "question": "Which bird helped Sita when she was being abducted by Ravana?",
+    "options": [
+      "Garuda",
+      "Jatayu",
+      "Sampati",
+      "Peacock"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Jatayu, the vulture, tried to save Sita from Ravana."
+  },
+  {
+    "question": "Who was the mother of Karna in the Mahabharata?",
+    "options": [
+      "Kunti",
+      "Gandhari",
+      "Draupadi",
+      "Satyavati"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Kunti was Karna's biological mother."
+  },
+  {
+    "question": "In the Ramayana, what is the name of Rama’s loyal brother who ruled in his absence?",
+    "options": [
+      "Bharata",
+      "Lakshmana",
+      "Shatrughna",
+      "Vibhishana"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Bharata ruled Ayodhya in Rama's name during his exile."
+  },
+  {
+    "question": "Who was the charioteer of Karna during the battle of Kurukshetra?",
+    "options": [
+      "Shalya",
+      "Krishna",
+      "Dronacharya",
+      "Bhishma"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "Shalya was Karna’s reluctant charioteer in the Mahabharata."
+  },
+  {
+    "question": "Which river is associated with the composition of the Ramayana?",
+    "options": [
+      "Ganga",
+      "Sarayu",
+      "Yamuna",
+      "Godavari"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Sarayu river is closely linked to Ayodhya, where Valmiki composed the Ramayana."
+  },
+  {
+    "question": "What curse was placed on Karna that led to his downfall?",
+    "options": [
+      "He would forget his mantras",
+      "His chariot would sink",
+      "He would die unarmed",
+      "He would be betrayed by his guru"
+    ],
+    "correct": 0,
+    "category": "Ancient Books",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "Karna was cursed by Parashurama to forget the Brahmastra mantra at a crucial moment."
+  },
+  {
+    "question": "How many verses are there approximately in the Mahabharata?",
+    "options": [
+      "24,000",
+      "50,000",
+      "100,000",
+      "80,000"
+    ],
+    "correct": 2,
+    "category": "Ancient Books",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "The Mahabharata contains approximately 100,000 verses, making it the longest epic poem."
+  },
+  {
+    "question": "What role did Hanuman play in the Ramayana?",
+    "options": [
+      "Rama's brother",
+      "Messenger to Lanka",
+      "King of Ayodhya",
+      "Sita's protector"
+    ],
+    "correct": 1,
+    "category": "Ancient Books",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Hanuman was a key ally who served as a messenger and warrior in the battle against Ravana."
+  }
+]

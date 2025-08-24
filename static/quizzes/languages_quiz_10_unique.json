@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which language has the highest number of native speakers in India?",
+    "options": [
+      "Hindi",
+      "Bengali",
+      "Telugu",
+      "Marathi"
+    ],
+    "correct_answer": "Hindi",
+    "explanation": "Hindi is the most spoken language in India according to the Census.",
+    "category": "Languages",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which language is the official language of the Indian state of Tamil Nadu?",
+    "options": [
+      "Telugu",
+      "Tamil",
+      "Malayalam",
+      "Kannada"
+    ],
+    "correct_answer": "Telugu",
+    "explanation": "Tamil is the official language of Tamil Nadu.",
+    "category": "Languages",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which script is used to write the Hindi language?",
+    "options": [
+      "Roman",
+      "Kannada",
+      "Devanagari",
+      "Tamil"
+    ],
+    "correct_answer": "Roman",
+    "explanation": "Hindi is written in the Devanagari script.",
+    "category": "Languages",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which of the following languages is included in the Eighth Schedule of the Indian Constitution?",
+    "options": [
+      "Sanskrit",
+      "Bhojpuri",
+      "Tulu",
+      "English"
+    ],
+    "correct_answer": "Sanskrit",
+    "explanation": "Sanskrit is one of the 22 scheduled languages listed in the Eighth Schedule.",
+    "category": "Languages",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which classical Indian language is believed to be the root of many South Indian languages?",
+    "options": [
+      "Sanskrit",
+      "Pali",
+      "Tamil",
+      "Prakrit"
+    ],
+    "correct_answer": "Sanskrit",
+    "explanation": "Tamil is an ancient classical language with Dravidian roots.",
+    "category": "Languages",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which language is predominantly spoken in the Indian state of Kerala?",
+    "options": [
+      "Tamil",
+      "Kannada",
+      "Malayalam",
+      "Telugu"
+    ],
+    "correct_answer": "Tamil",
+    "explanation": "Malayalam is the main language spoken in Kerala.",
+    "category": "Languages",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which of these languages uses the Gurmukhi script?",
+    "options": [
+      "Punjabi",
+      "Hindi",
+      "Urdu",
+      "Konkani"
+    ],
+    "correct_answer": "Punjabi",
+    "explanation": "Punjabi is written using the Gurmukhi script.",
+    "category": "Languages",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "How many languages are currently listed in the Eighth Schedule of the Indian Constitution?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "25"
+    ],
+    "correct_answer": "18",
+    "explanation": "There are 22 officially recognized languages in the Eighth Schedule.",
+    "category": "Languages",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indo-Aryan language is widely spoken in Maharashtra?",
+    "options": [
+      "Gujarati",
+      "Marathi",
+      "Kannada",
+      "Konkani"
+    ],
+    "correct_answer": "Gujarati",
+    "explanation": "Marathi is the dominant language in Maharashtra.",
+    "category": "Languages",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which language is used as a lingua franca in the Indian subcontinent, especially in movies and mass communication?",
+    "options": [
+      "English",
+      "Hindi",
+      "Urdu",
+      "Bengali"
+    ],
+    "correct_answer": "English",
+    "explanation": "Hindi serves as a lingua franca across northern and central India.",
+    "category": "Languages",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

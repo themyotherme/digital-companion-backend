@@ -1,0 +1,114 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Rome"
+    ],
+    "correct_answer": "Paris",
+    "explanation": "",
+    "category": "geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The sky is green.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "category": "science",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who wrote Hamlet?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "category": "literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Venus",
+      "Jupiter"
+    ],
+    "correct_answer": "Earth",
+    "explanation": "",
+    "category": "astronomy",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "भारत की राजधानी क्या है?",
+    "options": [
+      "मुंबई",
+      "नई दिल्ली",
+      "कोलकाता",
+      "चेन्नई"
+    ],
+    "correct_answer": "मुंबई",
+    "explanation": "",
+    "category": "geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "महात्मा गांधी का पूरा नाम क्या था?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "category": "history",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "¿Cuál es la capital de España?",
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Valencia",
+      "Sevilla"
+    ],
+    "correct_answer": "Barcelona",
+    "explanation": "",
+    "category": "geografía",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "¿Quién escribió Don Quijote?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "",
+    "category": "literatura",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which Indian festival is known as the Festival of Lights?",
+    "options": [
+      "Holi",
+      "Diwali",
+      "Navratri",
+      "Raksha Bandhan"
+    ],
+    "correct_answer": "Holi",
+    "explanation": "Diwali is widely celebrated as the Festival of Lights across India.",
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which harvest festival is celebrated in Punjab with bonfires and dancing?",
+    "options": [
+      "Baisakhi",
+      "Lohri",
+      "Onam",
+      "Makar Sankranti"
+    ],
+    "correct_answer": "Baisakhi",
+    "explanation": "Lohri is a winter folk festival celebrated in Punjab, especially by Sikhs and Hindus.",
+    "category": "Festivals",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which South Indian festival is marked by the decoration of bulls and celebration of cattle?",
+    "options": [
+      "Lohri",
+      "Ugadi",
+      "Pongal",
+      "Vishu"
+    ],
+    "correct_answer": "Lohri",
+    "explanation": "Pongal is a Tamil harvest festival that includes honoring and decorating cattle.",
+    "category": "Festivals",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which festival marks the beginning of the new year in Maharashtra and is celebrated with Gudi flags?",
+    "options": [
+      "Navratri",
+      "Gudi Padwa",
+      "Ganesh Chaturthi",
+      "Baisakhi"
+    ],
+    "correct_answer": "Navratri",
+    "explanation": "Gudi Padwa marks the new year in Maharashtra and involves raising a Gudi flag.",
+    "category": "Festivals",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which festival is celebrated by throwing colored powder and water?",
+    "options": [
+      "Diwali",
+      "Eid",
+      "Holi",
+      "Onam"
+    ],
+    "correct_answer": "Diwali",
+    "explanation": "Holi is the festival of colors, celebrated with vibrant powders and water fights.",
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which festival is dedicated to Lord Ganesha and involves clay idol immersion?",
+    "options": [
+      "Durga Puja",
+      "Navratri",
+      "Ganesh Chaturthi",
+      "Janmashtami"
+    ],
+    "correct_answer": "Durga Puja",
+    "explanation": "Ganesh Chaturthi is celebrated with the installation and immersion of Lord Ganesha idols.",
+    "category": "Festivals",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which festival is associated with snake worship in parts of India?",
+    "options": [
+      "Raksha Bandhan",
+      "Nag Panchami",
+      "Karva Chauth",
+      "Bhogi"
+    ],
+    "correct_answer": "Raksha Bandhan",
+    "explanation": "Nag Panchami is a traditional festival where snakes are worshipped.",
+    "category": "Festivals",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Onam is a harvest festival celebrated in which Indian state?",
+    "options": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Kerala",
+      "Andhra Pradesh"
+    ],
+    "correct_answer": "Tamil Nadu",
+    "explanation": "Onam is the biggest festival in Kerala, marking the homecoming of King Mahabali.",
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which festival commemorates the birth of Lord Krishna?",
+    "options": [
+      "Ram Navami",
+      "Janmashtami",
+      "Maha Shivaratri",
+      "Ganesh Chaturthi"
+    ],
+    "correct_answer": "Ram Navami",
+    "explanation": "Janmashtami celebrates the birth of Lord Krishna and includes fasting and devotional singing.",
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian festival is celebrated by fasting for the well-being of husbands?",
+    "options": [
+      "Karva Chauth",
+      "Raksha Bandhan",
+      "Navratri",
+      "Teeyan"
+    ],
+    "correct_answer": "Karva Chauth",
+    "explanation": "Karva Chauth is observed by married women fasting for the long life of their husbands.",
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

@@ -1,0 +1,79 @@
+from playwright.sync_api import sync_playwright
+import os
+import time
+
+def extract_verse(page, url, canto, chapter, verse_num):
+    try:
+        page.goto(url)
+        page.wait_for_timeout(2000)  # Wait for JS to load
+
+        # Check if page shows "Not Found"
+        not_found = page.query_selector("text=Not Found!")
+        if not_found:
+            print(f"Verse {verse_num} not found - end of chapter")
+            return False
+
+        # Try the main content area
+        content = page.query_selector("main")
+        if content:
+            text = content.inner_text()
+            
+            # Create directory if it doesn't exist
+            dir_path = f"verses/canto{canto}/chapter{chapter}"
+            os.makedirs(dir_path, exist_ok=True)
+            
+            # Save to file
+            file_path = f"{dir_path}/verse{verse_num}.txt"
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(text)
+            print(f"Saved verse {verse_num} to {file_path}")
+            return True
+            
+        print(f"No content found for verse {verse_num}")
+        return False
+        
+    except Exception as e:
+        print(f"Error extracting verse {verse_num}: {e}")
+        return False
+
+def extract_chapter(canto, chapter):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        verse_num = 1
+        while True:  # Continue until we hit a non-existent verse
+            url = f"https://vedabase.io/en/library/sb/{canto}/{chapter}/{verse_num}/"
+            print(f"Extracting Canto {canto}, Chapter {chapter}, Verse {verse_num}")
+            if not extract_verse(page, url, canto, chapter, verse_num):
+                break
+            verse_num += 1
+            time.sleep(1)  # Add a small delay between requests
+        browser.close()
+        return verse_num - 1  # Return the number of verses found
+
+def extract_canto(canto):
+    chapter = 1
+    while True:  # Continue until we hit a non-existent chapter
+        print(f"\nExtracting Canto {canto}, Chapter {chapter}")
+        num_verses = extract_chapter(canto, chapter)
+        if num_verses == 0:
+            print(f"No verses found in Chapter {chapter} - end of canto")
+            break
+        print(f"Completed Chapter {chapter} with {num_verses} verses")
+        chapter += 1
+        time.sleep(1)  # Add a small delay between chapters
+    return chapter - 1  # Return the number of chapters found
+
+# Start extraction from Canto 1
+canto = 1
+while True:
+    print(f"\nStarting extraction of Canto {canto}")
+    num_chapters = extract_canto(canto)
+    if num_chapters == 0:
+        print(f"No chapters found in Canto {canto} - end of extraction")
+        break
+    print(f"Completed Canto {canto} with {num_chapters} chapters")
+    canto += 1
+    time.sleep(2)  # Add a delay between cantos
+
+print("\nExtraction complete.")

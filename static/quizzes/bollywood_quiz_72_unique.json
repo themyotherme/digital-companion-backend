@@ -1,0 +1,1010 @@
+[
+  {
+    "question": "Which film is known for the song 'Chaiyya Chaiyya'?",
+    "options": [
+      "Dil Se",
+      "Rangeela",
+      "Taal",
+      "Dil To Pagal Hai"
+    ],
+    "correct_answer": "Dil Se",
+    "explanation": "'Chaiyya Chaiyya' is from 'Dil Se' (1998).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film 'Dilwale Dulhania Le Jayenge'?",
+    "options": [
+      "Aditya Chopra",
+      "Karan Johar",
+      "Yash Chopra",
+      "Subhash Ghai"
+    ],
+    "correct_answer": "Aditya Chopra",
+    "explanation": "Aditya Chopra directed this iconic film.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Aishwarya Rai won the Miss World title in 1994.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Aishwarya Rai was crowned Miss World in 1994.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Ek Do Teen'?",
+    "options": [
+      "Tezaab",
+      "Mr. India",
+      "Qayamat Se Qayamat Tak",
+      "Maine Pyar Kiya"
+    ],
+    "correct_answer": "Tezaab",
+    "explanation": "'Ek Do Teen' is from 'Tezaab' (1988).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Mogambo in 'Mr. India'?",
+    "options": [
+      "Amrish Puri",
+      "Ajit",
+      "Prem Chopra",
+      "Amjad Khan"
+    ],
+    "correct_answer": "Amrish Puri",
+    "explanation": "Amrish Puri's portrayal of Mogambo is iconic.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Dil Chahta Hai' (2001) is known for its modern storytelling and urban setting.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "The film is credited with changing Bollywood's narrative style.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Kajra Re'?",
+    "options": [
+      "Bunty Aur Babli",
+      "Kabhi Alvida Naa Kehna",
+      "Dostana",
+      "Rab Ne Bana Di Jodi"
+    ],
+    "correct_answer": "Bunty Aur Babli",
+    "explanation": "'Kajra Re' is from 'Bunty Aur Babli' (2005).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film '3 Idiots'?",
+    "options": [
+      "Rajkumar Hirani",
+      "Aamir Khan",
+      "Vidhu Vinod Chopra",
+      "Rakeysh Omprakash Mehra"
+    ],
+    "correct_answer": "Rajkumar Hirani",
+    "explanation": "Rajkumar Hirani directed '3 Idiots' (2009).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Aamir Khan produced and starred in 'Lagaan'.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Aamir Khan was both the producer and lead actor in 'Lagaan'.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Jai Ho'?",
+    "options": [
+      "Slumdog Millionaire",
+      "Ghajini",
+      "Dabangg",
+      "My Name Is Khan"
+    ],
+    "correct_answer": "Slumdog Millionaire",
+    "explanation": "'Jai Ho' is from 'Slumdog Millionaire' (2008).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Munna Bhai in 'Munna Bhai M.B.B.S.'?",
+    "options": [
+      "Sanjay Dutt",
+      "Arshad Warsi",
+      "Sunil Dutt",
+      "Rajkumar Hirani"
+    ],
+    "correct_answer": "Sanjay Dutt",
+    "explanation": "Sanjay Dutt played the title role in 'Munna Bhai M.B.B.S.'.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Dangal' (2016) is based on the life of wrestler Mahavir Singh Phogat.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "The film tells the story of Mahavir Singh Phogat and his daughters.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Tum Hi Ho'?",
+    "options": [
+      "Aashiqui 2",
+      "Rockstar",
+      "Barfi!",
+      "Highway"
+    ],
+    "correct_answer": "Aashiqui 2",
+    "explanation": "'Tum Hi Ho' is from 'Aashiqui 2' (2013).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film 'PK'?",
+    "options": [
+      "Rajkumar Hirani",
+      "Aamir Khan",
+      "Vidhu Vinod Chopra",
+      "Rakeysh Omprakash Mehra"
+    ],
+    "correct_answer": "Rajkumar Hirani",
+    "explanation": "Rajkumar Hirani directed 'PK' (2014).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Deepika Padukone made her Bollywood debut in 'Om Shanti Om'.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Deepika Padukone debuted in 'Om Shanti Om' (2007).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Channa Mereya'?",
+    "options": [
+      "Ae Dil Hai Mushkil",
+      "Tamasha",
+      "Jab Harry Met Sejal",
+      "Yeh Jawaani Hai Deewani"
+    ],
+    "correct_answer": "Ae Dil Hai Mushkil",
+    "explanation": "'Channa Mereya' is from 'Ae Dil Hai Mushkil' (2016).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Sultan in the film 'Sultan'?",
+    "options": [
+      "Salman Khan",
+      "Aamir Khan",
+      "Shah Rukh Khan",
+      "Hrithik Roshan"
+    ],
+    "correct_answer": "Salman Khan",
+    "explanation": "Salman Khan played the title role in 'Sultan' (2016).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Baahubali: The Beginning' (2015) is a Bollywood film.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'Baahubali' is a Telugu film, not Bollywood.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Raabta'?",
+    "options": [
+      "Agent Vinod",
+      "Raabta",
+      "Cocktail",
+      "Love Aaj Kal"
+    ],
+    "correct_answer": "Agent Vinod",
+    "explanation": "'Raabta' is from the film 'Raabta' (2017).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film 'Padmaavat'?",
+    "options": [
+      "Sanjay Leela Bhansali",
+      "Karan Johar",
+      "Rohit Shetty",
+      "Kabir Khan"
+    ],
+    "correct_answer": "Sanjay Leela Bhansali",
+    "explanation": "Sanjay Leela Bhansali directed 'Padmaavat' (2018).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Ranbir Kapoor played the role of Sanjay Dutt in 'Sanju'.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Ranbir Kapoor portrayed Sanjay Dutt in the biopic 'Sanju' (2018).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Tum Se Hi'?",
+    "options": [
+      "Jab We Met",
+      "Rockstar",
+      "Barfi!",
+      "Highway"
+    ],
+    "correct_answer": "Jab We Met",
+    "explanation": "'Tum Se Hi' is from 'Jab We Met' (2007).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Rani in 'Queen'?",
+    "options": [
+      "Kangana Ranaut",
+      "Vidya Balan",
+      "Priyanka Chopra",
+      "Deepika Padukone"
+    ],
+    "correct_answer": "Kangana Ranaut",
+    "explanation": "Kangana Ranaut played the title role in 'Queen' (2014).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Gully Boy' (2019) is based on the lives of Indian street rappers.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "The film is inspired by the lives of Indian street rappers.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known for the song 'Kun Faya Kun'?",
+    "options": [
+      "Rockstar",
+      "Tamasha",
+      "Jab Harry Met Sejal",
+      "Highway"
+    ],
+    "correct_answer": "Rockstar",
+    "explanation": "'Kun Faya Kun' is from 'Rockstar' (2011).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film 'Dangal'?",
+    "options": [
+      "Nitesh Tiwari",
+      "Rajkumar Hirani",
+      "Aamir Khan",
+      "Vidhu Vinod Chopra"
+    ],
+    "correct_answer": "Nitesh Tiwari",
+    "explanation": "Nitesh Tiwari directed 'Dangal' (2016).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Priyanka Chopra won the Miss World title in 2000.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Priyanka Chopra was crowned Miss World in 2000.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the first Indian feature film, 'Raja Harishchandra' (1913)?",
+    "options": [
+      "Dadasaheb Phalke",
+      "Raj Kapoor",
+      "Bimal Roy",
+      "Mehboob Khan"
+    ],
+    "correct_answer": "Dadasaheb Phalke",
+    "explanation": "Dadasaheb Phalke is known as the father of Indian cinema.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Bollywood film is considered the first Indian talkie (sound film)?",
+    "options": [
+      "Alam Ara",
+      "Pather Panchali",
+      "Mother India",
+      "Mughal-e-Azam"
+    ],
+    "correct_answer": "Alam Ara",
+    "explanation": "'Alam Ara' (1931) was the first Indian talkie.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the lead role in the film 'Mother India' (1957)?",
+    "options": [
+      "Nargis",
+      "Madhubala",
+      "Meena Kumari",
+      "Waheeda Rehman"
+    ],
+    "correct_answer": "Nargis",
+    "explanation": "Nargis played the iconic role of Radha in 'Mother India'.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is often called the first Indian color film?",
+    "options": [
+      "Kisan Kanya",
+      "Mughal-e-Azam",
+      "Aan",
+      "Jhansi Ki Rani"
+    ],
+    "correct_answer": "Kisan Kanya",
+    "explanation": "'Kisan Kanya' (1937) is considered the first Indian color film.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Mughal-e-Azam' was originally released in black and white.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "The original 1960 release was black and white; it was colorized later.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who is known as the 'Tragedy King' of Bollywood?",
+    "options": [
+      "Dilip Kumar",
+      "Raj Kapoor",
+      "Dev Anand",
+      "Ashok Kumar"
+    ],
+    "correct_answer": "Dilip Kumar",
+    "explanation": "Dilip Kumar earned the title 'Tragedy King' for his serious roles.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film won the first Filmfare Award for Best Film?",
+    "options": [
+      "Do Bigha Zamin",
+      "Boot Polish",
+      "Jagriti",
+      "Mother India"
+    ],
+    "correct_answer": "Do Bigha Zamin",
+    "explanation": "'Do Bigha Zamin' (1953) won the first Filmfare Best Film award.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Raj Kapoor was both an actor and a director.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Raj Kapoor was a legendary actor, director, and producer.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie is famous for the song 'Mera Joota Hai Japani'?",
+    "options": [
+      "Shree 420",
+      "Awara",
+      "Chalti Ka Naam Gaadi",
+      "Pyaasa"
+    ],
+    "correct_answer": "Shree 420",
+    "explanation": "'Mera Joota Hai Japani' is from 'Shree 420' (1955).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Anand in the film 'Anand' (1971)?",
+    "options": [
+      "Rajesh Khanna",
+      "Amitabh Bachchan",
+      "Dharmendra",
+      "Sanjeev Kumar"
+    ],
+    "correct_answer": "Rajesh Khanna",
+    "explanation": "Rajesh Khanna played the title role in 'Anand'.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Amitabh Bachchan and Dharmendra starred together in 'Sholay'.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "They played Jai and Veeru in 'Sholay' (1975).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film is known as the first Bollywood 'masala' blockbuster?",
+    "options": [
+      "Sholay",
+      "Deewaar",
+      "Zanjeer",
+      "Don"
+    ],
+    "correct_answer": "Sholay",
+    "explanation": "'Sholay' (1975) is considered the first true masala blockbuster.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Gabbar Singh in 'Sholay'?",
+    "options": [
+      "Amjad Khan",
+      "Sanjeev Kumar",
+      "Amrish Puri",
+      "Prem Chopra"
+    ],
+    "correct_answer": "Amjad Khan",
+    "explanation": "Amjad Khan's portrayal of Gabbar Singh is legendary.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Deewaar' (1975) is famous for the line 'Mere paas maa hai'.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "This iconic line was delivered by Shashi Kapoor.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actress is known as the 'Dream Girl' of Bollywood?",
+    "options": [
+      "Hema Malini",
+      "Rekha",
+      "Sridevi",
+      "Madhuri Dixit"
+    ],
+    "correct_answer": "Hema Malini",
+    "explanation": "Hema Malini is popularly known as the 'Dream Girl'.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who composed the music for 'Amar Akbar Anthony'?",
+    "options": [
+      "Laxmikant-Pyarelal",
+      "R.D. Burman",
+      "Kalyanji-Anandji",
+      "Naushad"
+    ],
+    "correct_answer": "Laxmikant-Pyarelal",
+    "explanation": "Laxmikant-Pyarelal composed the music for this 1977 hit.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Silsila' (1981) starred Amitabh Bachchan, Jaya Bachchan, and Rekha.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "The film is famous for its real-life inspired casting.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film marked the debut of Shah Rukh Khan in Bollywood?",
+    "options": [
+      "Deewana",
+      "Baazigar",
+      "Darr",
+      "Kabhi Haan Kabhi Naa"
+    ],
+    "correct_answer": "Deewana",
+    "explanation": "Shah Rukh Khan debuted in 'Deewana' (1992).",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Simran in 'Dilwale Dulhania Le Jayenge'?",
+    "options": [
+      "Kajol",
+      "Rani Mukerji",
+      "Juhi Chawla",
+      "Preity Zinta"
+    ],
+    "correct_answer": "Kajol",
+    "explanation": "Kajol played Simran opposite Shah Rukh Khan.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'Lagaan' (2001) was nominated for an Academy Award for Best Foreign Language Film.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'Lagaan' was nominated for the 2002 Oscars.",
+    "category": "General",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Best Picture award at the first Filmfare Awards in 1954?",
+    "options": [
+      "Do Bigha Zamin",
+      "Mother India",
+      "Pyaasa",
+      "Mughal-e-Azam"
+    ],
+    "correct_answer": "Do Bigha Zamin",
+    "explanation": "'Do Bigha Zamin' won the first Best Picture award at the Filmfare Awards in 1954.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Mogambo in the film 'Mr. India'?",
+    "options": [
+      "Amrish Puri",
+      "Anupam Kher",
+      "Prem Chopra",
+      "Danny Denzongpa"
+    ],
+    "correct_answer": "Amrish Puri",
+    "explanation": "Amrish Puri's iconic portrayal of Mogambo in 'Mr. India' is one of Bollywood’s most memorable villains.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film marked Amitabh Bachchan's debut in Bollywood?",
+    "options": [
+      "Anand",
+      "Zanjeer",
+      "Saat Hindustani",
+      "Abhimaan"
+    ],
+    "correct_answer": "Anand",
+    "explanation": "Amitabh Bachchan made his debut with 'Saat Hindustani' in 1969.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the name of the female lead in the film 'Dilwale Dulhania Le Jayenge'?",
+    "options": [
+      "Simran",
+      "Pooja",
+      "Anjali",
+      "Preeti"
+    ],
+    "correct_answer": "Simran",
+    "explanation": "Kajol played Simran, the female lead, in the iconic film 'DDLJ'.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Bollywood director is known for the 'Karan Arjun' and 'Baazigar' movies?",
+    "options": [
+      "Karan Johar",
+      "Rakesh Roshan",
+      "Farah Khan",
+      "Abbas-Mustan"
+    ],
+    "correct_answer": "Karan Johar",
+    "explanation": "Abbas-Mustan duo directed both 'Baazigar' and 'Karan Arjun'.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actor is known as the 'Tragedy King' of Bollywood?",
+    "options": [
+      "Raj Kapoor",
+      "Dilip Kumar",
+      "Dev Anand",
+      "Ashok Kumar"
+    ],
+    "correct_answer": "Raj Kapoor",
+    "explanation": "Dilip Kumar earned the title 'Tragedy King' for his intense emotional roles.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who composed the music for the film 'Lagaan'?",
+    "options": [
+      "A.R. Rahman",
+      "Anu Malik",
+      "Shankar-Ehsaan-Loy",
+      "Jatin-Lalit"
+    ],
+    "correct_answer": "A.R. Rahman",
+    "explanation": "A.R. Rahman composed the memorable music for 'Lagaan'.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film featured the song 'Chaiyya Chaiyya' shot on a moving train?",
+    "options": [
+      "Dil Se",
+      "Bombay",
+      "Roja",
+      "Yuva"
+    ],
+    "correct_answer": "Dil Se",
+    "explanation": "'Chaiyya Chaiyya' is an iconic song from 'Dil Se', shot on a moving train.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the film 'Queen' starring Kangana Ranaut?",
+    "options": [
+      "Anurag Kashyap",
+      "Vikas Bahl",
+      "Imtiaz Ali",
+      "Zoya Akhtar"
+    ],
+    "correct_answer": "Anurag Kashyap",
+    "explanation": "Vikas Bahl directed 'Queen', a breakthrough film for Kangana Ranaut.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actor played Sanjay Dutt in the biopic 'Sanju'?",
+    "options": [
+      "Ranbir Kapoor",
+      "Ranveer Singh",
+      "Varun Dhawan",
+      "Sidharth Malhotra"
+    ],
+    "correct_answer": "Ranbir Kapoor",
+    "explanation": "Ranbir Kapoor portrayed Sanjay Dutt in the 2018 film 'Sanju'.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which was the first Indian sound film (talkie)?",
+    "options": [
+      "Raja Harishchandra",
+      "Alam Ara",
+      "Shree Pundalik",
+      "Devdas"
+    ],
+    "correct_answer": "Raja Harishchandra",
+    "explanation": "'Alam Ara' (1931) was the first Indian talkie film.",
+    "category": "Bollywood",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "question": "In which year was the film 'Sholay' released?",
+    "options": [
+      "1973",
+      "1975",
+      "1977",
+      "1980"
+    ],
+    "correct_answer": "1973",
+    "explanation": "'Sholay' was released in 1975 and became a Bollywood classic.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actor has portrayed a teacher in both 'Taare Zameen Par' and 'Super 30'?",
+    "options": [
+      "Hrithik Roshan",
+      "Aamir Khan",
+      "Shah Rukh Khan",
+      "Nawazuddin Siddiqui"
+    ],
+    "correct_answer": "Hrithik Roshan",
+    "explanation": "Hrithik Roshan played a teacher in 'Super 30'; Aamir Khan in 'Taare Zameen Par'.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who was the music director for the film 'Kal Ho Naa Ho'?",
+    "options": [
+      "A.R. Rahman",
+      "Jatin-Lalit",
+      "Shankar-Ehsaan-Loy",
+      "Pritam"
+    ],
+    "correct_answer": "A.R. Rahman",
+    "explanation": "Shankar-Ehsaan-Loy composed the hit soundtrack of 'Kal Ho Naa Ho'.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Bollywood actress made her Hollywood debut with 'xXx: Return of Xander Cage'?",
+    "options": [
+      "Kareena Kapoor",
+      "Priyanka Chopra",
+      "Deepika Padukone",
+      "Alia Bhatt"
+    ],
+    "correct_answer": "Kareena Kapoor",
+    "explanation": "Deepika Padukone starred opposite Vin Diesel in her Hollywood debut.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which 1957 Bollywood film is considered one of the greatest patriotic movies and featured the song 'Kar Chale Hum Fida'?",
+    "options": [
+      "Mother India",
+      "Naya Daur",
+      "Shaheed",
+      "Border"
+    ],
+    "correct_answer": "Mother India",
+    "explanation": "'Shaheed' (1957) featured 'Kar Chale Hum Fida' and is considered a classic patriotic film.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who directed the epic Bollywood film 'Mughal-e-Azam'?",
+    "options": [
+      "Mehboob Khan",
+      "K. Asif",
+      "Bimal Roy",
+      "Guru Dutt"
+    ],
+    "correct_answer": "Mehboob Khan",
+    "explanation": "'Mughal-e-Azam' was directed by K. Asif and is known for its grandeur and epic storytelling.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film starring Dev Anand was inspired by Dostoevsky’s 'The Idiot'?",
+    "options": [
+      "Guide",
+      "Jewel Thief",
+      "Kalapani",
+      "Pocket Maar"
+    ],
+    "correct_answer": "Guide",
+    "explanation": "'Guide' was loosely inspired by 'The Idiot' and is one of Dev Anand's most acclaimed films.",
+    "category": "Bollywood",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "question": "Which 1970s movie featured Amitabh Bachchan as Inspector Vijay Khanna and started his 'angry young man' persona?",
+    "options": [
+      "Deewar",
+      "Zanjeer",
+      "Sholay",
+      "Don"
+    ],
+    "correct_answer": "Deewar",
+    "explanation": "'Zanjeer' (1973) established Amitabh Bachchan's image as the 'angry young man' of Bollywood.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which film marked Shah Rukh Khan’s debut in Bollywood?",
+    "options": [
+      "Baazigar",
+      "Deewana",
+      "Kabhi Haan Kabhi Naa",
+      "Raju Ban Gaya Gentleman"
+    ],
+    "correct_answer": "Baazigar",
+    "explanation": "Shah Rukh Khan made his Bollywood debut in 'Deewana' in 1992.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the role of Bhiku Mhatre in the cult film 'Satya'?",
+    "options": [
+      "Manoj Bajpayee",
+      "Kay Kay Menon",
+      "Irfan Khan",
+      "Ajay Devgn"
+    ],
+    "correct_answer": "Manoj Bajpayee",
+    "explanation": "Manoj Bajpayee's portrayal of Bhiku Mhatre in 'Satya' won critical acclaim.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the first Oscar nomination for India in the Best Foreign Language Film category?",
+    "options": [
+      "Mother India",
+      "Salaam Bombay!",
+      "Lagaan",
+      "The Lunchbox"
+    ],
+    "correct_answer": "Mother India",
+    "explanation": "'Mother India' (1957) was India's first film nominated for an Oscar in the Best Foreign Language Film category.",
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actor starred in the biopic 'MS Dhoni: The Untold Story'?",
+    "options": [
+      "Tiger Shroff",
+      "Sushant Singh Rajput",
+      "Ayushmann Khurrana",
+      "Varun Dhawan"
+    ],
+    "correct_answer": "Tiger Shroff",
+    "explanation": "Sushant Singh Rajput portrayed MS Dhoni in the popular 2016 biopic.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which actress starred opposite Salman Khan in 'Hum Aapke Hain Koun..!'?",
+    "options": [
+      "Madhuri Dixit",
+      "Juhi Chawla",
+      "Raveena Tandon",
+      "Karisma Kapoor"
+    ],
+    "correct_answer": "Madhuri Dixit",
+    "explanation": "Madhuri Dixit played the female lead in the blockbuster 'Hum Aapke Hain Koun..!'",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Aamir Khan film revolves around the story of a young boy with dyslexia?",
+    "options": [
+      "Taare Zameen Par",
+      "Dangal",
+      "3 Idiots",
+      "Rang De Basanti"
+    ],
+    "correct_answer": "Taare Zameen Par",
+    "explanation": "'Taare Zameen Par' (2007) is a touching story about a child with dyslexia, directed by Aamir Khan.",
+    "category": "Bollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

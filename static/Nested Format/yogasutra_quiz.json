@@ -1,0 +1,416 @@
+{
+    "Samadhi Pada": [
+        {
+            "question": "What is the main focus of Samadhi Pada in Patanjali's Yoga Sutras?",
+            "options": [
+                "A) Practice of yoga",
+                "B) Powers attained through yoga",
+                "C) Liberation",
+                "D) Nature and aim of concentration (Samadhi)"
+            ],
+            "answer": "D) Nature and aim of concentration (Samadhi)",
+            "explanation": "Samadhi Pada deals with the nature and aim of concentration and the means to attain it."
+        },
+        {
+            "question": "True or False: According to Samadhi Pada, yoga is defined as the cessation of the fluctuations of the mind.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Yoga is defined as 'Yogas chitta vritti nirodhah'—the cessation of the fluctuations of the mind."
+        },
+        {
+            "question": "Which Sanskrit term in Samadhi Pada refers to the mind's modifications or fluctuations?",
+            "options": [
+                "A) Samadhi",
+                "B) Vritti",
+                "C) Kaivalya",
+                "D) Sadhana"
+            ],
+            "answer": "B) Vritti",
+            "explanation": "'Vritti' refers to the modifications or fluctuations of the mind."
+        },
+        {
+            "question": "True or False: Samadhi Pada describes only one type of Samadhi.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Samadhi Pada describes two types of Samadhi: Samprajnata and Asamprajnata."
+        },
+        {
+            "question": "Which of the following is NOT a type of vritti described in Samadhi Pada?",
+            "options": [
+                "A) Pramana",
+                "B) Viparyaya",
+                "C) Vairagya",
+                "D) Nidra"
+            ],
+            "answer": "C) Vairagya",
+            "explanation": "Vairagya means detachment, not a type of vritti. The five vrittis are Pramana, Viparyaya, Vikalpa, Nidra, and Smriti."
+        },
+        {
+            "question": "What is the meaning of 'Abhyasa' as described in Samadhi Pada?",
+            "options": [
+                "A) Detachment",
+                "B) Practice",
+                "C) Concentration",
+                "D) Liberation"
+            ],
+            "answer": "B) Practice",
+            "explanation": "'Abhyasa' means persistent practice, which is essential for controlling the mind."
+        },
+        {
+            "question": "True or False: Vairagya means attachment to worldly pleasures.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Vairagya means detachment from worldly pleasures."
+        },
+        {
+            "question": "Which two qualities are emphasized in Samadhi Pada for attaining yoga?",
+            "options": [
+                "A) Abhyasa and Vairagya",
+                "B) Bhakti and Karma",
+                "C) Tapas and Svadhyaya",
+                "D) Ishvara and Pranidhana"
+            ],
+            "answer": "A) Abhyasa and Vairagya",
+            "explanation": "Practice (Abhyasa) and detachment (Vairagya) are the two pillars for attaining yoga."
+        },
+        {
+            "question": "True or False: Ishvara is described as a special Self, untouched by afflictions, karma, and its results.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Ishvara is described as a special Self, untouched by afflictions, karma, and its results."
+        },
+        {
+            "question": "What is the recommended method for calming the mind according to Samadhi Pada?",
+            "options": [
+                "A) Fasting",
+                "B) Meditation on a single principle",
+                "C) Physical exercise",
+                "D) Chanting mantras only"
+            ],
+            "answer": "B) Meditation on a single principle",
+            "explanation": "Meditation on a single principle is recommended for calming the mind."
+        }
+    ],
+    "Sadhana Pada": [
+        {
+            "question": "What is the main focus of Sadhana Pada?",
+            "options": [
+                "A) Practice of yoga",
+                "B) Liberation",
+                "C) Nature of concentration",
+                "D) Supernatural powers"
+            ],
+            "answer": "A) Practice of yoga",
+            "explanation": "Sadhana Pada deals with the practical aspects and discipline of yoga practice."
+        },
+        {
+            "question": "True or False: Sadhana Pada introduces the concept of Kriya Yoga.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Kriya Yoga, consisting of Tapas, Svadhyaya, and Ishvara Pranidhana, is introduced in Sadhana Pada."
+        },
+        {
+            "question": "Which of the following is NOT a component of Kriya Yoga?",
+            "options": [
+                "A) Tapas",
+                "B) Svadhyaya",
+                "C) Ishvara Pranidhana",
+                "D) Pranayama"
+            ],
+            "answer": "D) Pranayama",
+            "explanation": "Kriya Yoga consists of Tapas (austerity), Svadhyaya (self-study), and Ishvara Pranidhana (devotion to God)."
+        },
+        {
+            "question": "How many limbs of yoga are described in Sadhana Pada?",
+            "options": [
+                "A) 4",
+                "B) 6",
+                "C) 8",
+                "D) 10"
+            ],
+            "answer": "C) 8",
+            "explanation": "The eight limbs of yoga (Ashtanga Yoga) are described in Sadhana Pada."
+        },
+        {
+            "question": "True or False: The eight limbs of yoga include Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, and Samadhi.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "These are the eight limbs of yoga as described by Patanjali."
+        },
+        {
+            "question": "Which of the following is NOT a Yama?",
+            "options": [
+                "A) Ahimsa",
+                "B) Satya",
+                "C) Saucha",
+                "D) Aparigraha"
+            ],
+            "answer": "C) Saucha",
+            "explanation": "Saucha is a Niyama, not a Yama."
+        },
+        {
+            "question": "Which Niyama refers to contentment?",
+            "options": [
+                "A) Santosha",
+                "B) Tapas",
+                "C) Svadhyaya",
+                "D) Ishvara Pranidhana"
+            ],
+            "answer": "A) Santosha",
+            "explanation": "Santosha means contentment, one of the five Niyamas."
+        },
+        {
+            "question": "True or False: Asana refers to breath control.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Asana refers to posture; Pranayama refers to breath control."
+        },
+        {
+            "question": "Which limb of yoga is associated with sense withdrawal?",
+            "options": [
+                "A) Pratyahara",
+                "B) Dharana",
+                "C) Dhyana",
+                "D) Samadhi"
+            ],
+            "answer": "A) Pratyahara",
+            "explanation": "Pratyahara is the withdrawal of the senses from external objects."
+        },
+        {
+            "question": "True or False: Dharana is the practice of meditation.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Dharana is concentration; Dhyana is meditation."
+        }
+    ],
+    "Vibhuti Pada": [
+        {
+            "question": "What is the main focus of Vibhuti Pada?",
+            "options": [
+                "A) Liberation",
+                "B) Supernatural powers (Siddhis)",
+                "C) Practice of yoga",
+                "D) Detachment"
+            ],
+            "answer": "B) Supernatural powers (Siddhis)",
+            "explanation": "Vibhuti Pada discusses the powers or siddhis that can arise from advanced yoga practice."
+        },
+        {
+            "question": "True or False: Vibhuti Pada warns against attachment to siddhis (powers).",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Attachment to siddhis is considered an obstacle to liberation."
+        },
+        {
+            "question": "Which three practices together are called 'Samyama' in Vibhuti Pada?",
+            "options": [
+                "A) Yama, Niyama, Asana",
+                "B) Dharana, Dhyana, Samadhi",
+                "C) Pranayama, Pratyahara, Dharana",
+                "D) Asana, Pranayama, Dhyana"
+            ],
+            "answer": "B) Dharana, Dhyana, Samadhi",
+            "explanation": "Samyama is the combined practice of concentration, meditation, and absorption."
+        },
+        {
+            "question": "True or False: Vibhuti Pada describes how to attain knowledge of past lives through Samyama.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Samyama on certain objects is said to grant knowledge of past lives."
+        },
+        {
+            "question": "Which siddhi is attained by Samyama on the strength of an elephant?",
+            "options": [
+                "A) Knowledge of the mind",
+                "B) Invisibility",
+                "C) Extraordinary strength",
+                "D) Levitation"
+            ],
+            "answer": "C) Extraordinary strength",
+            "explanation": "Samyama on the strength of an elephant is said to grant extraordinary strength."
+        },
+        {
+            "question": "True or False: Vibhuti Pada encourages the pursuit of siddhis as the ultimate goal.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "The ultimate goal is liberation, not the pursuit of powers."
+        },
+        {
+            "question": "What is the result of Samyama on the sun, according to Vibhuti Pada?",
+            "options": [
+                "A) Knowledge of the solar system",
+                "B) Knowledge of the world",
+                "C) Knowledge of the mind",
+                "D) Knowledge of the body"
+            ],
+            "answer": "B) Knowledge of the world",
+            "explanation": "Samyama on the sun is said to grant knowledge of the world."
+        },
+        {
+            "question": "Which practice leads to invisibility, according to Vibhuti Pada?",
+            "options": [
+                "A) Samyama on the body",
+                "B) Samyama on the mind",
+                "C) Samyama on the senses",
+                "D) Samyama on the heart"
+            ],
+            "answer": "A) Samyama on the body",
+            "explanation": "Samyama on the body is said to lead to invisibility."
+        },
+        {
+            "question": "True or False: Vibhuti Pada states that Samyama can be practiced on any object or idea.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Samyama can be practiced on any object or idea for deeper knowledge or powers."
+        },
+        {
+            "question": "What is the ultimate purpose of the siddhis described in Vibhuti Pada?",
+            "options": [
+                "A) To impress others",
+                "B) To aid in spiritual progress",
+                "C) To gain wealth",
+                "D) To control others"
+            ],
+            "answer": "B) To aid in spiritual progress",
+            "explanation": "Siddhis are meant to aid, not hinder, spiritual progress."
+        }
+    ],
+    "Kaivalya Pada": [
+        {
+            "question": "What is the main focus of Kaivalya Pada?",
+            "options": [
+                "A) Practice of yoga",
+                "B) Liberation (Kaivalya)",
+                "C) Supernatural powers",
+                "D) Concentration"
+            ],
+            "answer": "B) Liberation (Kaivalya)",
+            "explanation": "Kaivalya Pada discusses the nature of liberation and the means to attain it."
+        },
+        {
+            "question": "True or False: Kaivalya means complete isolation or absolute freedom.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Kaivalya is the state of absolute freedom or liberation."
+        },
+        {
+            "question": "Which of the following is NOT a cause of bondage according to Kaivalya Pada?",
+            "options": [
+                "A) Ignorance",
+                "B) Attachment",
+                "C) Detachment",
+                "D) Egoism"
+            ],
+            "answer": "C) Detachment",
+            "explanation": "Detachment leads to liberation, not bondage."
+        },
+        {
+            "question": "True or False: Kaivalya Pada teaches that liberation is attained through knowledge and discrimination.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Knowledge and discrimination (viveka) are essential for liberation."
+        },
+        {
+            "question": "What is the role of karma in Kaivalya Pada?",
+            "options": [
+                "A) It binds the soul",
+                "B) It leads to liberation",
+                "C) It is irrelevant",
+                "D) It is only for householders"
+            ],
+            "answer": "A) It binds the soul",
+            "explanation": "Karma is seen as a cause of bondage, which must be transcended for liberation."
+        },
+        {
+            "question": "True or False: Kaivalya Pada states that the mind and the Self are ultimately separate.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The mind (chitta) and the Self (purusha) are ultimately separate, leading to liberation."
+        },
+        {
+            "question": "Which term refers to the power of discrimination that leads to liberation?",
+            "options": [
+                "A) Viveka",
+                "B) Vairagya",
+                "C) Abhyasa",
+                "D) Samadhi"
+            ],
+            "answer": "A) Viveka",
+            "explanation": "Viveka is the power of discrimination that leads to liberation."
+        },
+        {
+            "question": "True or False: Kaivalya Pada teaches that liberation is a gradual process.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Liberation is attained gradually through practice and knowledge."
+        },
+        {
+            "question": "What is the final goal of yoga according to Kaivalya Pada?",
+            "options": [
+                "A) Siddhis",
+                "B) Samadhi",
+                "C) Kaivalya (liberation)",
+                "D) Pranayama"
+            ],
+            "answer": "C) Kaivalya (liberation)",
+            "explanation": "The final goal is Kaivalya, or complete liberation."
+        },
+        {
+            "question": "True or False: Kaivalya Pada states that the Self is always free, but ignorance causes bondage.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The Self is inherently free; ignorance creates the illusion of bondage."
+        }
+    ]
+}

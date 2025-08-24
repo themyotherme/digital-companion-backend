@@ -1,0 +1,90 @@
+{
+    "Chapter 1: Arjuna Vishada Yoga": [
+        {
+            "question": "What is the main theme of Chapter 1 in the Bhagavad Gita?",
+            "options": [
+                "A) The Yoga of Knowledge",
+                "B) Arjuna's Despondency",
+                "C) The Yoga of Devotion",
+                "D) The Vision of the Universal Form"
+            ],
+            "answer": "B) Arjuna's Despondency",
+            "explanation": "Chapter 1 is called 'Arjuna Vishada Yoga' and describes Arjuna's sorrow and confusion on the battlefield."
+        },
+        {
+            "question": "True or False: In Chapter 1, Arjuna is eager to fight the battle.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Arjuna is overcome with sorrow and reluctance to fight against his relatives and teachers."
+        },
+        {
+            "question": "Who is Arjuna's charioteer in the Bhagavad Gita?",
+            "options": [
+                "A) Bhishma",
+                "B) Drona",
+                "C) Krishna",
+                "D) Karna"
+            ],
+            "answer": "C) Krishna",
+            "explanation": "Krishna serves as Arjuna's charioteer and spiritual guide."
+        },
+        {
+            "question": "Which two armies are facing each other in the Bhagavad Gita?",
+            "options": [
+                "A) Pandavas and Kauravas",
+                "B) Devas and Asuras",
+                "C) Yadavas and Kurus",
+                "D) Suryavanshis and Chandravanshis"
+            ],
+            "answer": "A) Pandavas and Kauravas",
+            "explanation": "The battle is between the Pandavas and the Kauravas at Kurukshetra."
+        }
+    ],
+    "Chapter 2: Sankhya Yoga": [
+        {
+            "question": "What is the main teaching of Chapter 2 in the Bhagavad Gita?",
+            "options": [
+                "A) The impermanence of the body",
+                "B) The importance of devotion",
+                "C) The vision of the cosmic form",
+                "D) The duties of a king"
+            ],
+            "answer": "A) The impermanence of the body",
+            "explanation": "Krishna teaches Arjuna about the eternal soul and the impermanence of the body."
+        },
+        {
+            "question": "True or False: Krishna encourages Arjuna to abandon his duties as a warrior.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "explanation": "Krishna encourages Arjuna to perform his duty without attachment to results."
+        },
+        {
+            "question": "Which concept is introduced in Chapter 2 as the path of selfless action?",
+            "options": [
+                "A) Bhakti Yoga",
+                "B) Karma Yoga",
+                "C) Jnana Yoga",
+                "D) Raja Yoga"
+            ],
+            "answer": "B) Karma Yoga",
+            "explanation": "Karma Yoga, the path of selfless action, is introduced in Chapter 2."
+        },
+        {
+            "question": "What does Krishna say about the soul in Chapter 2?",
+            "options": [
+                "A) It is perishable",
+                "B) It is eternal and indestructible",
+                "C) It is bound by karma",
+                "D) It is created at birth"
+            ],
+            "answer": "B) It is eternal and indestructible",
+            "explanation": "Krishna explains that the soul (Atman) is eternal and cannot be destroyed."
+        }
+    ]
+}

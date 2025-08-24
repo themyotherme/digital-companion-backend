@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Mode - Document Processing</title>
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+      min-height: 100vh;
+    }
+    .local-container {
+      max-width: 700px;
+      margin: 32px auto 0 auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+      padding: 0 0 32px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .local-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      height: 60px;
+      border-bottom: 1px solid #f1f1f1;
+      background: #f9fafb;
+    }
+    .local-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0;
+      flex: 1;
+      text-align: left;
+    }
+    .choose-files-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 22px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin: 0 auto;
+    }
+    .choose-files-btn:hover {
+      background: #1d4ed8;
+    }
+    .help-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+    .help-btn svg {
+      width: 26px;
+      height: 26px;
+      stroke: #2563eb;
+    }
+    .close-x {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      z-index: 10;
+      margin-left: 12px;
+    }
+    .close-x svg {
+      width: 28px;
+      height: 28px;
+      color: #64748b;
+      transition: color 0.2s;
+    }
+    .close-x:hover svg {
+      color: #e11d48;
+    }
+    .local-content {
+      padding: 24px 24px 0 24px;
+    }
+    .file-list {
+      margin: 0 0 10px 0;
+      padding: 0;
+      list-style: none;
+    }
+    .file-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f1f1;
+      font-size: 1rem;
+    }
+    .file-icon {
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+    }
+    .file-status {
+      font-size: 0.95em;
+      color: #64748b;
+      margin-left: auto;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: #e5e7eb;
+      border-radius: 4px;
+      margin: 18px 0 10px 0;
+      overflow: hidden;
+      display: none;
+    }
+    .progress-bar-inner {
+      height: 100%;
+      background: linear-gradient(90deg, #2563eb 60%, #60a5fa 100%);
+      width: 0%;
+      transition: width 0.3s;
+    }
+    .message {
+      background: #f1f5f9;
+      color: #334155;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 10px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .message.success { background: #dcfce7; color: #166534; }
+    .message.info { background: #e0e7ff; color: #3730a3; }
+    .message.warn { background: #fef9c3; color: #92400e; }
+    .message.error { background: #fee2e2; color: #991b1b; }
+    .summary-qa-section {
+      background: #f9fafb;
+      border-radius: 8px;
+      padding: 16px 16px 10px 16px;
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.03);
+      margin-bottom: 24px;
+    }
+    .summary-title {
+      font-weight: 600;
+      font-size: 1.08em;
+      margin-bottom: 6px;
+    }
+    .qa-input-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .qa-input-row input {
+      flex: 1;
+      padding: 7px 10px;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    .qa-btn {
+      background: #22c55e;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 7px 18px;
+      font-size: 0.95em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .qa-btn:hover { background: #16a34a; }
+    .qa-history {
+      max-height: 140px;
+      overflow-y: auto;
+      background: #f1f5f9;
+      border-radius: 4px;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    .save-session-btn {
+      background: #f59e42;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 9px 20px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 0 0 0 auto;
+      display: block;
+      transition: background 0.2s;
+    }
+    .save-session-btn:hover { background: #ea580c; }
+    @media (max-width: 700px) {
+      .local-container { max-width: 99vw; margin: 0; border-radius: 0; }
+      .local-header-row { padding: 0 6px; }
+      .local-content { padding: 12px 4px 0 4px; }
+    }
+    .suggested-questions-dropdown {
+      padding: 8px 12px;
+      border-radius: 5px;
+      border: 1px solid #e5e7eb;
+      font-size: 1em;
+      background: #f1f5f9;
+      color: #334155;
+      margin-right: 0;
+    }
+    .qa-response-window {
+      margin-top: 18px;
+      background: #f9fafb;
+      border-radius: 8px;
+      min-height: 120px;
+      max-height: 260px;
+      overflow-y: auto;
+      padding: 14px 16px;
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.03);
+      font-size: 1em;
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .qa-entry { margin-bottom: 6px; }
+    .qa-entry-q { font-weight: 600; color: #2563eb; }
+    .qa-entry-a { color: #334155; margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <div class="local-container">
+    <div class="local-header-row">
+      <span class="local-title">Local Mode: Q&A</span>
+      <button class="choose-files-btn" id="chooseFilesBtn">
+        <svg class="file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Choose Files
+      </button>
+      <button class="help-btn" id="helpBtn" title="Help" style="background:none;border:none;cursor:pointer;margin-left:10px;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 1 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12" y2="17"/></svg>
+      </button>
+      <button class="close-x" id="closeLocalModeBtn" title="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="local-content">
+      <div class="progress-bar" id="progressBar"><div class="progress-bar-inner" id="progressBarInner"></div></div>
+      <ul class="file-list" id="fileList"></ul>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+        <select id="suggestedQuestionsDropdown" class="suggested-questions-dropdown" style="flex:1;max-width:350px;display:none;"></select>
+        <button id="submitSuggestedQ" class="qa-btn" style="display:none;">Submit</button>
+      </div>
+      <div id="messageArea"></div>
+      <div id="summaryQAContainer" style="margin-top:10px;"></div>
+      <div id="qaResponseWindow" class="qa-response-window"></div>
+      <button class="save-session-btn" id="saveSessionBtn" style="display:none;">Save Session (Summary + Q&A)</button>
+      <div id="helpModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(30,41,59,0.25);z-index:1000;align-items:center;justify-content:center;">
+        <div style="background:#fff;max-width:420px;width:90vw;padding:28px 22px 18px 22px;border-radius:12px;box-shadow:0 8px 32px 0 rgba(0,0,0,0.18);position:relative;">
+          <button id="closeHelpModal" style="position:absolute;top:10px;right:10px;background:none;border:none;cursor:pointer;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          <h3 style="margin-top:0;margin-bottom:10px;font-size:1.2em;color:#2563eb;">Local Mode Guide</h3>
+          <ul style="font-size:1em;line-height:1.6;color:#334155;padding-left:18px;">
+            <li>Select one or more files (PDF, TXT, or JSON). All files are combined for Q&A.</li>
+            <li>Non-JSON files are automatically converted and saved as JSON for faster future use.</li>
+            <li>Ask questions about the combined content. Q&A and summary cover all loaded files.</li>
+            <li>Use the <b>Save Session</b> button to export your Q&A and summary as a TXT file.</li>
+            <li>For best speed, load the JSON file next time.</li>
+          </ul>
+          <div style="margin-top:10px;font-size:0.97em;color:#64748b;">All processing is done locally in your browser for privacy. No internet or AI engine required.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.16.105/build/pdf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.18.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/universal-sentence-encoder.min.js"></script>
+  <script>
+    if (window.pdfjsLib) {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.16.105/build/pdf.worker.min.js';
+    }
+
+    // Global variables
+    const chooseFilesBtn = document.getElementById('chooseFilesBtn');
+    const fileList = document.getElementById('fileList');
+    const messageArea = document.getElementById('messageArea');
+    const closeBtn = document.getElementById('closeLocalModeBtn');
+    const helpBtn = document.getElementById('helpBtn');
+    const helpModal = document.getElementById('helpModal');
+    const closeHelpModal = document.getElementById('closeHelpModal');
+    const progressBar = document.getElementById('progressBar');
+    const progressBarInner = document.getElementById('progressBarInner');
+    const saveSessionBtn = document.getElementById('saveSessionBtn');
+    let loadedFiles = [];
+    let loadedDocs = [];
+    let sessionExport = [];
+    let combinedText = '';
+    let combinedNames = [];
+    let fileObjs = [];
+    let filesProcessed = false;
+    let useModel = null;
+    let chunkTexts = [];
+    let chunkEmbeddings = null;
+
+    // Helper functions
+    function showMessage(msg, type = 'info', timeout = 3500) {
+      messageArea.innerHTML = `<div class="message ${type}">${msg}</div>`;
+      if (timeout > 0) setTimeout(() => { messageArea.innerHTML = ''; }, timeout);
+    }
+
+    function setProgress(percent, show = true) {
+      if (show) {
+        progressBar.style.display = '';
+        progressBarInner.style.width = percent + '%';
+      } else {
+        progressBar.style.display = 'none';
+        progressBarInner.style.width = '0%';
+      }
+    }
+
+    function getFileIcon(ext) {
+      if (['pdf'].includes(ext)) return '<svg class="file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 7h10v10H7z"/></svg>';
+      if (['txt', 'text'].includes(ext)) return '<svg class="file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="12" y2="16"/></svg>';
+      if (['json'].includes(ext)) return '<svg class="file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="2"/><circle cx="16" cy="16" r="2"/><path d="M8 10v4M16 14v-4"/></svg>';
+      return '<svg class="file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>';
+    }
+
+    async function extractTextFromPDF(file, progressCb) {
+      if (!window.pdfjsLib) { alert('PDF.js not available'); return ''; }
+      const arrayBuffer = await file.arrayBuffer();
+      const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+      let textContent = '';
+      for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+        const page = await pdf.getPage(pageNum);
+        const content = await page.getTextContent();
+        const pageText = content.items.map(item => item.str).join(' ');
+        textContent += pageText + '\n';
+        if (progressCb) progressCb(Math.round((pageNum / pdf.numPages) * 100));
+      }
+      return textContent;
+    }
+
+    function summarizeText(text) {
+      const sentences = text.match(/[^.!?\n]+[.!?\n]+/g) || [text];
+      if (sentences.length <= 3) return text.trim();
+      const words = text.toLowerCase().replace(/[^a-z\s]/g, '').split(/\s+/);
+      const freq = {};
+      words.forEach(w => { if (w.length > 2) freq[w] = (freq[w] || 0) + 1; });
+      const scored = sentences.map(s => {
+        const sWords = s.toLowerCase().replace(/[^a-z\s]/g, '').split(/\s+/);
+        let score = 0;
+        sWords.forEach(w => { if (freq[w]) score += freq[w]; });
+        return { s, score };
+      });
+      return scored.sort((a, b) => b.score - a.score).slice(0, 3).map(x => x.s.trim()).join(' ');
+    }
+
+    // Main file processing function
+    async function processFilesIfNeeded() {
+      if (filesProcessed) return true;
+      if (!fileObjs.length) {
+        showMessage('Please select files first.', 'warn');
+        return false;
+      }
+
+      setProgress(0, true);
+      let allText = '';
+      combinedNames = [];
+
+      for (let i = 0; i < fileObjs.length; i++) {
+        const file = fileObjs[i];
+        combinedNames.push(file.name);
+        let text = '';
+        
+        try {
+          if (file.name.toLowerCase().endsWith('.pdf')) {
+            text = await extractTextFromPDF(file, (p) => {
+              setProgress((i * 100 + p) / fileObjs.length);
+            });
+          } else if (file.name.toLowerCase().endsWith('.txt')) {
+            text = await file.text();
+          } else if (file.name.toLowerCase().endsWith('.json')) {
+            const json = JSON.parse(await file.text());
+            text = json.text || '';
+          }
+          
+          if (!text.trim()) {
+            showMessage(`Warning: No text content found in ${file.name}`, 'warn');
+            continue;
+          }
+          
+          allText += text + '\n\n';
+        } catch (e) {
+          showMessage(`Error processing ${file.name}: ${e.message}`, 'error');
+          return false;
+        }
+      }
+
+      if (!allText.trim()) {
+        showMessage('No text content found in any file.', 'error');
+        setProgress(0, false);
+        return false;
+      }
+
+      combinedText = allText;
+      filesProcessed = true;
+      setProgress(100, false);
+      
+      // Create summary section
+      const summary = summarizeText(combinedText);
+      const container = document.getElementById('summaryQAContainer');
+      container.innerHTML = `
+        <div class="summary-qa-section">
+          <div class="summary-title">Summary</div>
+          <div>${summary}</div>
+        </div>
+        <div class="summary-qa-section">
+          <div class="summary-title">Ask a Question</div>
+          <div class="qa-input-row">
+            <input type="text" id="questionInput" placeholder="Type your question...">
+            <button class="qa-btn" onclick="askAndDisplayQA(document.getElementById('questionInput').value)">Ask</button>
+          </div>
+        </div>
+      `;
+
+      // Add enter key handler for question input
+      document.getElementById('questionInput').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          askAndDisplayQA(e.target.value);
+        }
+      });
+
+      return true;
+    }
+
+    // USE Multilingual integration
+    async function loadUSE() {
+      showMessage('Loading Universal Sentence Encoder model...', 'info', 0);
+      useModel = await use.load();
+      messageArea.innerHTML = '';
+    }
+    loadUSE();
+
+    // Helper: compute cosine similarity between two tf.Tensor vectors
+    function cosineSimilarity(a, b) {
+      const dot = a.dot(b).dataSync()[0];
+      const normA = a.norm().dataSync()[0];
+      const normB = b.norm().dataSync()[0];
+      return dot / (normA * normB);
+    }
+
+    // Helper: embed all chunks and cache
+    async function embedChunks(text) {
+      chunkTexts = text.split(/\n\s*\n/).filter(p => p.trim().length > 30);
+      if (!useModel) await loadUSE();
+      chunkEmbeddings = await useModel.embed(chunkTexts);
+    }
+
+    // USE-based answer function
+    async function answerQuestionUSE(question) {
+      if (!useModel || !chunkEmbeddings || !chunkTexts.length) return "No content loaded.";
+      const qEmbed = await useModel.embed([question]);
+      let bestIdx = 0;
+      let bestScore = -1;
+      for (let i = 0; i < chunkTexts.length; i++) {
+        const sim = cosineSimilarity(qEmbed.squeeze(), chunkEmbeddings.gather(i));
+        if (sim > bestScore) {
+          bestScore = sim;
+          bestIdx = i;
+        }
+      }
+      // Optionally, return top 2-3 chunks if similarity is close
+      let topChunks = [{ idx: bestIdx, score: bestScore }];
+      for (let i = 0; i < chunkTexts.length; i++) {
+        if (i !== bestIdx) {
+          const sim = cosineSimilarity(qEmbed.squeeze(), chunkEmbeddings.gather(i));
+          if (sim > 0.7 * bestScore) topChunks.push({ idx: i, score: sim });
+        }
+      }
+      topChunks.sort((a, b) => b.score - a.score);
+      return topChunks.slice(0, 3).map(tc => chunkTexts[tc.idx]).join('\n\n');
+    }
+
+    // Button event handlers
+    chooseFilesBtn.addEventListener('click', async () => {
+      let files = [];
+      if (window.showOpenFilePicker) {
+        try {
+          files = await window.showOpenFilePicker({
+            multiple: true,
+            types: [
+              { description: 'Documents', accept: { 'application/pdf': ['.pdf'], 'text/plain': ['.txt'], 'application/json': ['.json'] } }
+            ]
+          });
+          files = await Promise.all(files.map(handle => handle.getFile()));
+        } catch (e) {
+          showMessage('File selection cancelled.', 'warn');
+          return;
+        }
+      } else {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.pdf,.txt,.json';
+        input.multiple = true;
+        input.style.display = 'none';
+        document.body.appendChild(input);
+        input.click();
+        await new Promise(resolve => input.onchange = resolve);
+        files = Array.from(input.files);
+        document.body.removeChild(input);
+      }
+      if (!files.length) return;
+      // Add new files to fileObjs, avoid duplicates
+      files.forEach(f => {
+        if (!fileObjs.some(o => o.name === f.name && o.size === f.size)) fileObjs.push(f);
+      });
+      renderFileList();
+      filesProcessed = false;
+      clearSummaryQA();
+    });
+
+    helpBtn.addEventListener('click', () => {
+      helpModal.style.display = 'flex';
+    });
+
+    closeHelpModal.addEventListener('click', () => {
+      helpModal.style.display = 'none';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      window.close();
+    });
+
+    // Close help modal when clicking outside
+    helpModal.addEventListener('click', (e) => {
+      if (e.target === helpModal) {
+        helpModal.style.display = 'none';
+      }
+    });
+
+    // Close help modal with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && helpModal.style.display === 'flex') {
+        helpModal.style.display = 'none';
+      }
+    });
+
+    function renderFileList() {
+      fileList.innerHTML = '';
+      fileObjs.forEach((file, idx) => {
+        const ext = file.name.split('.').pop().toLowerCase();
+        const li = document.createElement('li');
+        li.innerHTML = `${getFileIcon(ext)}<span>${file.name}</span>`;
+        const delBtn = document.createElement('button');
+        delBtn.textContent = '✕';
+        delBtn.style.marginLeft = '10px';
+        delBtn.style.background = 'none';
+        delBtn.style.border = 'none';
+        delBtn.style.color = '#e11d48';
+        delBtn.style.fontSize = '1.1em';
+        delBtn.style.cursor = 'pointer';
+        delBtn.onclick = () => {
+          fileObjs.splice(idx, 1);
+          renderFileList();
+          filesProcessed = false;
+          clearSummaryQA();
+        };
+        li.appendChild(delBtn);
+        fileList.appendChild(li);
+      });
+      renderSuggestedQuestions();
+    }
+
+    function clearSummaryQA() {
+      document.getElementById('summaryQAContainer').innerHTML = '';
+      saveSessionBtn.style.display = 'none';
+      sessionExport = [];
+      combinedText = '';
+      combinedNames = [];
+    }
+
+    // Suggested questions logic
+    const defaultSuggestions = [
+      'Summarize all files',
+      'List all chapters or sections',
+      'What are the key takeaways?',
+      'What are the main people or places mentioned?',
+      'What are the main topics?'
+    ];
+    function renderSuggestedQuestions() {
+      const dropdown = document.getElementById('suggestedQuestionsDropdown');
+      const submitBtn = document.getElementById('submitSuggestedQ');
+      if (!fileObjs.length) {
+        dropdown.style.display = 'none';
+        submitBtn.style.display = 'none';
+        return;
+      }
+      // Add file-specific suggestions
+      let fileSuggestions = [];
+      fileObjs.forEach(f => {
+        fileSuggestions.push(`Summarize ${f.name}`);
+        fileSuggestions.push(`What is the main idea of ${f.name}?`);
+      });
+      const allSuggestions = [...defaultSuggestions, ...fileSuggestions];
+      allSuggestions.sort((a, b) => a.localeCompare(b));
+      dropdown.innerHTML = '<option value="">Select a question...</option>' + allSuggestions.map(q => `<option value="${q}">${q}</option>`).join('');
+      dropdown.style.display = '';
+      submitBtn.style.display = '';
+    }
+
+    document.getElementById('submitSuggestedQ').onclick = async function() {
+      const dropdown = document.getElementById('suggestedQuestionsDropdown');
+      const q = dropdown.value;
+      if (!q) return;
+      await askAndDisplayQA(q);
+      dropdown.selectedIndex = 0;
+    };
+
+    async function askAndDisplayQA(q) {
+      if (!filesProcessed) {
+        showMessage('Processing files, please wait...', 'info', 0);
+        const ok = await processFilesIfNeeded();
+        messageArea.innerHTML = '';
+        if (!ok) return;
+      }
+      if (!useModel) {
+        showMessage('Loading Universal Sentence Encoder model...', 'info', 0);
+        await loadUSE();
+        messageArea.innerHTML = '';
+      }
+      let a = await answerQuestionUSE(q);
+      addQAEntry(q, a);
+      sessionExport.push({ file: combinedNames.join(', '), q, a });
+      saveSessionBtn.style.display = '';
+    }
+
+    function addQAEntry(q, a) {
+      const qaWindow = document.getElementById('qaResponseWindow');
+      const entry = document.createElement('div');
+      entry.className = 'qa-entry';
+      entry.innerHTML = `<span class="qa-entry-q">Q:</span> ${q}<br><span class="qa-entry-a">A:</span> ${a}`;
+      qaWindow.appendChild(entry);
+      qaWindow.scrollTop = qaWindow.scrollHeight;
+    }
+
+    function answerQuestion(text, question) {
+      if (!text || !question) return "I don't know. Not covered in the document.";
+      const cleaned = text.replace(/\s+/g, ' ');
+      const keywords = question.toLowerCase().split(/\W+/).filter(w => w.length > 2);
+      const sentences = cleaned.match(/[^.!?\n]+[.!?\n]+/g) || [cleaned];
+      const matches = sentences.filter(s =>
+        keywords.some(k => s.toLowerCase().includes(k))
+      );
+      if (matches.length > 0) {
+        return matches.slice(0, 3).join(' ').trim();
+      } else {
+        return "I don't know. Not covered in the document.";
+      }
+    }
+
+    saveSessionBtn.onclick = function() {
+      if (!sessionExport.length) return;
+      let txt = '';
+      txt += `==== Files: ${combinedNames.join(', ')} ===\n`;
+      sessionExport.forEach((item, i) => {
+        txt += `${i+1}. Q: ${item.q}\n${i+1}. A: ${item.a}\n`;
+      });
+      const blob = new Blob([txt], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'localmode-session.txt';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    };
+  </script>
+</body>
+</html>

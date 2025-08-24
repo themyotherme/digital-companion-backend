@@ -1,0 +1,655 @@
+<!-- Ver 1.0 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm-1-11h2v6h-2zm0 8h2v2h-2z'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.16.105/build/pdf.min.js"></script>
+  <script>
+    if (window.pdfjsLib) {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.16.105/build/pdf.worker.min.js';
+      console.log('pdfjsLib loaded and worker set!');
+    } else {
+      console.error('pdfjsLib is not available after script load!');
+    }
+  </script>
+  <!-- Add TensorFlow.js and Universal Sentence Encoder -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.17.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/universal-sentence-encoder.min.js"></script>
+  <!-- Add our semantic search module -->
+  <script src="/static/semantic-search.js"></script>
+  <!-- Add the main script -->
+  <script src="/static/script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="manifest" href="/static/manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="apple-touch-icon" href="/static/icons/icon-192x192.png">
+  <!-- 
+    <script>
+    // Unregister old service worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+      });
+      
+      // Register new service worker
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/static/service-worker.js')
+          .then(registration => {
+            console.log('ServiceWorker registration successful');
+          })
+          .catch(err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
+  -->
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans h-screen flex flex-col relative overflow-hidden">
+  <!-- Tap to Start Overlay -->
+  <div id="tap-to-start-overlay" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(255,255,255,0.95);z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;">
+    <div style="font-size:1.5em;margin-bottom:1em;">Welcome to Digital Companion</div>
+    <button id="tap-to-start-btn" style="font-size:1.2em;padding:1em 2em;background:#4a90e2;color:#fff;border:none;border-radius:8px;">Tap to Start</button>
+  </div>
+  <!-- Welcome Audio -->
+  <audio id="welcome-audio" src="/static/yehdiltumbinkahinlagtanahin.mp3"></audio>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var audio = document.getElementById('welcome-audio');
+      var overlay = document.getElementById('tap-to-start-overlay');
+      var btn = document.getElementById('tap-to-start-btn');
+      if (btn && overlay && audio) {
+        btn.addEventListener('click', function() {
+          overlay.style.display = 'none';
+          audio.volume = 0.7;
+          // Stop any currently playing audio before playing
+          if (!audio.paused) { audio.pause(); audio.currentTime = 0; }
+          audio.play();
+        });
+      }
+      // Stop audio when navigating away (clicking a link, form submit, or beforeunload)
+      function stopAudio() {
+        if (audio && !audio.paused) {
+          audio.pause();
+          audio.currentTime = 0;
+        }
+      }
+      // Stop audio on all link clicks
+      document.body.addEventListener('click', function(e) {
+        var t = e.target;
+        while (t && t !== document.body) {
+          if (t.tagName === 'A' && t.href) {
+            stopAudio();
+            break;
+          }
+          t = t.parentElement;
+        }
+      }, true);
+      // Stop audio on form submit
+      document.body.addEventListener('submit', function() { stopAudio(); }, true);
+      // Stop audio on page unload
+      window.addEventListener('beforeunload', stopAudio);
+    });
+  </script>
+  <!-- Close (X) button at top right -->
+  <button id="close-btn" title="Close" style="position:fixed;top:18px;right:24px;z-index:1000;background:none;border:none;font-size:2em;color:#e74c3c;cursor:pointer;">&times;</button>
+  <div id="app-wrapper" class="flex h-full relative">
+    <!-- Sidebar Overlay (hidden by default) -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-30 z-40 hidden"></div>
+    <!-- Chat History Sidebar (collapsed by default) -->
+    <div id="chat-history-sidebar" class="fixed inset-y-0 left-0 w-64 h-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 border-r border-gray-200 dark:border-gray-700 flex flex-col transition-transform duration-300 ease-in-out z-50 -translate-x-full shadow-lg">
+      <!-- Sidebar Header (sticky) -->
+      <div class="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between sticky top-0 bg-white dark:bg-gray-900 z-50">
+        <div class="flex items-center gap-2">
+        <h2 class="text-lg font-semibold">Menu</h2>
+          <span style="font-size:0.9em;color:#2563eb;margin-left:0.5em;">Ver 1.0</span>
+        </div>
+        <button id="close-sidebar" class="action-button" title="Close Sidebar">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <!-- Sidebar Menu -->
+      <div class="flex flex-col gap-2 p-4">
+        <!-- Study Tools Section -->
+        <div class="mt-4">
+          <div class="font-semibold text-gray-500 dark:text-gray-400 mb-1">Study Tools</div>
+          <div class="flex flex-col gap-2">
+            <button id="btn-write-summary" class="action-button w-full">Write Summary</button>
+            <button id="btn-brief-overview" class="action-button w-full">Brief Overview</button>
+            <button id="btn-study-guide" class="action-button w-full">Prepare Study Guide</button>
+            <button id="btn-generate-quiz" class="action-button w-full">Generate Quiz</button>
+            <button id="btn-self-test" class="action-button w-full">Self-Test</button>
+          </div>
+        </div>
+        <div class="border-b border-gray-200 dark:border-gray-700 my-2"></div>
+        <div class="font-semibold text-gray-500 dark:text-gray-400 mb-1">Chat History</div>
+        <div id="chat-list" class="flex-1 overflow-y-auto">
+          <div class="text-gray-400 text-center mt-8">No chat history yet.</div>
+        </div>
+        <div class="border-b border-gray-200 dark:border-gray-700 my-2"></div>
+        <button id="open-reports" class="action-button w-full flex items-center gap-2" title="View Reports">
+          <i data-lucide="file-text"></i> Reports
+        </button>
+      </div>
+      <!-- Sidebar Footer (sticky) -->
+      <div class="p-4 border-t border-gray-200 dark:border-gray-700 sticky bottom-0 bg-white dark:bg-gray-900 z-50">
+        <button id="export-history" class="w-full px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-lg text-sm flex items-center justify-center gap-2 hover:bg-gray-200 dark:hover:bg-gray-600">
+          <i data-lucide="download"></i>
+          Export History
+        </button>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col h-full">
+      <!-- Header -->
+      <header>
+        <!-- Top Row -->
+        <div class="header-top flex items-center">
+          <button id="open-sidebar" class="action-button mr-2" title="Open Sidebar">
+            <i data-lucide="menu"></i>
+          </button>
+          <h1>
+            <span class="text-2xl">🧠</span>
+            <span id="app-name"></span>
+          </h1>
+          <div class="header-actions ml-auto flex gap-2">
+            <button id="kb-manager-btn" class="action-button" title="Manage Knowledge Bases">
+              <i data-lucide="database"></i>
+            </button>
+            <button id="theme-toggle" class="action-button" title="Toggle Theme">
+              <i data-lucide="sun"></i>
+            </button>
+            <button id="settings" class="action-button" title="Settings">
+              <i data-lucide="settings"></i>
+            </button>
+            <button id="help-btn" class="action-button" title="Help">
+              <i data-lucide="help-circle"></i>
+            </button>
+            <button id="login" class="action-button" title="Login">
+              <i data-lucide="user"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Second Row -->
+        <div class="header-selections">
+          <div class="select-buttons">
+            <div style="position:relative;">
+              <span class="dropdown-label" style="position:absolute;top:2px;right:2.2em;font-size:0.7em;color:#94a3b8;pointer-events:none;">Role</span>
+              <select id="role-select" class="select-button" title="Who should the AI act as? (e.g., Expert, Friend, Doctor)"></select>
+            </div>
+            <div style="position:relative;">
+              <span class="dropdown-label" style="position:absolute;top:2px;right:2.2em;font-size:0.7em;color:#94a3b8;pointer-events:none;">Mood</span>
+              <select id="mood-select" class="select-button" title="What tone or emotion should the AI use?"></select>
+            </div>
+            <div style="position:relative;">
+              <span class="dropdown-label" style="position:absolute;top:2px;right:2.2em;font-size:0.7em;color:#94a3b8;pointer-events:none;">Mode</span>
+              <select id="mode-select" class="select-button" title="How should the AI answer? (e.g., use your file, external knowledge, or both)"></select>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Add this just below the header, above the chat area -->
+      <div id="mode-status-bar" class="status-bar"></div>
+      <div id="kb-pills-container" class="kb-pills"></div>
+      <!-- Main Chat Area -->
+      <main class="flex-1 overflow-hidden">
+        <!-- Chat Window -->
+        <div class="flex flex-col h-full">
+          <div id="response-window" class="flex-1 overflow-y-auto px-4 pb-4">
+            <!-- Example message blocks -->
+            <!-- User message -->
+            <div class="message-block message-user" style="display:none"></div>
+            <!-- Assistant message -->
+            <div class="message-block message-assistant" style="display:none"></div>
+            <!-- Messages will be inserted here dynamically by JS -->
+          </div>
+          <!-- Input Container -->
+          <div class="input-container">
+            <div class="input-wrapper whatsapp-style">
+              <!-- Attachment always visible on the left -->
+              <button id="file-upload" class="action-button attach-btn" title="Upload File (Ctrl+U)">
+                <i data-lucide="paperclip"></i>
+              </button>
+              <div class="input-group" style="position:relative;flex:1;">
+                <span class="input-label" style="position:absolute;top:-1.5em;left:0.5em;font-size:0.8em;color:#94a3b8;pointer-events:none;">Enter Your Prompt Here</span>
+                <textarea 
+                  id="user-input" 
+                  rows="1" 
+                  placeholder="Send a message..."
+                  class="resize-none leading-snug"></textarea>
+                <div class="char-counter">
+                  <span id="char-count">0</span>/<span id="char-limit">2000</span>
+                </div>
+              </div>
+              <!-- Mic and Speaker: WhatsApp style -->
+              <button id="mic" class="action-button input-extra" title="Voice Input (Ctrl+M)">
+                <i data-lucide="mic"></i>
+              </button>
+              <button id="speak" class="action-button input-extra" title="Text to Speech (Ctrl+S)">
+                <i data-lucide="volume-2"></i>
+              </button>
+              <!-- Send Button -->
+              <button id="send-button" class="action-button primary" title="Send Message (Enter)">
+                <i data-lucide="send"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Message Actions Template -->
+  <template id="message-actions">
+    <div class="message-actions">
+      <button class="action-button copy-btn" title="Copy Message">
+        <i data-lucide="copy"></i>
+      </button>
+      <button class="action-button edit-btn" title="Edit Message">
+        <i data-lucide="edit"></i>
+      </button>
+      <button class="action-button delete-btn" title="Delete Message">
+        <i data-lucide="trash-2"></i>
+      </button>
+    </div>
+  </template>
+
+  <!-- Search Bar -->
+  <div id="search-bar" class="search-bar hidden">
+    <input type="text" id="search-input" placeholder="Search messages..." />
+    <button id="search-close" class="action-button">
+      <i data-lucide="x"></i>
+    </button>
+  </div>
+
+  <!-- Keyboard Shortcuts Modal -->
+  <div id="shortcuts-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">⌨️ Keyboard Shortcuts</h2>
+        <button id="shortcuts-close" class="action-button">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <div class="shortcut-item">
+          <span class="shortcut-key">Enter</span>
+          <span class="shortcut-desc">Send message</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="shortcut-key">Ctrl + M</span>
+          <span class="shortcut-desc">Toggle voice input</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="shortcut-key">Ctrl + U</span>
+          <span class="shortcut-desc">Upload file</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="shortcut-key">Ctrl + S</span>
+          <span class="shortcut-desc">Text to speech</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="shortcut-key">Ctrl + F</span>
+          <span class="shortcut-desc">Search messages</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="shortcut-key">Ctrl + K</span>
+          <span class="shortcut-desc">Show shortcuts</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">🔐 Login</h2>
+        <button id="login-close" class="action-button">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <div>
+          <label for="login-username" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Username</label>
+          <input type="text" id="login-username" placeholder="Enter your username" />
+        </div>
+        <div>
+          <label for="login-password" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
+          <input type="password" id="login-password" placeholder="Enter your password" />
+        </div>
+        <div class="flex justify-between items-center pt-4">
+          <button id="login-submit" class="bg-accent-primary text-white px-4 py-2 rounded hover:bg-accent-hover transition-colors">
+            Login
+          </button>
+          <button id="login-cancel" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="modal hidden">
+    <div class="modal-content max-h-[90vh] overflow-y-auto p-4 sm:p-6">
+      <div class="modal-header sticky top-0 bg-white dark:bg-gray-900 z-50 pb-2">
+        <h2 class="modal-title text-gray-900 dark:text-gray-100 font-bold">⚙️ Settings</h2>
+        <button id="settings-close" class="action-button">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="space-y-2">
+        <div>
+          <label for="theme-select" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Theme</label>
+          <select id="theme-select" class="w-full">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="system">System</option>
+          </select>
+        </div>
+        <div>
+          <label for="font-size" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Font Size</label>
+          <select id="font-size" class="w-full">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <div>
+          <label for="message-density" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Message Density</label>
+          <select id="message-density" class="w-full">
+            <option value="comfortable">Comfortable</option>
+            <option value="compact">Compact</option>
+            <option value="spacious">Spacious</option>
+          </select>
+        </div>
+        <div>
+          <label for="voice-select" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Voice</label>
+          <select id="voice-select" class="w-full">
+            <option value="">Default</option>
+          </select>
+        </div>
+        <!-- New Chat Management Settings -->
+        <div class="border-t pt-3 mt-3">
+          <h3 class="text-lg font-bold mb-2 text-gray-900 dark:text-gray-100">Chat Management</h3>
+          <div class="space-y-2">
+            <div>
+              <label for="archive-format" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Archive Format</label>
+              <select id="archive-format" class="w-full">
+                <option value="pdf" selected>PDF</option>
+                <option value="markdown">Markdown</option>
+                <option value="json">JSON</option>
+              </select>
+            </div>
+            <div>
+              <label for="summary-style" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Summary Style</label>
+              <select id="summary-style" class="w-full">
+                <option value="bullet" selected>Bullet Points</option>
+                <option value="narrative">Narrative</option>
+                <option value="mixed">Mixed</option>
+              </select>
+            </div>
+            <div>
+              <label for="notification-frequency" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Notification Frequency</label>
+              <select id="notification-frequency" class="w-full">
+                <option value="daily">Daily</option>
+                <option value="weekly" selected>Weekly</option>
+                <option value="monthly">Monthly</option>
+              </select>
+            </div>
+            <div>
+              <h4 class="settings-section-title">Information Priority</h4>
+              <div class="settings-checkbox-group">
+                <label class="settings-checkbox-label">
+                  <input type="checkbox" id="priority-contact" /> Contact Information
+                </label>
+                <label class="settings-checkbox-label">
+                  <input type="checkbox" id="priority-appointments" /> Appointments
+                </label>
+                <label class="settings-checkbox-label">
+                  <input type="checkbox" id="priority-decisions" /> Important Decisions
+                </label>
+                <label class="settings-checkbox-label">
+                  <input type="checkbox" id="priority-todo" /> To-Do List
+                </label>
+              </div>
+            </div>
+            <div>
+              <label for="notification-email" class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Notification Email</label>
+              <input type="email" id="notification-email" placeholder="Enter your email" class="w-full">
+            </div>
+            <div class="mt-4">
+              <label class="block text-sm font-semibold text-gray-900 dark:text-gray-100 mb-1">Data Save Location</label>
+              <button id="choose-save-folder" class="action-button">Choose Folder</button>
+              <span id="save-folder-path" class="ml-2 text-xs text-gray-600"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Modal -->
+  <div id="progress-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Processing Documents</h2>
+      </div>
+      <div class="space-y-4">
+        <div class="progress-container">
+          <div class="progress-bar">
+            <div id="progress-bar-fill" class="progress-bar-fill"></div>
+          </div>
+          <div class="progress-text">
+            <span id="progress-status">Initializing...</span>
+            <span id="progress-percentage">0%</span>
+          </div>
+        </div>
+        <div id="progress-details" class="text-sm text-gray-600 dark:text-gray-400">
+          <!-- Details will be inserted here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Document Management Modal -->
+  <div id="documents-modal" class="modal hidden">
+    <div class="modal-content max-h-[90vh] overflow-y-auto">
+      <div class="modal-header">
+        <h2 class="modal-title">📚 Document Management</h2>
+        <button id="documents-close" class="action-button">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <div class="flex justify-between items-center">
+          <input type="text" id="document-search" placeholder="Search documents..." class="w-full mr-2" />
+          <button id="refresh-documents" class="action-button" title="Refresh List">
+            <i data-lucide="refresh-cw"></i>
+          </button>
+        </div>
+        <div id="documents-list" class="space-y-2">
+          <!-- Documents will be listed here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reports Modal -->
+  <div id="reports-modal" class="modal hidden">
+    <div class="modal-content max-h-[90vh] overflow-y-auto p-4 sm:p-6">
+      <div class="modal-header sticky top-0 bg-white dark:bg-gray-900 z-50 pb-2 flex items-center justify-between">
+        <h2 class="modal-title text-gray-900 dark:text-gray-100 font-bold flex items-center gap-2">
+          <i data-lucide="file-text"></i> Reports
+        </h2>
+        <button id="reports-close" class="action-button" aria-label="Close Reports">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <form id="generate-report-form" class="flex flex-col gap-2 bg-gray-50 dark:bg-gray-800 rounded-lg p-3 mb-4">
+          <div class="flex flex-col sm:flex-row gap-2">
+            <input id="report-heading" type="text" class="flex-1 rounded border px-2 py-1" placeholder="Report Title (e.g. Weekly Summary)" required />
+            <input id="report-description" type="text" class="flex-1 rounded border px-2 py-1" placeholder="Short Description (optional)" />
+            <button type="submit" class="action-button primary px-4 py-2">Generate Report</button>
+          </div>
+        </form>
+        <div id="reports-list" class="space-y-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF Viewer Modal -->
+  <div id="pdf-viewer-modal" class="modal hidden">
+    <div class="modal-content max-w-3xl w-full relative p-0" style="height:90vh;display:flex;flex-direction:column;">
+      <div class="flex items-center justify-between bg-gray-900 text-white px-4 py-2">
+        <span class="font-bold">View Report</span>
+        <button id="close-pdf-viewer" class="action-button text-white" aria-label="Close PDF" style="font-size:1.5rem;"><i data-lucide="x"></i></button>
+      </div>
+      <iframe id="pdf-viewer-frame" src="" style="flex:1;width:100%;border:none;background:#222;"></iframe>
+    </div>
+  </div>
+
+  <!-- Knowledge Base Manager Modal -->
+  <div id="kb-manager-modal" class="modal hidden">
+    <div class="modal-content max-w-lg w-full">
+      <div class="modal-header flex items-center justify-between">
+        <h2 class="modal-title">Manage Knowledge Bases</h2>
+        <button id="kb-manager-close" class="action-button"><i data-lucide="x"></i></button>
+      </div>
+      <div id="kb-manager-list" class="space-y-2 mt-4">
+        <!-- Knowledge base files will be listed here -->
+      </div>
+      <div class="mt-4 flex justify-end gap-2">
+        <button id="kb-manager-add" class="action-button">Add File</button>
+        <button id="kb-use-selected" class="action-button">Use Selected</button>
+        <button id="kb-manager-refresh" class="action-button">Refresh</button>
+        <button id="kb-manager-close2" class="action-button">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @media (max-width: 600px) {
+      .input-wrapper.whatsapp-style {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+        gap: 0.2em;
+      }
+      .attach-btn {
+        order: 0;
+        min-width: 40px;
+        min-height: 40px;
+        margin-right: 4px;
+        background: #f3f4f6;
+        border-radius: 8px;
+        z-index: 2;
+      }
+      .input-group { flex: 1; }
+      .input-extra { display: inline-block; transition: opacity 0.2s; }
+      .input-wrapper.whatsapp-style.typing .input-extra { display: none !important; }
+    }
+    @media (min-width: 601px) {
+      .input-wrapper.whatsapp-style { gap: 0.4em; }
+    }
+  </style>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Autosize textarea
+    const textarea = document.getElementById('user-input');
+    if (textarea) {
+      textarea.addEventListener('input', function() {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+      });
+    }
+
+    // Chat rendering logic
+    function addMessage(content, sender, showTime = false) {
+      const rw = document.getElementById('response-window');
+      const block = document.createElement('div');
+      block.className = 'message-block ' + (sender === 'user' ? 'message-user' : 'message-assistant');
+      let html = `<div>${content}</div>`;
+      if (showTime && sender === 'assistant') {
+        const now = new Date();
+        const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        html += `<div style="text-align:right;font-size:0.9em;color:#64748b;margin-top:0.5em;">${time}</div>`;
+      }
+      block.innerHTML = html;
+      rw.appendChild(block);
+      document.dispatchEvent(new Event('newMessage'));
+    }
+
+    // Example usage (remove or replace with your actual chat logic):
+    // addMessage('Hi, how can I help you?', 'assistant', true);
+    // addMessage('What is the weather today?', 'user');
+
+    // To use in your chat logic, call:
+    // addMessage(userPrompt, 'user');
+    // addMessage(assistantResponse, 'assistant', true);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var closeBtn = document.getElementById('close-btn');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+          if (window.close) {
+            window.close();
+          } else {
+            window.location.href = '/';
+          }
+        });
+      }
+    });
+
+    // WhatsApp-style input: hide mic/speaker when typing or focused
+    document.addEventListener('DOMContentLoaded', function() {
+      var input = document.getElementById('user-input');
+      var wrapper = document.querySelector('.input-wrapper.whatsapp-style');
+      function updateInputExtras() {
+        if (!input || !wrapper) return;
+        if (input.value.trim().length > 0 || document.activeElement === input) {
+          wrapper.classList.add('typing');
+        } else {
+          wrapper.classList.remove('typing');
+        }
+      }
+      if (input) {
+        input.addEventListener('input', updateInputExtras);
+        input.addEventListener('focus', updateInputExtras);
+        input.addEventListener('blur', updateInputExtras);
+        updateInputExtras();
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      lucide.createIcons();
+      
+      const helpButton = document.getElementById('help-btn');
+      if(helpButton) {
+        helpButton.addEventListener('click', () => {
+          window.open('/static/help.html', '_blank');
+        });
+      }
+    });
+  </script>
+  <script src="/static/reports.js"></script>
+</body>
+</html>
+
+

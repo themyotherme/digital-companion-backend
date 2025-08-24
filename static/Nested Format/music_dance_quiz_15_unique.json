@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Which Indian classical dance form originated in Tamil Nadu?",
+    "options": [
+      "Kathak",
+      "Kuchipudi",
+      "Bharatanatyam",
+      "Odissi"
+    ],
+    "correct": 2,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Bharatanatyam is a classical dance form from Tamil Nadu."
+  },
+  {
+    "question": "Which musical instrument is Bismillah Khan famously associated with?",
+    "options": [
+      "Tabla",
+      "Flute",
+      "Shehnai",
+      "Sitar"
+    ],
+    "correct": 2,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Ustad Bismillah Khan popularized the Shehnai in Indian classical music."
+  },
+  {
+    "question": "Which form of classical music is prevalent in North India?",
+    "options": [
+      "Carnatic",
+      "Hindustani",
+      "Folk",
+      "Devotional"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Hindustani classical music is mainly practiced in North India."
+  },
+  {
+    "question": "Which Indian dance form is known for storytelling through expressive gestures and facial expressions?",
+    "options": [
+      "Kathakali",
+      "Manipuri",
+      "Mohiniyattam",
+      "Sattriya"
+    ],
+    "correct": 0,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Kathakali uses elaborate gestures and expressions to tell stories."
+  },
+  {
+    "question": "Which Indian classical dance form originated in Odisha?",
+    "options": [
+      "Odissi",
+      "Kathak",
+      "Kuchipudi",
+      "Mohiniyattam"
+    ],
+    "correct": 0,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Odissi is one of the oldest classical dances from Odisha."
+  },
+  {
+    "question": "Which famous Indian musician composed the soundtrack for the film 'Slumdog Millionaire'?",
+    "options": [
+      "Ravi Shankar",
+      "A. R. Rahman",
+      "Zakir Hussain",
+      "Ilaiyaraaja"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman won an Oscar for his work in 'Slumdog Millionaire'."
+  },
+  {
+    "question": "Which instrument is Ravi Shankar known for playing?",
+    "options": [
+      "Veena",
+      "Sitar",
+      "Tabla",
+      "Sarod"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Ravi Shankar was a world-famous sitar virtuoso."
+  },
+  {
+    "question": "Which dance form is associated with the state of Assam?",
+    "options": [
+      "Yakshagana",
+      "Bihu",
+      "Lavani",
+      "Chhau"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Bihu is a folk dance from Assam performed during the Bihu festival."
+  },
+  {
+    "question": "Lavani is a popular dance form from which Indian state?",
+    "options": [
+      "Punjab",
+      "Rajasthan",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "correct": 2,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lavani is a traditional dance and music genre from Maharashtra."
+  },
+  {
+    "question": "Who is referred to as the Nightingale of India for her melodious voice?",
+    "options": [
+      "Asha Bhosale",
+      "K. S. Chithra",
+      "Lata Mangeshkar",
+      "Shreya Ghoshal"
+    ],
+    "correct": 2,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Lata Mangeshkar is known as the Nightingale of India."
+  },
+  {
+    "question": "Which instrument is Zakir Hussain associated with?",
+    "options": [
+      "Sarod",
+      "Tabla",
+      "Violin",
+      "Flute"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Zakir Hussain is a world-renowned tabla maestro."
+  },
+  {
+    "question": "Which dance form is performed during the festival of Navratri in Gujarat?",
+    "options": [
+      "Bharatanatyam",
+      "Garba",
+      "Kathak",
+      "Bhangra"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Garba is a traditional dance from Gujarat performed during Navratri."
+  },
+  {
+    "question": "Which dance form is traditionally performed by the women of Kerala in a circular formation?",
+    "options": [
+      "Kuchipudi",
+      "Thiruvathirakali",
+      "Mohiniyattam",
+      "Yakshagana"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Thiruvathirakali is a group dance performed by women in Kerala."
+  },
+  {
+    "question": "Which Indian film song won an Oscar for Best Original Song?",
+    "options": [
+      "Chaiyya Chaiyya",
+      "Jai Ho",
+      "Tum Hi Ho",
+      "Maa Tujhe Salaam"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Jai Ho' from Slumdog Millionaire won the Academy Award for Best Original Song."
+  },
+  {
+    "question": "Which folk dance is popular in the state of Punjab?",
+    "options": [
+      "Garba",
+      "Bhangra",
+      "Lavani",
+      "Bihu"
+    ],
+    "correct": 1,
+    "category": "Music & Dance",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Bhangra is a lively folk dance from Punjab."
+  }
+]

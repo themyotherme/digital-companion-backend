@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Who won the first Olympic gold medal for India as an individual athlete?",
+    "options": [
+      "Leander Paes",
+      "Abhinav Bindra",
+      "Karnam Malleswari",
+      "Rajyavardhan Rathore"
+    ],
+    "correct": 1,
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Abhinav Bindra won the first individual Olympic gold medal for India in shooting (2008)."
+  },
+  {
+    "question": "Which Indian badminton player won the World Championship in 2019?",
+    "options": [
+      "Saina Nehwal",
+      "PV Sindhu",
+      "Jwala Gutta",
+      "Ashwini Ponnappa"
+    ],
+    "correct": 1,
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "PV Sindhu won the BWF World Championships in 2019, becoming the first Indian to do so."
+  },
+  {
+    "question": "Which Indian athlete is known as the 'Flying Sikh'?",
+    "options": [
+      "Milkha Singh",
+      "P.T. Usha",
+      "Neeraj Chopra",
+      "Anju Bobby George"
+    ],
+    "correct": 0,
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Milkha Singh earned the nickname 'Flying Sikh' for his achievements in track and field."
+  },
+  {
+    "question": "In which sport did Mary Kom win a bronze medal in the 2012 London Olympics?",
+    "options": [
+      "Wrestling",
+      "Weightlifting",
+      "Boxing",
+      "Judo"
+    ],
+    "correct": 2,
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Mary Kom won a bronze medal in women's boxing at the 2012 London Olympics."
+  },
+  {
+    "question": "Neeraj Chopra won an Olympic gold medal in which event?",
+    "options": [
+      "Shot Put",
+      "Discus Throw",
+      "Long Jump",
+      "Javelin Throw"
+    ],
+    "correct": 3,
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Neeraj Chopra won the gold medal in javelin throw at the Tokyo 2020 Olympics."
+  },
+  {
+    "question": "Which Indian state is famous for producing hockey players?",
+    "options": [
+      "Punjab",
+      "Kerala",
+      "Tamil Nadu",
+      "Rajasthan"
+    ],
+    "correct": 0,
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Punjab has been a major contributor to India's national hockey teams."
+  },
+  {
+    "question": "Which Indian wrestler won bronze at the 2020 Tokyo Olympics?",
+    "options": [
+      "Bajrang Punia",
+      "Yogeshwar Dutt",
+      "Sushil Kumar",
+      "Ravi Kumar Dahiya"
+    ],
+    "correct": 0,
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Bajrang Punia won the bronze medal in wrestling at the Tokyo 2020 Olympics."
+  },
+  {
+    "question": "Who was the first Indian woman to win a medal at the Olympics?",
+    "options": [
+      "Karnam Malleswari",
+      "Mary Kom",
+      "P.T. Usha",
+      "Saina Nehwal"
+    ],
+    "correct": 0,
+    "category": "Other Sports",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Karnam Malleswari won a bronze in weightlifting at the 2000 Sydney Olympics."
+  },
+  {
+    "question": "Which Indian Grandmaster became the World Chess Champion in 2007?",
+    "options": [
+      "Pentala Harikrishna",
+      "Viswanathan Anand",
+      "Koneru Humpy",
+      "R Praggnanandhaa"
+    ],
+    "correct": 1,
+    "category": "Other Sports",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Viswanathan Anand won the World Chess Championship title in 2007."
+  },
+  {
+    "question": "Which Indian athlete won a silver medal in high jump at the Tokyo Paralympics?",
+    "options": [
+      "Mariyappan Thangavelu",
+      "Devendra Jhajharia",
+      "Sumit Antil",
+      "Bhavina Patel"
+    ],
+    "correct": 0,
+    "category": "Other Sports",
+    "difficulty": "hard",
+    "type": "mcq",
+    "explanation": "Mariyappan Thangavelu won a silver medal in high jump at the 2020 Tokyo Paralympics."
+  }
+]

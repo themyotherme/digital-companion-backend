@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Who was the first Indian cricketer to score a triple century in Test cricket?",
+    "options": [
+      "Sachin Tendulkar",
+      "Virender Sehwag",
+      "Sunil Gavaskar",
+      "Rahul Dravid"
+    ],
+    "correct_answer": "Sachin Tendulkar",
+    "explanation": "Virender Sehwag was the first Indian to score a triple century, against Pakistan in 2004.",
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian captain led the team to its first World Cup victory in 1983?",
+    "options": [
+      "Kapil Dev",
+      "Sunil Gavaskar",
+      "Mohinder Amarnath",
+      "Ravi Shastri"
+    ],
+    "correct_answer": "Kapil Dev",
+    "explanation": "Kapil Dev led India to its first World Cup win in 1983.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who holds the record for the highest individual score in ODIs?",
+    "options": [
+      "Sachin Tendulkar",
+      "Virat Kohli",
+      "Rohit Sharma",
+      "Chris Gayle"
+    ],
+    "correct_answer": "Sachin Tendulkar",
+    "explanation": "Rohit Sharma scored 264 against Sri Lanka in 2014, the highest in ODI history.",
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which bowler took the first hat-trick in IPL history?",
+    "options": [
+      "Amit Mishra",
+      "Lasith Malinga",
+      "Ajit Chandila",
+      "Lakshmipathy Balaji"
+    ],
+    "correct_answer": "Amit Mishra",
+    "explanation": "Lakshmipathy Balaji took the first IPL hat-trick in 2008.",
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who is the only cricketer to play 200 Test matches?",
+    "options": [
+      "Ricky Ponting",
+      "Rahul Dravid",
+      "Sachin Tendulkar",
+      "Steve Waugh"
+    ],
+    "correct_answer": "Ricky Ponting",
+    "explanation": "Sachin Tendulkar is the only player to have played 200 Test matches.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which year did India win its second ICC Cricket World Cup?",
+    "options": [
+      "2007",
+      "2011",
+      "2015",
+      "2019"
+    ],
+    "correct_answer": "2007",
+    "explanation": "India won its second World Cup in 2011 under MS Dhoni's captaincy.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which cricketer is known as the 'Wall' of Indian cricket?",
+    "options": [
+      "Virat Kohli",
+      "Anil Kumble",
+      "Rahul Dravid",
+      "VVS Laxman"
+    ],
+    "correct_answer": "Virat Kohli",
+    "explanation": "Rahul Dravid earned the nickname 'The Wall' for his solid defense.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who hit six sixes in an over in the 2007 T20 World Cup?",
+    "options": [
+      "MS Dhoni",
+      "Virender Sehwag",
+      "Yuvraj Singh",
+      "Suresh Raina"
+    ],
+    "correct_answer": "MS Dhoni",
+    "explanation": "Yuvraj Singh hit six sixes in an over against Stuart Broad.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which city hosted the final of the 2011 Cricket World Cup?",
+    "options": [
+      "Delhi",
+      "Kolkata",
+      "Mumbai",
+      "Chennai"
+    ],
+    "correct_answer": "Delhi",
+    "explanation": "The 2011 final was held at Wankhede Stadium, Mumbai.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian cricketer was nicknamed 'Captain Cool'?",
+    "options": [
+      "Sourav Ganguly",
+      "Virat Kohli",
+      "Kapil Dev",
+      "MS Dhoni"
+    ],
+    "correct_answer": "Sourav Ganguly",
+    "explanation": "MS Dhoni was known as 'Captain Cool' for his calm demeanor.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who was the first Indian to take 10 wickets in a single Test innings?",
+    "options": [
+      "Kapil Dev",
+      "Anil Kumble",
+      "Erapalli Prasanna",
+      "Jasprit Bumrah"
+    ],
+    "correct_answer": "Kapil Dev",
+    "explanation": "Anil Kumble achieved the feat against Pakistan in 1999.",
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian cricketer is associated with the nickname 'Boom Boom'?",
+    "options": [
+      "Shikhar Dhawan",
+      "Virender Sehwag",
+      "Yuvraj Singh",
+      "Hardik Pandya"
+    ],
+    "correct_answer": "Shikhar Dhawan",
+    "explanation": "Virender Sehwag was affectionately called 'Boom Boom' for his aggressive batting.",
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the name of India’s professional T20 cricket league?",
+    "options": [
+      "Indian Premier League",
+      "Cricket India League",
+      "Twenty20 India",
+      "BCCI League"
+    ],
+    "correct_answer": "Indian Premier League",
+    "explanation": "The Indian Premier League (IPL) is India’s flagship T20 league.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian cricketer has the most international centuries?",
+    "options": [
+      "Virat Kohli",
+      "Sachin Tendulkar",
+      "Sunil Gavaskar",
+      "MS Dhoni"
+    ],
+    "correct_answer": "Virat Kohli",
+    "explanation": "Sachin Tendulkar has scored 100 international centuries.",
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who was the first Indian bowler to take a hat-trick in a World Cup match?",
+    "options": [
+      "Mohammed Shami",
+      "Chetan Sharma",
+      "Harbhajan Singh",
+      "Zaheer Khan"
+    ],
+    "correct_answer": "Mohammed Shami",
+    "explanation": "Chetan Sharma was the first Indian to take a World Cup hat-trick, in 1987.",
+    "category": "Cricket",
+    "difficulty": "hard",
+    "type": "mcq"
+  }
+]

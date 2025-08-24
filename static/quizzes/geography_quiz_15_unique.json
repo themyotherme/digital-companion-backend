@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Which is the longest river in India?",
+    "options": [
+      "Yamuna",
+      "Brahmaputra",
+      "Godavari",
+      "Ganga"
+    ],
+    "correct_answer": "Yamuna",
+    "explanation": "The Ganga is the longest river within India's borders.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state has the longest coastline?",
+    "options": [
+      "Kerala",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "correct_answer": "Kerala",
+    "explanation": "Gujarat has the longest coastline among Indian states.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which is the highest mountain peak in India?",
+    "options": [
+      "Mount Everest",
+      "Kanchenjunga",
+      "Nanda Devi",
+      "Kamet"
+    ],
+    "correct_answer": "Mount Everest",
+    "explanation": "Kanchenjunga is the highest peak located entirely within India.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The Tropic of Cancer passes through how many Indian states?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "7"
+    ],
+    "correct_answer": "6",
+    "explanation": "The Tropic of Cancer passes through 9 Indian states.",
+    "category": "Geography",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian desert is also known as the Great Indian Desert?",
+    "options": [
+      "Rann of Kutch",
+      "Thar Desert",
+      "Ladakh Desert",
+      "Cholistan Desert"
+    ],
+    "correct_answer": "Rann of Kutch",
+    "explanation": "The Thar Desert is also called the Great Indian Desert.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which is the southernmost point of India?",
+    "options": [
+      "Kanyakumari",
+      "Rameswaram",
+      "Indira Point",
+      "Minicoy"
+    ],
+    "correct_answer": "Kanyakumari",
+    "explanation": "Indira Point in the Andaman and Nicobar Islands is the southernmost point.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which river is known as the 'Dakshina Ganga' or 'Ganga of the South'?",
+    "options": [
+      "Cauvery",
+      "Godavari",
+      "Krishna",
+      "Tungabhadra"
+    ],
+    "correct_answer": "Cauvery",
+    "explanation": "The Godavari is often referred to as the 'Ganga of the South'.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which plateau is known as the Deccan Plateau?",
+    "options": [
+      "Malwa Plateau",
+      "Chota Nagpur Plateau",
+      "Peninsular Plateau",
+      "Western Plateau"
+    ],
+    "correct_answer": "Malwa Plateau",
+    "explanation": "The Peninsular Plateau is commonly known as the Deccan Plateau.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state is landlocked?",
+    "options": [
+      "Odisha",
+      "Punjab",
+      "Kerala",
+      "Andhra Pradesh"
+    ],
+    "correct_answer": "Odisha",
+    "explanation": "Punjab is a landlocked state.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state has the largest area?",
+    "options": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Maharashtra",
+      "Uttar Pradesh"
+    ],
+    "correct_answer": "Madhya Pradesh",
+    "explanation": "Rajasthan is the largest state in India by area.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which lake is the largest freshwater lake in India?",
+    "options": [
+      "Chilika",
+      "Wular",
+      "Loktak",
+      "Pulicat"
+    ],
+    "correct_answer": "Chilika",
+    "explanation": "Wular Lake in Jammu & Kashmir is the largest freshwater lake in India.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian state shares borders with the maximum number of other states?",
+    "options": [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Chhattisgarh",
+      "Bihar"
+    ],
+    "correct_answer": "Madhya Pradesh",
+    "explanation": "Uttar Pradesh shares borders with 9 states.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which river forms the boundary between Punjab and Haryana?",
+    "options": [
+      "Beas",
+      "Sutlej",
+      "Ghaggar",
+      "Yamuna"
+    ],
+    "correct_answer": "Beas",
+    "explanation": "The Ghaggar River forms part of the boundary between Punjab and Haryana.",
+    "category": "Geography",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the name of the narrow strip of land connecting mainland India with the Northeast?",
+    "options": [
+      "Siliguri Corridor",
+      "Khyber Pass",
+      "Bhor Ghat",
+      "Palakkad Gap"
+    ],
+    "correct_answer": "Siliguri Corridor",
+    "explanation": "The Siliguri Corridor is also known as the 'Chicken's Neck'.",
+    "category": "Geography",
+    "difficulty": "hard",
+    "type": "mcq"
+  },
+  {
+    "question": "Which hill station is known as the 'Queen of the Hills' in India?",
+    "options": [
+      "Shimla",
+      "Mussoorie",
+      "Darjeeling",
+      "Ooty"
+    ],
+    "correct_answer": "Shimla",
+    "explanation": "Shimla is famously known as the Queen of the Hills.",
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

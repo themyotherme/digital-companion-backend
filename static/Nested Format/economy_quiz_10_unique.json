@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Which institution is responsible for printing currency notes in India?",
+    "options": [
+      "Ministry of Finance",
+      "State Bank of India",
+      "Reserve Bank of India",
+      "NITI Aayog"
+    ],
+    "correct": 2,
+    "category": "Economy",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Reserve Bank of India prints currency notes except for ₹1, which is printed by the Government of India."
+  },
+  {
+    "question": "Who is considered the architect of economic reforms in India in 1991?",
+    "options": [
+      "Narendra Modi",
+      "Manmohan Singh",
+      "P. Chidambaram",
+      "Raghuram Rajan"
+    ],
+    "correct": 1,
+    "category": "Economy",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Manmohan Singh, as Finance Minister, initiated liberalization reforms in 1991."
+  },
+  {
+    "question": "What does GDP stand for?",
+    "options": [
+      "Gross Domestic Product",
+      "General Domestic Performance",
+      "Gross Development Parameter",
+      "Government Development Plan"
+    ],
+    "correct": 0,
+    "category": "Economy",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "GDP stands for Gross Domestic Product, a key indicator of economic health."
+  },
+  {
+    "question": "Which tax replaced a host of indirect taxes in India in 2017?",
+    "options": [
+      "Service Tax",
+      "GST",
+      "VAT",
+      "Excise Duty"
+    ],
+    "correct": 1,
+    "category": "Economy",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Goods and Services Tax (GST) replaced many indirect taxes in 2017."
+  },
+  {
+    "question": "Which is the largest contributor to India's GDP?",
+    "options": [
+      "Agriculture",
+      "Industry",
+      "Services",
+      "Mining"
+    ],
+    "correct": 2,
+    "category": "Economy",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The services sector is the largest contributor to India's GDP."
+  },
+  {
+    "question": "What is the name of India's central bank?",
+    "options": [
+      "NABARD",
+      "SBI",
+      "RBI",
+      "ICICI"
+    ],
+    "correct": 2,
+    "category": "Economy",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "RBI stands for Reserve Bank of India, the nation's central bank."
+  },
+  {
+    "question": "Which index measures inflation in retail prices in India?",
+    "options": [
+      "WPI",
+      "CPI",
+      "FDI",
+      "REPO"
+    ],
+    "correct": 1,
+    "category": "Economy",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Consumer Price Index (CPI) measures retail price inflation."
+  },
+  {
+    "question": "Which scheme was launched to promote financial inclusion in India?",
+    "options": [
+      "Swachh Bharat Abhiyan",
+      "PMAY",
+      "PMJDY",
+      "Ayushman Bharat"
+    ],
+    "correct": 2,
+    "category": "Economy",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Pradhan Mantri Jan Dhan Yojana (PMJDY) aims at financial inclusion for all."
+  },
+  {
+    "question": "What is FDI in the context of the Indian economy?",
+    "options": [
+      "Foreign Direct Investment",
+      "Fiscal Development Index",
+      "Federal Deposit Insurance",
+      "Finance Development Initiative"
+    ],
+    "correct": 0,
+    "category": "Economy",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "FDI refers to Foreign Direct Investment from foreign firms into Indian companies or infrastructure."
+  },
+  {
+    "question": "Which Indian city is known as the financial capital of India?",
+    "options": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "correct": 1,
+    "category": "Economy",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Mumbai hosts the Bombay Stock Exchange and several major financial institutions."
+  }
+]

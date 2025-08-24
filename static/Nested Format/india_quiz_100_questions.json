@@ -1,0 +1,1402 @@
+[
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai?",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002?",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'?",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Which revolutionary said 'Give me blood, and I will give you freedom'?",
+    "options": [
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Mahatma Gandhi",
+      "Lala Lajpat Rai"
+    ],
+    "correct": 1,
+    "category": "Freedom Struggle",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Subhas Chandra Bose made this famous declaration."
+  },
+  {
+    "question": "Who was the first Indian cricketer to score a triple century in Test cricket?",
+    "options": [
+      "Sunil Gavaskar",
+      "Virender Sehwag",
+      "Sachin Tendulkar",
+      "Rahul Dravid"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Virender Sehwag was the first Indian to score a triple century in Tests."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup?",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Which is the longest river in India?",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which is the largest state in India by area?",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha?",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Who is the constitutional head of India?",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correct": 1,
+    "category": "Politics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The President is the constitutional head of the Indian Republic."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'?",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year?",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "In which Indian festival are sisters celebrated and protected by their brothers?",
+    "options": [
+      "Diwali",
+      "Bhai Dooj",
+      "Holi",
+      "Rakhi"
+    ],
+    "correct": 3,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rakhi (Raksha Bandhan) is a festival celebrating the bond between siblings."
+  },
+  {
+    "question": "Navratri is celebrated over how many days?",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "Who is the constitutional head of India? (Variant 971)",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correct": 1,
+    "category": "Politics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The President is the constitutional head of the Indian Republic."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 990)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 932)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai? (Variant 250)",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "Which revolutionary said 'Give me blood, and I will give you freedom'? (Variant 564)",
+    "options": [
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Mahatma Gandhi",
+      "Lala Lajpat Rai"
+    ],
+    "correct": 1,
+    "category": "Freedom Struggle",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Subhas Chandra Bose made this famous declaration."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 526)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 977)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 143)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 324)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "In which Indian festival are sisters celebrated and protected by their brothers? (Variant 232)",
+    "options": [
+      "Diwali",
+      "Bhai Dooj",
+      "Holi",
+      "Rakhi"
+    ],
+    "correct": 3,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rakhi (Raksha Bandhan) is a festival celebrating the bond between siblings."
+  },
+  {
+    "question": "Who was the first Indian cricketer to score a triple century in Test cricket? (Variant 721)",
+    "options": [
+      "Sunil Gavaskar",
+      "Virender Sehwag",
+      "Sachin Tendulkar",
+      "Rahul Dravid"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Virender Sehwag was the first Indian to score a triple century in Tests."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 818)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha? (Variant 108)",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 468)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 881)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha? (Variant 284)",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 425)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 867)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 206)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 734)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 606)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 102)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 593)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 145)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai? (Variant 102)",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai? (Variant 384)",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 435)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 742)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha? (Variant 1)",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 494)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Navratri is celebrated over how many days? (Variant 638)",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "Which revolutionary said 'Give me blood, and I will give you freedom'? (Variant 53)",
+    "options": [
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Mahatma Gandhi",
+      "Lala Lajpat Rai"
+    ],
+    "correct": 1,
+    "category": "Freedom Struggle",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Subhas Chandra Bose made this famous declaration."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha? (Variant 79)",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 946)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Who was the first Indian cricketer to score a triple century in Test cricket? (Variant 889)",
+    "options": [
+      "Sunil Gavaskar",
+      "Virender Sehwag",
+      "Sachin Tendulkar",
+      "Rahul Dravid"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Virender Sehwag was the first Indian to score a triple century in Tests."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 142)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 304)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 475)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 342)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 388)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 457)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 92)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 208)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 577)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai? (Variant 867)",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 591)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 983)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 311)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 454)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Who is the constitutional head of India? (Variant 983)",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correct": 1,
+    "category": "Politics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The President is the constitutional head of the Indian Republic."
+  },
+  {
+    "question": "Who is the constitutional head of India? (Variant 857)",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correct": 1,
+    "category": "Politics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The President is the constitutional head of the Indian Republic."
+  },
+  {
+    "question": "Navratri is celebrated over how many days? (Variant 748)",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "Who composed the music for the movie 'Dil Se'? (Variant 99)",
+    "options": [
+      "A. R. Rahman",
+      "Shankar-Ehsaan-Loy",
+      "Anu Malik",
+      "Pritam"
+    ],
+    "correct": 0,
+    "category": "Music",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "A. R. Rahman composed the soundtrack for 'Dil Se'."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 708)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Navratri is celebrated over how many days? (Variant 9)",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 31)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Who was the first Indian cricketer to score a triple century in Test cricket? (Variant 69)",
+    "options": [
+      "Sunil Gavaskar",
+      "Virender Sehwag",
+      "Sachin Tendulkar",
+      "Rahul Dravid"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Virender Sehwag was the first Indian to score a triple century in Tests."
+  },
+  {
+    "question": "In which Indian festival are sisters celebrated and protected by their brothers? (Variant 832)",
+    "options": [
+      "Diwali",
+      "Bhai Dooj",
+      "Holi",
+      "Rakhi"
+    ],
+    "correct": 3,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rakhi (Raksha Bandhan) is a festival celebrating the bond between siblings."
+  },
+  {
+    "question": "How many members are nominated by the President to the Rajya Sabha? (Variant 429)",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "category": "Politics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "The President of India nominates 12 members to the Rajya Sabha."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 5)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 460)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Navratri is celebrated over how many days? (Variant 724)",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 970)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 789)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 1000)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 51)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 674)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Which yoga pose is also known as the 'Downward Dog'? (Variant 448)",
+    "options": [
+      "Bhujangasana",
+      "Adho Mukha Svanasana",
+      "Vrikshasana",
+      "Tadasana"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "'Adho Mukha Svanasana' is the Sanskrit name for 'Downward Dog'."
+  },
+  {
+    "question": "Navratri is celebrated over how many days? (Variant 62)",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Navratri spans nine nights and is dedicated to Goddess Durga."
+  },
+  {
+    "question": "In which year did India win its first Cricket World Cup? (Variant 487)",
+    "options": [
+      "1975",
+      "1983",
+      "1996",
+      "2003"
+    ],
+    "correct": 1,
+    "category": "Cricket",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "India won its first Cricket World Cup in 1983."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 687)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 867)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Who played the lead role in the movie 'Sholay' as Jai? (Variant 282)",
+    "options": [
+      "Dharmendra",
+      "Amitabh Bachchan",
+      "Sanjeev Kumar",
+      "Amjad Khan"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Amitabh Bachchan played Jai in the legendary film 'Sholay'."
+  },
+  {
+    "question": "Which is the largest state in India by area? (Variant 345)",
+    "options": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rajasthan is the largest state by area."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 411)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Who was the first Prime Minister of independent India? (Variant 559)",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "category": "Freedom Struggle",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Jawaharlal Nehru became the first Prime Minister of India in 1947."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 942)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 156)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Which is the longest river in India? (Variant 298)",
+    "options": [
+      "Yamuna",
+      "Ganga",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correct": 2,
+    "category": "Geography",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The Godavari is the longest river within India."
+  },
+  {
+    "question": "Who is the constitutional head of India? (Variant 254)",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice",
+      "Speaker"
+    ],
+    "correct": 1,
+    "category": "Politics",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "The President is the constitutional head of the Indian Republic."
+  },
+  {
+    "question": "In which Indian festival are sisters celebrated and protected by their brothers? (Variant 302)",
+    "options": [
+      "Diwali",
+      "Bhai Dooj",
+      "Holi",
+      "Rakhi"
+    ],
+    "correct": 3,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rakhi (Raksha Bandhan) is a festival celebrating the bond between siblings."
+  },
+  {
+    "question": "Which Indian movie was nominated for Best Foreign Language Film at the Oscars in 2002? (Variant 719)",
+    "options": [
+      "Devdas",
+      "Lagaan",
+      "Mother India",
+      "Salaam Bombay"
+    ],
+    "correct": 1,
+    "category": "Bollywood",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Lagaan was nominated for Best Foreign Language Film at the 2002 Oscars."
+  },
+  {
+    "question": "In which Indian festival are sisters celebrated and protected by their brothers? (Variant 98)",
+    "options": [
+      "Diwali",
+      "Bhai Dooj",
+      "Holi",
+      "Rakhi"
+    ],
+    "correct": 3,
+    "category": "Festivals",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "Rakhi (Raksha Bandhan) is a festival celebrating the bond between siblings."
+  },
+  {
+    "question": "Which yoga day is celebrated worldwide each year? (Variant 26)",
+    "options": [
+      "May 5",
+      "June 21",
+      "July 15",
+      "August 12"
+    ],
+    "correct": 1,
+    "category": "Yoga",
+    "difficulty": "easy",
+    "type": "mcq",
+    "explanation": "June 21 is celebrated globally as International Yoga Day."
+  },
+  {
+    "question": "Which Indian classical dance form originated in Kerala?",
+    "options": [
+      "Bharatanatyam",
+      "Kathak",
+      "Kuchipudi",
+      "Mohiniyattam"
+    ],
+    "correct": 3,
+    "category": "Dance",
+    "difficulty": "medium",
+    "type": "mcq",
+    "explanation": "Mohiniyattam is a graceful dance form from Kerala."
+  }
+]

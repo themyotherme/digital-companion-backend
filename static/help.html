@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Companion - Help</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .content-section {
+            @apply mb-12;
+        }
+        .content-section h2 {
+            @apply text-3xl font-bold text-gray-800 mb-4 border-b-2 border-blue-500 pb-2;
+        }
+        .content-section h3 {
+            @apply text-2xl font-semibold text-gray-700 mt-6 mb-3;
+        }
+        .content-section p, .content-section ul {
+            @apply text-lg text-gray-600 leading-relaxed;
+        }
+        .content-section li {
+            @apply mb-2;
+        }
+        .code {
+            @apply bg-gray-100 text-red-500 font-mono rounded px-2 py-1;
+        }
+        .note {
+            @apply bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg my-4;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 class="text-5xl font-extrabold text-center text-blue-600 mb-12">Digital Companion Help Guide</h1>
+
+        <div class="content-section">
+            <h2>Understanding Chat Modes</h2>
+            <p>The Digital Companion offers three distinct modes for interacting with your documents and the AI. Each mode is designed for a specific purpose.</p>
+            
+            <div class="overflow-x-auto mt-6">
+                <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow">
+                    <thead class="bg-blue-500 text-white">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Mode</th>
+                            <th class="py-3 px-4 text-left">AI Used?</th>
+                            <th class="py-3 px-4 text-left">Internet Required?</th>
+                            <th class="py-3 px-4 text-left">Knowledge Source</th>
+                            <th class="py-3 px-4 text-left">Best For</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b">
+                            <td class="py-3 px-4 font-bold">Local</td>
+                            <td class="py-3 px-4">No</td>
+                            <td class="py-3 px-4">No</td>
+                            <td class="py-3 px-4">Selected Document(s) Only (Basic Keyword Search)</td>
+                            <td class="py-3 px-4">Quickly finding specific text in a document offline.</td>
+                        </tr>
+                        <tr class="border-b bg-blue-50">
+                            <td class="py-3 px-4 font-bold">Smart</td>
+                            <td class="py-3 px-4">Yes (GPT-3.5)</td>
+                            <td class="py-3 px-4">Yes</td>
+                            <td class="py-3 px-4">Selected Document(s) Only (AI Analysis)</td>
+                            <td class="py-3 px-4">Getting intelligent summaries, answers, and analysis based strictly on your document's content.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 font-bold">SmartPlus</td>
+                            <td class="py-3 px-4">Yes (GPT-4)</td>
+                            <td class="py-3 px-4">Yes</td>
+                            <td class="py-3 px-4">Document(s) + AI's General Knowledge</td>
+                            <td class="py-3 px-4">Comprehensive research, creative tasks, and getting the best possible answer by combining your document with external information.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Managing Your Knowledge Base</h2>
+            <p>The Knowledge Base is where you upload and manage the documents you want to chat with.</p>
+            <h3>How to Use:</h3>
+            <ul>
+                <li><strong>1. Open the Manager:</strong> Click the <code class="code">Database</code> icon in the top-right header to open the "Manage Knowledge Bases" dialog.</li>
+                <li><strong>2. Add Files:</strong> Click "Add File" to upload your documents. Currently, <code class="code">.pdf</code>, <code class="code">.txt</code>, and <code class="code">.json</code> files are supported.</li>
+                <li><strong>3. Select Files:</strong> Check the box next to one or more files to select them for your chat session. The selected files will appear in the header.</li>
+                <li><strong>4. Chat:</strong> Choose your desired mode (Local, Smart, or SmartPlus) and start asking questions!</li>
+            </ul>
+        </div>
+        
+        <div class="content-section">
+            <h2>Future Features</h2>
+            <p>We're constantly working to improve the Digital Companion. Here are some features on the horizon:</p>
+            <ul>
+                <li><strong>Quiz Generation:</strong> Automatically create interactive quizzes from any document in your Knowledge Base.</li>
+                <li><strong>Wider File Support:</strong> Adding support for more file types like Word, PowerPoint, and Excel.</li>
+                <li><strong>Enhanced Reporting:</strong> More detailed summaries and reports from your chat sessions.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html> 

@@ -1,0 +1,16 @@
+{
+  "name": "Interactive Quiz",
+  "short_name": "Quiz",
+  "description": "Your personal AI assistant with report generation",
+  "start_url": "/welcome.html",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#4a90e2",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+} 

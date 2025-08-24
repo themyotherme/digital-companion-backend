@@ -1,0 +1,2802 @@
+[
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "In which movie does the character 'Neo' appear?",
+    "options": [
+      "Inception",
+      "The Matrix",
+      "Interstellar",
+      "Minority Report"
+    ],
+    "correct_answer": "Inception",
+    "explanation": "'Neo' is the main character in The Matrix.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "'The Godfather' was released in 1972.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "'The Godfather' was released in 1972.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "The movie 'Inception' was directed by Christopher Nolan.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christopher Nolan directed 'Inception'.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie features the quote, 'Here's looking at you, kid'?",
+    "options": [
+      "Gone with the Wind",
+      "Casablanca",
+      "Citizen Kane",
+      "The Godfather"
+    ],
+    "correct_answer": "Gone with the Wind",
+    "explanation": "The quote is from Casablanca.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which movie won the Academy Award for Best Picture in 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correct_answer": "Pulp Fiction",
+    "explanation": "Forrest Gump won the Academy Award for Best Picture in 1994.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Tom Hanks played the role of Batman in the Dark Knight trilogy.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "Christian Bale played Batman in the Dark Knight trilogy, not Tom Hanks.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Who played the character of Jack in the movie Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp"
+    ],
+    "correct_answer": "Brad Pitt",
+    "explanation": "Leonardo DiCaprio played Jack in Titanic.",
+    "category": "Hollywood",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Avatar was the first movie to gross over $2 billion worldwide.",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct_answer": "",
+    "explanation": "James Cameron's 'Avatar' was the first film to gross over $2 billion worldwide.",
+    "category": "Hollywood",
+    "difficulty": "medium",
+    "type": "mcq"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "type": "mcq",
+    "question": "What is the capital of France?",
+    "difficulty": "easy",
+    "category": "geography",
+    "points": 1,
+    "feedback": {
+      "correct": "Correct! Paris is the capital.",
+      "incorrect": "Incorrect. Paris is the capital.",
+      "partial": "1Paris is the capital."
+    },
+    "partial": [
+      1
+    ],
+    "options": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Rome"
+    ],
+    "correct": 0
+  },
+  {
+    "type": "tf",
+    "question": "The sky is green.",
+    "difficulty": "easy",
+    "category": "science",
+    "points": 1,
+    "feedback": {
+      "correct": "Correct! The sky is not green.",
+      "incorrect": "Incorrect. The sky is not green.",
+      "partial": "1The sky is not green."
+    },
+    "correct": false
+  },
+  {
+    "type": "fill",
+    "question": "Who wrote Hamlet?",
+    "difficulty": "medium",
+    "category": "literature",
+    "points": 1,
+    "feedback": {
+      "correct": "Correct! Shakespeare wrote Hamlet.",
+      "incorrect": "Incorrect. The answer is Shakespeare.",
+      "partial": "1Shakespeare wrote Hamlet."
+    },
+    "partial": [
+      "1"
+    ],
+    "correct": "Shakespeare"
+  },
+  {
+    "type": "mcq",
+    "question": "Which planet is known as the Red Planet?",
+    "difficulty": "easy",
+    "category": "astronomy",
+    "points": 1,
+    "feedback": {
+      "correct": "Correct! Mars is the Red Planet.",
+      "incorrect": "Incorrect. Mars is the Red Planet.",
+      "partial": "1Mars is the Red Planet."
+    },
+    "partial": [
+      1
+    ],
+    "options": [
+      "Earth",
+      "Mars",
+      "Venus",
+      "Jupiter"
+    ],
+    "correct": 1
+  },
+  {
+    "type": "mcq",
+    "question": "भारत की राजधानी क्या है?",
+    "difficulty": "easy",
+    "category": "geography",
+    "points": 1,
+    "feedback": {
+      "correct": "सही! नई दिल्ली भारत की राजधानी है।",
+      "incorrect": "गलत। सही उत्तर है नई दिल्ली।"
+    },
+    "options": ["मुंबई", "नई दिल्ली", "कोलकाता", "चेन्नई"],
+    "correct": 1
+  },
+  {
+    "type": "fill",
+    "question": "महात्मा गांधी का पूरा नाम क्या था?",
+    "difficulty": "medium",
+    "category": "history",
+    "points": 1,
+    "feedback": {
+      "correct": "सही! मोहनदास करमचंद गांधी।",
+      "incorrect": "गलत। सही उत्तर है मोहनदास करमचंद गांधी।"
+    },
+    "correct": "मोहनदास करमचंद गांधी"
+  },
+  {
+    "type": "mcq",
+    "question": "¿Cuál es la capital de España?",
+    "difficulty": "easy",
+    "category": "geografía",
+    "points": 1,
+    "feedback": {
+      "correct": "¡Correcto! Madrid es la capital de España.",
+      "incorrect": "Incorrecto. La respuesta correcta es Madrid."
+    },
+    "options": ["Barcelona", "Madrid", "Valencia", "Sevilla"],
+    "correct": 1
+  },
+  {
+    "type": "fill",
+    "question": "¿Quién escribió Don Quijote?",
+    "difficulty": "medium",
+    "category": "literatura",
+    "points": 1,
+    "feedback": {
+      "correct": "¡Correcto! Miguel de Cervantes escribió Don Quijote.",
+      "incorrect": "Incorrecto. La respuesta correcta es Miguel de Cervantes."
+    },
+    "correct": "Miguel de Cervantes"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Who is the author of the Indian epic 'Mahabharata'?",
+    "options": [
+      "Valmiki",
+      "Kalidasa",
+      "Ved Vyasa",
+      "Tulsidas"
+    ],
+    "correct_answer": "Valmiki",
+    "explanation": "Ved Vyasa is traditionally credited as the author of the Mahabharata.",
+    "category": "Literature",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian writer won the Nobel Prize for Literature in 1913?",
+    "options": [
+      "Rabindranath Tagore",
+      "Mulk Raj Anand",
+      "R. K. Narayan",
+      "Arundhati Roy"
+    ],
+    "correct_answer": "Rabindranath Tagore",
+    "explanation": "Rabindranath Tagore was the first Asian to win the Nobel Prize for Literature.",
+    "category": "Literature",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Which book by Arundhati Roy won the Booker Prize?",
+    "options": [
+      "The Ministry of Utmost Happiness",
+      "The God of Small Things",
+      "Field Notes on Democracy",
+      "My Seditious Heart"
+    ],
+    "correct_answer": "The Ministry of Utmost Happiness",
+    "explanation": "'The God of Small Things' won the Booker Prize in 1997.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which language did Munshi Premchand primarily write in?",
+    "options": [
+      "Sanskrit",
+      "Urdu",
+      "Hindi",
+      "Bengali"
+    ],
+    "correct_answer": "Sanskrit",
+    "explanation": "Munshi Premchand is a famous Hindi-Urdu writer known for his realistic stories.",
+    "category": "Literature",
+    "difficulty": "easy",
+    "type": "mcq"
+  },
+  {
+    "question": "Kalidasa is best known for which genre of writing?",
+    "options": [
+      "Epic poetry",
+      "Drama",
+      "Novels",
+      "Short stories"
+    ],
+    "correct_answer": "Epic poetry",
+    "explanation": "Kalidasa is renowned for his Sanskrit plays and poetry.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which of the following is a famous literary work by Bankim Chandra Chattopadhyay?",
+    "options": [
+      "Gitanjali",
+      "Anandamath",
+      "Rag Darbari",
+      "Train to Pakistan"
+    ],
+    "correct_answer": "Gitanjali",
+    "explanation": "'Anandamath' contains the patriotic song 'Vande Mataram'.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian novel is set during the Partition of India?",
+    "options": [
+      "Train to Pakistan",
+      "Godaan",
+      "The Guide",
+      "Midnight's Children"
+    ],
+    "correct_answer": "Train to Pakistan",
+    "explanation": "'Train to Pakistan' by Khushwant Singh is set during the Partition.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which Indian author wrote the novel 'Rag Darbari'?",
+    "options": [
+      "R. K. Narayan",
+      "Shrilal Shukla",
+      "Vikram Seth",
+      "Jhumpa Lahiri"
+    ],
+    "correct_answer": "R. K. Narayan",
+    "explanation": "'Rag Darbari' is a satire by Shrilal Shukla about Indian rural politics.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Which work by Salman Rushdie won the Booker Prize?",
+    "options": [
+      "Shame",
+      "The Satanic Verses",
+      "Midnight's Children",
+      "Haroun and the Sea of Stories"
+    ],
+    "correct_answer": "Shame",
+    "explanation": "'Midnight's Children' won the Booker Prize in 1981.",
+    "category": "Literature",
+    "difficulty": "medium",
+    "type": "mcq"
+  },
+  {
+    "question": "Who wrote the book 'The Discovery of India'?",
+    "options": [
+      "B. R. Ambedkar",
+      "Jawaharlal Nehru",
+      "Sardar Patel",
+      "Dr. Rajendra Prasad"
+    ],
+    "correct_answer": "B. R. Ambedkar",
+    "explanation": "Jawaharlal Nehru wrote 'The Discovery of India' during his imprisonment.",
+    "category": "Literature",
+    "difficulty": "easy",
+    "type": "mcq"
+  }
+]

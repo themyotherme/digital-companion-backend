@@ -1,0 +1,62 @@
+{
+  "role": [
+    "Alter Ego",
+    "Analyst",
+    "Coach",
+    "Colleague",
+    "Companion",
+    "Doctor",
+    "Expert",
+    "Friend",
+    "Helper",
+    "Historian",
+    "Home Doctor",
+    "Mentor",
+    "Parents",
+    "Researcher",
+    "Romantic Partner",
+    "Sibling",
+    "Spouse",
+    "Student",
+    "Teacher",
+    "Therapist"
+  ],
+  "mood": [
+    "Angry",
+    "Anxious",
+    "Calm",
+    "Curious",
+    "Encouraging",
+    "Friendly",
+    "Happy",
+    "Inquisitive",
+    "Neutral",
+    "Normal",
+    "Peace",
+    "Reflective",
+    "Sad",
+    "Strict"
+  ],
+  "mode": [
+    "Local",
+    "Smart",
+    "SmartPlus",
+    "Memory",
+    "Explain",
+    "Translate",
+    "Summarize",
+    "Analyze",
+    "Story",
+    "Poem",
+    "UnderDevelopment"
+  ],
+  "appName": "Digital Companion",
+  "appIcon": "/static/icons/your_icon.png",
+  "modeMessages": {
+    "local": "Mode: Local\nYou must upload or select a knowledge base. All replies will be based on uploaded documents.",
+    "smart": "Mode: Smart\nUploaded files will be used in replies.",
+    "smartplus_with_kb": "Mode: SmartPlus\nYUploaded documents will be used for answers, supplemented with external knowledge.",
+    "smartplus_no_kb": "Mode: SmartPlus\nNo document uploaded. Answers will come from external knowledge only."
+  },
+  "knowledgeBaseFolder": "/uploads"
+}
